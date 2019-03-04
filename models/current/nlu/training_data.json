@@ -1,0 +1,661 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "goodbye",
+        "text": "Bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye bot"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye friend"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "catch you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "gotta go"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodnight"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "i'm off"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later alligator"
+      },
+      {
+        "intent": "goodbye",
+        "text": "we'll speak soon"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi again"
+      },
+      {
+        "intent": "greet",
+        "text": "hi folks"
+      },
+      {
+        "intent": "greet",
+        "text": "hi Mister"
+      },
+      {
+        "intent": "greet",
+        "text": "hi pal!"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hello everybody"
+      },
+      {
+        "intent": "greet",
+        "text": "hello is anybody there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello robot"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks bot"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks for that"
+      },
+      {
+        "intent": "thanks",
+        "text": "cheers"
+      },
+      {
+        "intent": "thanks",
+        "text": "cheers bro"
+      },
+      {
+        "intent": "thanks",
+        "text": "ok thanks!"
+      },
+      {
+        "intent": "thanks",
+        "text": "perfect thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks a bunch for everything"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks for the help"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thanks",
+        "text": "amazing, thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "cool, thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "cool thank you"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "absolutely"
+      },
+      {
+        "intent": "affirm",
+        "text": "for sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes yes yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "definitely"
+      },
+      {
+        "intent": "ls",
+        "text": "Show the directory"
+      },
+      {
+        "intent": "ls",
+        "text": "List the content of this directory"
+      },
+      {
+        "intent": "ls",
+        "text": "ls the directory"
+      },
+      {
+        "intent": "ls",
+        "text": "Show files of this folder"
+      },
+      {
+        "intent": "ls",
+        "text": "display files"
+      },
+      {
+        "intent": "ls",
+        "text": "what are the contents"
+      },
+      {
+        "intent": "ls",
+        "text": "List"
+      },
+      {
+        "intent": "ls",
+        "text": "show files"
+      },
+      {
+        "intent": "ls",
+        "text": "show contents"
+      },
+      {
+        "intent": "ls",
+        "text": "please show files"
+      },
+      {
+        "intent": "ls",
+        "text": "can you please show files in the current working directory"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 6,
+            "end": 18,
+            "value": "Applications",
+            "entity": "directory"
+          }
+        ],
+        "text": "Go to Applications"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "Public",
+            "entity": "directory"
+          }
+        ],
+        "text": "Go to Public"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "Image",
+            "entity": "directory"
+          }
+        ],
+        "text": "change directory to Image"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "var",
+            "entity": "directory"
+          }
+        ],
+        "text": "enter var folder"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "bin",
+            "entity": "directory"
+          }
+        ],
+        "text": "change current directory to bin"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 20,
+            "end": 23,
+            "value": "etc",
+            "entity": "directory"
+          }
+        ],
+        "text": "change workspace to etc"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "User",
+            "entity": "directory"
+          }
+        ],
+        "text": "goto User"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "value": "Downloads",
+            "entity": "directory"
+          }
+        ],
+        "text": "goto Downloads"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "music",
+            "entity": "directory"
+          }
+        ],
+        "text": "goto music"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "tmp",
+            "entity": "directory"
+          }
+        ],
+        "text": "enter into tmp folder"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "library",
+            "entity": "directory"
+          }
+        ],
+        "text": "goto library"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 20,
+            "end": 29,
+            "value": "Downloads",
+            "entity": "directory"
+          }
+        ],
+        "text": "change directory to Downloads"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "Desktop",
+            "entity": "directory"
+          }
+        ],
+        "text": "change the current directory to Desktop"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "Music",
+            "entity": "directory"
+          }
+        ],
+        "text": "Enter to Music"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Movies",
+            "entity": "directory"
+          }
+        ],
+        "text": "Goto Movies folder"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "private",
+            "entity": "directory"
+          }
+        ],
+        "text": "change the workspace to private folder"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 47,
+            "end": 50,
+            "value": "dev",
+            "entity": "directory"
+          }
+        ],
+        "text": "please change the current working directory to dev"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 39,
+            "end": 46,
+            "value": "Volumes",
+            "entity": "directory"
+          }
+        ],
+        "text": "can you please change the directory to Volumes"
+      },
+      {
+        "intent": "back",
+        "text": "please go back"
+      },
+      {
+        "intent": "back",
+        "text": "go back"
+      },
+      {
+        "intent": "back",
+        "text": "back"
+      },
+      {
+        "intent": "back",
+        "text": "previous folder"
+      },
+      {
+        "intent": "back",
+        "text": "folder up"
+      },
+      {
+        "intent": "back",
+        "text": "directory up"
+      },
+      {
+        "intent": "pwd",
+        "text": "show me the current path"
+      },
+      {
+        "intent": "pwd",
+        "text": "where am i now"
+      },
+      {
+        "intent": "pwd",
+        "text": "in which folder am i"
+      },
+      {
+        "intent": "pwd",
+        "text": "show me the path"
+      },
+      {
+        "intent": "pwd",
+        "text": "display path"
+      },
+      {
+        "intent": "pwd",
+        "text": "what is my location"
+      },
+      {
+        "intent": "pwd",
+        "text": "what is the current path"
+      },
+      {
+        "intent": "pwd",
+        "text": "path"
+      },
+      {
+        "intent": "pwd",
+        "text": "current path"
+      },
+      {
+        "intent": "pwd",
+        "text": "show path"
+      },
+      {
+        "intent": "pwd",
+        "text": "show current path"
+      },
+      {
+        "intent": "pwd",
+        "text": "display current path"
+      },
+      {
+        "intent": "speedtest",
+        "text": "speed test"
+      },
+      {
+        "intent": "speedtest",
+        "text": "speedtest"
+      },
+      {
+        "intent": "speedtest",
+        "text": "what is the speed of the internet"
+      },
+      {
+        "intent": "speedtest",
+        "text": "what is ping rate"
+      },
+      {
+        "intent": "speedtest",
+        "text": "what is download speed"
+      },
+      {
+        "intent": "speedtest",
+        "text": "what is upload speed"
+      },
+      {
+        "intent": "speedtest",
+        "text": "how fast is the internet"
+      },
+      {
+        "intent": "speedtest",
+        "text": "speed of net"
+      },
+      {
+        "intent": "speedtest",
+        "text": "is internet fast enough"
+      },
+      {
+        "intent": "speedtest",
+        "text": "test the internet"
+      },
+      {
+        "intent": "speedtest",
+        "text": "is internet working"
+      },
+      {
+        "intent": "speedtest",
+        "text": "please perform the speed test"
+      },
+      {
+        "intent": "speedtest",
+        "text": "perform speedtest"
+      },
+      {
+        "intent": "speedtest",
+        "text": "what is internet speed"
+      },
+      {
+        "intent": "news",
+        "text": "news"
+      },
+      {
+        "intent": "news",
+        "text": "get latest news"
+      },
+      {
+        "intent": "news",
+        "text": "tell latest news"
+      },
+      {
+        "intent": "news",
+        "text": "tell news"
+      },
+      {
+        "intent": "news",
+        "text": "keep me updated"
+      },
+      {
+        "intent": "news",
+        "text": "what is happening around me"
+      },
+      {
+        "intent": "news",
+        "text": "updates"
+      },
+      {
+        "intent": "news",
+        "text": "get me latest headlines"
+      },
+      {
+        "intent": "news",
+        "text": "top headlines"
+      },
+      {
+        "intent": "news",
+        "text": "headlines"
+      },
+      {
+        "intent": "news",
+        "text": "updates"
+      },
+      {
+        "intent": "news",
+        "text": "current affairs"
+      },
+      {
+        "intent": "news",
+        "text": "current news"
+      },
+      {
+        "intent": "news",
+        "text": "daily feeds"
+      },
+      {
+        "intent": "news",
+        "text": "feeds"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

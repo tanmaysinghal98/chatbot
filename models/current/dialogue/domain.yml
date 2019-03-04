@@ -1,0 +1,64 @@
+%YAML 1.1
+---
+actions:
+- utter_thanks
+- utter_greet
+- utter_goodbye
+- action_ls
+- action_cd
+- action_back
+- action_pwd
+- action_mkdir
+- utter_speedtest
+- action_speedtest
+- utter_news
+- action_news
+config:
+  store_entities_as_slots: true
+entities:
+- current_path
+- directory
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- thanks:
+    use_entities: true
+- deny:
+    use_entities: true
+- ls:
+    use_entities: true
+- cd:
+    use_entities: true
+- back:
+    use_entities: true
+- pwd:
+    use_entities: true
+- mkdir:
+    use_entities: true
+- speedtest:
+    use_entities: true
+- news:
+    use_entities: true
+slots:
+  current_path:
+    auto_fill: true
+    initial_value: /Users/tanmaysinghal/
+    type: rasa_core.slots.TextSlot
+  directory:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_goodbye:
+  - text: Talk to you later!
+  utter_greet:
+  - text: Nice to you meet you. How can I help?
+  utter_news:
+  - text: Getting the latest News...
+  utter_speedtest:
+  - text: Performing the SpeedTest...
+  utter_thanks:
+  - text: My pleasure.

@@ -1,0 +1,55 @@
+intents:
+- greet
+- goodbye
+- thanks
+- deny
+- ls
+- cd
+- back
+- pwd
+- mkdir
+- speedtest
+- news
+
+entities:
+- current_path
+- directory
+
+slots:
+  current_path:
+      type: text
+      initial_value: /Users/tanmaysinghal/
+
+  directory:
+      type: text
+
+
+actions:
+- utter_thanks
+- utter_greet
+- utter_goodbye
+- action_ls
+- action_cd
+- action_back
+- action_pwd
+- action_mkdir
+- utter_speedtest
+- action_speedtest
+- utter_news
+- action_news
+
+templates:
+  utter_greet:
+  - text: "Nice to you meet you. How can I help?"
+
+  utter_goodbye:
+  - text: "Talk to you later!"
+
+  utter_thanks:
+  - text: "My pleasure."
+
+  utter_speedtest:
+  - text: "Performing the SpeedTest..."
+
+  utter_news:
+  - text: "Getting the latest News..."
