@@ -4,3 +4,5 @@ policies:
     max_history: 3
   - name: MemoizationPolicy
     max_history: 3
+
+  - name: "FormPolicy"

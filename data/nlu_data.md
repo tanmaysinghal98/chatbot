@@ -16,6 +16,7 @@
 - i'm off
 - see you later alligator
 - we'll speak soon
+- got to go
 
 ## intent:greet
 - Hi
@@ -33,6 +34,9 @@
 - hello everybody
 - hello is anybody there
 - hello robot
+- hola
+- namaste
+
 
 ## intent:thanks
 - Thanks
@@ -72,6 +76,8 @@
 - show contents
 - please show files
 - can you please show files in the current working directory
+- show me files in this directory
+
 
 ## intent:cd
 - Go to [Applications](directory)
@@ -92,6 +98,16 @@
 - change the workspace to [private](directory) folder
 - please change the current working directory to [dev](directory)
 - can you please change the directory to [Volumes](directory)
+- open [goa](directory) folder
+- open [rasa](directory)
+- expand [tanmay](directory)
+- goto folder [hi](directory)
+- goto [desktop](directory)
+- enter [applications](directory)
+- open [ghanta](directory)
+- open [bhaja](directory)
+- open [wjegfl](directory)
+
 
 ## intent:back
 - please go back
@@ -114,6 +130,8 @@
 - show path
 - show current path
 - display current path
+- show me my current working directory
+
 
 ## intent:speedtest
 - speed test
@@ -130,6 +148,11 @@
 - please perform the speed test
 - perform speedtest
 - what is internet speed
+- test internet
+- please run a speedtest
+- run a speed test
+- is the internet fast
+- run a speedtest
 
 ## intent:news
 - news
@@ -147,3 +170,48 @@
 - current news
 - daily feeds
 - feeds
+- get me latest updates
+- get me the latest news
+
+
+## intent:mkdir
+- create folder
+- new folder
+- new Directory
+- create a new directory
+- make folder
+- make a new folder
+- make Directory
+- create a folder named [Downloads](new_folder)
+- new folder [Tanmay](new_folder)
+- make directory with name [Applications](new_folder)
+- please make a new folder and keep the name of folder [Goa](new_folder)
+- create a new directory with name [India](new_folder)
+- create a new folder [tanmay](new_folder)
+- create a folder named [lauda](new_folder)
+- create a new folder [rushabh](new_folder)
+- create a folder named [djhf](new_folder)
+- create a folder named [laudrglaa](new_folder)
+- create a folder named [ljrgefjqerauda](new_folder)
+- create a folder named [oweuro](new_folder)
+
+
+
+
+## intent:new_folder_mkdir
+- name of new directory is [Pakistan](new_folder)
+- [Pictures](new_folder)
+- [Music](new_folder)
+- [Downloads](new_folder)
+- [Movies](new_folder)
+- [madarchod](new_folder)
+- keep [US](new_folder) as the name
+- name should be [Australia](new_folder)
+- keep it [Kenya](new_folder)
+- it should be named [Priyanshi](new_folder)
+
+## regex:new_folder
+- [a-zA-Z]+
+
+## regex:directory
+- [a-zA-Z]+

@@ -82,6 +82,6 @@
         }
     ],
     "training_data": "training_data.json",
-    "trained_at": "20190304-150315",
+    "trained_at": "20190306-012652",
     "rasa_nlu_version": "0.13.8"
 }

@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "name": "directory",
+        "pattern": "[a-zA-Z]+"
+    },
+    {
+        "name": "new_folder",
+        "pattern": "[a-zA-Z]+"
+    }
+]

@@ -62,6 +62,10 @@
         "text": "we'll speak soon"
       },
       {
+        "intent": "goodbye",
+        "text": "got to go"
+      },
+      {
         "intent": "greet",
         "text": "Hi"
       },
@@ -120,6 +124,14 @@
       {
         "intent": "greet",
         "text": "hello robot"
+      },
+      {
+        "intent": "greet",
+        "text": "hola"
+      },
+      {
+        "intent": "greet",
+        "text": "namaste"
       },
       {
         "intent": "thanks",
@@ -248,6 +260,10 @@
       {
         "intent": "ls",
         "text": "can you please show files in the current working directory"
+      },
+      {
+        "intent": "ls",
+        "text": "show me files in this directory"
       },
       {
         "intent": "cd",
@@ -466,6 +482,114 @@
         "text": "can you please change the directory to Volumes"
       },
       {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "goa",
+            "entity": "directory"
+          }
+        ],
+        "text": "open goa folder"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "rasa",
+            "entity": "directory"
+          }
+        ],
+        "text": "open rasa"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "tanmay",
+            "entity": "directory"
+          }
+        ],
+        "text": "expand tanmay"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "hi",
+            "entity": "directory"
+          }
+        ],
+        "text": "goto folder hi"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "desktop",
+            "entity": "directory"
+          }
+        ],
+        "text": "goto desktop"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 6,
+            "end": 18,
+            "value": "applications",
+            "entity": "directory"
+          }
+        ],
+        "text": "enter applications"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "ghanta",
+            "entity": "directory"
+          }
+        ],
+        "text": "open ghanta"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "bhaja",
+            "entity": "directory"
+          }
+        ],
+        "text": "open bhaja"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "wjegfl",
+            "entity": "directory"
+          }
+        ],
+        "text": "open wjegfl"
+      },
+      {
         "intent": "back",
         "text": "please go back"
       },
@@ -538,6 +662,10 @@
         "text": "display current path"
       },
       {
+        "intent": "pwd",
+        "text": "show me my current working directory"
+      },
+      {
         "intent": "speedtest",
         "text": "speed test"
       },
@@ -592,6 +720,26 @@
       {
         "intent": "speedtest",
         "text": "what is internet speed"
+      },
+      {
+        "intent": "speedtest",
+        "text": "test internet"
+      },
+      {
+        "intent": "speedtest",
+        "text": "please run a speedtest"
+      },
+      {
+        "intent": "speedtest",
+        "text": "run a speed test"
+      },
+      {
+        "intent": "speedtest",
+        "text": "is the internet fast"
+      },
+      {
+        "intent": "speedtest",
+        "text": "run a speedtest"
       },
       {
         "intent": "news",
@@ -652,9 +800,318 @@
       {
         "intent": "news",
         "text": "feeds"
+      },
+      {
+        "intent": "news",
+        "text": "get me latest updates"
+      },
+      {
+        "intent": "news",
+        "text": "get me the latest news"
+      },
+      {
+        "intent": "mkdir",
+        "text": "create folder"
+      },
+      {
+        "intent": "mkdir",
+        "text": "new folder"
+      },
+      {
+        "intent": "mkdir",
+        "text": "new Directory"
+      },
+      {
+        "intent": "mkdir",
+        "text": "create a new directory"
+      },
+      {
+        "intent": "mkdir",
+        "text": "make folder"
+      },
+      {
+        "intent": "mkdir",
+        "text": "make a new folder"
+      },
+      {
+        "intent": "mkdir",
+        "text": "make Directory"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Downloads",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "create a folder named Downloads"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Tanmay",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "new folder Tanmay"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 25,
+            "end": 37,
+            "value": "Applications",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "make directory with name Applications"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 53,
+            "end": 56,
+            "value": "Goa",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "please make a new folder and keep the name of folder Goa"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "India",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "create a new directory with name India"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "tanmay",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "create a new folder tanmay"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "lauda",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "create a folder named lauda"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "rushabh",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "create a new folder rushabh"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "djhf",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "create a folder named djhf"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "laudrglaa",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "create a folder named laudrglaa"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 22,
+            "end": 36,
+            "value": "ljrgefjqerauda",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "create a folder named ljrgefjqerauda"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "oweuro",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "create a folder named oweuro"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 25,
+            "end": 33,
+            "value": "Pakistan",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "name of new directory is Pakistan"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Pictures",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "Pictures"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Music",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "Music"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Downloads",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "Downloads"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Movies",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "Movies"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "madarchod",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "madarchod"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "US",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "keep US as the name"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "Australia",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "name should be Australia"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Kenya",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "keep it Kenya"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "Priyanshi",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "it should be named Priyanshi"
       }
     ],
-    "regex_features": [],
+    "regex_features": [
+      {
+        "name": "directory",
+        "pattern": "[a-zA-Z]+"
+      },
+      {
+        "name": "new_folder",
+        "pattern": "[a-zA-Z]+"
+      }
+    ],
     "lookup_tables": [],
     "entity_synonyms": []
   }

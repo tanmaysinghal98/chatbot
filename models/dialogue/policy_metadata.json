@@ -5,7 +5,10 @@
         "directory"
       ]
     },
-    "utter_thanks": {
+    "utter_goodbye": {
+      "slots": []
+    },
+    "action_news": {
       "slots": []
     },
     "action_cd": {
@@ -14,33 +17,30 @@
         "directory"
       ]
     },
-    "action_back": {
-      "slots": [
-        "current_path"
-      ]
-    },
     "mkdir_form": {
       "slots": [
-        "requested_slot",
-        "new_folder"
+        "new_folder",
+        "requested_slot"
       ]
     },
-    "utter_goodbye": {
-      "slots": []
-    },
-    "action_speedtest": {
+    "utter_greet": {
       "slots": []
     },
     "action_ls": {
       "slots": []
     },
-    "action_news": {
-      "slots": []
+    "action_back": {
+      "slots": [
+        "current_path"
+      ]
     },
-    "utter_greet": {
+    "utter_thanks": {
       "slots": []
     },
     "action_pwd": {
+      "slots": []
+    },
+    "action_speedtest": {
       "slots": []
     }
   },
@@ -57,5 +57,5 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190306-012731"
+  "trained_at": "20190306-001506"
 }

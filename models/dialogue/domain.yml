@@ -1,38 +1,38 @@
 %YAML 1.1
 ---
 actions:
-- action_speedtest
-- action_cd
-- utter_default
 - action_news
+- utter_speedtest
+- action_cd
+- action_ls
+- action_back
 - utter_greet
+- utter_goodbye
+- utter_thanks
+- utter_default
 - utter_news
 - action_pwd
-- action_back
-- action_ls
-- utter_goodbye
-- utter_speedtest
-- utter_thanks
+- action_speedtest
 config:
   store_entities_as_slots: true
 entities:
-- current_path
 - new_folder
 - directory
+- current_path
 forms:
 - mkdir_form
 intents:
-- ls:
-    use_entities: true
 - mkdir:
-    use_entities: true
-- greet:
     use_entities: true
 - news:
     use_entities: true
 - back:
     use_entities: true
+- greet:
+    use_entities: true
 - speedtest:
+    use_entities: true
+- ls:
     use_entities: true
 - goodbye:
     use_entities: true

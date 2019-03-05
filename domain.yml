@@ -1,55 +1,58 @@
-intents:
-- greet
-- goodbye
-- thanks
-- deny
-- ls
-- cd
-- back
-- pwd
-- mkdir
-- speedtest
-- news
-
+%YAML 1.1
+---
+actions:
+- action_speedtest
+- action_cd
+- utter_default
+- action_news
+- utter_greet
+- utter_news
+- action_pwd
+- action_back
+- action_ls
+- utter_goodbye
+- utter_speedtest
+- utter_thanks
 entities:
 - current_path
+- new_folder
 - directory
-
+forms:
+- mkdir_form
+intents:
+- ls
+- mkdir
+- greet
+- news
+- back
+- speedtest
+- goodbye
+- cd
+- pwd
+- new_folder_mkdir
+- thanks
+- deny
 slots:
   current_path:
-      type: text
-      initial_value: /Users/tanmaysinghal/
-
+    initial_value: /Users/tanmaysinghal/
+    type: text
   directory:
-      type: text
-
-
-actions:
-- utter_thanks
-- utter_greet
-- utter_goodbye
-- action_ls
-- action_cd
-- action_back
-- action_pwd
-- action_mkdir
-- utter_speedtest
-- action_speedtest
-- utter_news
-- action_news
-
+    type: text
+  new_folder:
+    auto_fill: false
+    type: unfeaturized
+  requested_slot:
+    type: unfeaturized
 templates:
-  utter_greet:
-  - text: "Nice to you meet you. How can I help?"
-
+  utter_ask_new_folder:
+  - text: What name do you want to give to the new directory?
   utter_goodbye:
-  - text: "Talk to you later!"
-
-  utter_thanks:
-  - text: "My pleasure."
-
-  utter_speedtest:
-  - text: "Performing the SpeedTest..."
-
+  - text: Talk to you later!
+  utter_greet:
+  - text: Nice to you meet you. How can I help?
   utter_news:
-  - text: "Getting the latest News..."
+  - text: Getting the latest News...
+  utter_speedtest:
+  - text: Performing the SpeedTest...
+  utter_thanks:
+  - text: My pleasure.
