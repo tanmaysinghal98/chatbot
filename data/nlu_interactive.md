@@ -5,4 +5,7 @@
 - show files
 
 ## intent:mkdir
-- craete a new folder [rushabh](new_folder)
+- create a new folder
+
+## intent:new_folder_mkdir
+- [rty](new_folder)

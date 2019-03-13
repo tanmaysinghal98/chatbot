@@ -84,23 +84,60 @@
 - Go to [Public](directory)
 - change directory to [Image](directory)
 - enter [var](directory) folder
+- enter [sgra](directory) folder
+- enter [eiryf](directory) folder
+- enter [hefjahbef](directory) folder
+- enter [wui4thih](directory)
+- enter [jweugi](directory)
+- enter [ersdrfwa](directory)
+- enter [quweh](directory)
+- enter [qwjrgwdrgd](directory) directory
+- enter [ndvcnsn](directory) directory
+- enter [wrresefs](directory) directory
 - change current directory to [bin](directory)
+- change current directory to [apaiej](directory)
+- change current directory to [basdfgin](directory)
+- change current directory to [binjhgf](directory)
+- change current directory to [ser](directory)
 - change workspace to [etc](directory)
+- change workspace to [etadasc](directory)
+- change workspace to [etsdascdc](directory)
+- change workspace to [etfdfghyjc](directory)
 - goto [User](directory)
 - goto [Downloads](directory)
 - goto [music](directory)
 - enter into [tmp](directory) folder
+- enter into [tmwqerwedap](directory) folder
+- enter into [tmdsefsdp](directory) folder
+- enter into [tmsdfap](directory) folder
 - goto [library](directory)
 - change directory to [Downloads](directory)
 - change the current directory to [Desktop](directory)
 - Enter to [Music](directory)
+- Enter to [fgsdf](directory)
+- Enter to [Musiaedefc](directory)
+- Enter to [Musrtegic](directory)
+- Enter to [Musdfascic](directory)
 - Goto [Movies](directory) folder
 - change the workspace to [private](directory) folder
 - please change the current working directory to [dev](directory)
+- please change the current working directory to [sefsdfs](directory)
+- please change the current working directory to [desdcxdzsv](directory)
+- please change the current working directory to [deawreryrhv](directory)
 - can you please change the directory to [Volumes](directory)
+- can you please change the directory to [sefasdas](directory)
+- can you please change the directory to [Volcdvdfgfumes](directory)
+- can you please change the directory to [Volhyjyukiuumes](directory)
 - open [goa](directory) folder
+- open [erdaeda](directory) folder
+- open [gofyjukya](directory) folder
+- open [gonfdvsdca](directory) folder
 - open [rasa](directory)
 - expand [tanmay](directory)
+- expand [wefsfesdsdf](directory)
+- expand [tsfdrgddanmay](directory)
+- expand [tabfhrfvsnmay](directory)
+- expand [tanmdasdawday](directory)
 - goto folder [hi](directory)
 - goto [desktop](directory)
 - enter [applications](directory)
@@ -131,6 +168,7 @@
 - show current path
 - display current path
 - show me my current working directory
+- can you please tell me the path
 
 
 ## intent:speedtest
@@ -182,14 +220,35 @@
 - make folder
 - make a new folder
 - make Directory
+- create a new folder
 - create a folder named [Downloads](new_folder)
 - new folder [Tanmay](new_folder)
+- new folder [sfesds](new_folder)
+- new folder [Tasdascanmay](new_folder)
+- new folder [Tasfscsdfvdddzscnmay](new_folder)
+- new folder [Taenmdfgdtgdrsay](new_folder)
 - make directory with name [Applications](new_folder)
+- make directory with name [qdhebdefwer](new_folder)
+- make directory with name [gftgbdgdrf](new_folder)
+- make directory with name [edawdawde](new_folder)
+- make directory with name [rdtgtg](new_folder)
 - please make a new folder and keep the name of folder [Goa](new_folder)
+- please make a new folder and keep the name of folder [rwrerfs](new_folder)
+- please make a new folder and keep the name of folder [Grw4erw3oa](new_folder)
+- please make a new folder and keep the name of folder [Goaxvxfvdvs](new_folder)
+- please make a new folder and keep the name of folder [Godawdeqwewea](new_folder)
 - create a new directory with name [India](new_folder)
+- create a new directory with name [aefgajds](new_folder)
+- create a new directory with name [Indefsrfsdawia](new_folder)
+- create a new directory with name [Inqwsfdswqswdsfedia](new_folder)
+- create a new directory with name [Indwewefdia](new_folder)
 - create a new folder [tanmay](new_folder)
-- create a folder named [lauda](new_folder)
+- create a folder named [laudjba](new_folder)
 - create a new folder [rushabh](new_folder)
+- create a new folder [sejfh](new_folder)
+- create a new folder [woisdfsut](new_folder)
+- create a new folder [rushsrggrafabh](new_folder)
+- create a new folder [ruswewfwehabrgh](new_folder)
 - create a folder named [djhf](new_folder)
 - create a folder named [laudrglaa](new_folder)
 - create a folder named [ljrgefjqerauda](new_folder)
@@ -200,15 +259,266 @@
 
 ## intent:new_folder_mkdir
 - name of new directory is [Pakistan](new_folder)
+- name of new directory is [sefss](new_folder)
+- name of new directory is [Pakisfsfaadstan](new_folder)
+- name of new directory is [awsefsPaawaawakistan](new_folder)
+- name of new directory is [Pafesfsejsajkistan](new_folder)
 - [Pictures](new_folder)
 - [Music](new_folder)
 - [Downloads](new_folder)
 - [Movies](new_folder)
-- [madarchod](new_folder)
+- [madarjknnkjnchod](new_folder)
+- [efsefs](new_folder)
+- [madarsvsdcschod](new_folder)
+- [madadsxasdawsrchod](new_folder)
+- [awdsefsf](new_folder)
+- [dcddcdcsd](new_folder)
+- [sdsdfsfse](new_folder)
 - keep [US](new_folder) as the name
+- keep [shgdfnsdf](new_folder) as the name
+- keep [ssfsefse](new_folder) as the name
+- keep [sdfsdczsdsd](new_folder) as the name
+- keep [jyuijyyujt](new_folder) as the name
+- keep [UdfgdthS](new_folder) as the name
 - name should be [Australia](new_folder)
+- name should be [jfgjse dse](new_folder)
+- name should be [Aussgdhgachmxaedaetralia](new_folder)
+- name should be [Austdgdfvsdvsefralia](new_folder)
+- name should be [efawaefefse](new_folder)
+- name should be [efsrgrtr](new_folder)
 - keep it [Kenya](new_folder)
+- keep it [adsghfksjef](new_folder)
+- keep it [sefjjeopoedpawjdka](new_folder)
+- keep it [zdnasbda](new_folder)
+- keep it [sfjksfefse](new_folder)
+- keep it as [sfjksfefse](new_folder)
+- keep it as [dfbsmesr](new_folder)
+- keep it as [sfjkswadasxsfefse](new_folder)
+- keep it as [sfjdgthgyjukuiksfefse](new_folder)
+- keep it as [sfuikyujtyjksfefse](new_folder)
 - it should be named [Priyanshi](new_folder)
+- it should be named [fgjdgfdd](new_folder)
+- it should be named [sdvxdvf](new_folder)
+- it should be named [Priydgbfdanshi](new_folder)
+- it should be named [Priyfvsdsdanshi](new_folder)
+
+
+## intent:mean
+- what is the meaning of [english](meaning)
+- what is the meaning of [affirm](meaning)
+- what is the meaning of [greet](meaning)
+- what is the meaning of [hi](meaning)
+- what is the meaning of [bye](meaning)
+- what do you mean by [guy](meaning)
+- what do you mean by [pillow](meaning)
+- what do you mean by [bed](meaning)
+- what do you mean by [scooter](meaning)
+- what do you mean by [boy](meaning)
+- meaning of [tan](meaning)
+- meaning of [girl](meaning)
+- meaning of [mother](meaning)
+- meaning of [father](meaning)
+- meaning of [sister](meaning)
+- meaning of [cow](meaning) in english
+- meaning of [dog](meaning) in english
+- meaning of [man](meaning) in english
+- meaning of [women](meaning) in english
+- meaning of [brother](meaning) in english
+- meaning of [toy](meaning) in english
+- give me the meaning of [you](meaning)
+- give me the meaning of [lonely](meaning)
+- give me the meaning of [bike](meaning)
+- give me the meaning of [son](meaning)
+- give me the meaning of [daughter](meaning)
+- what does [sex](meaning) mean
+- what does [qwerty](meaning) mean
+- what does [holy](meaning) mean
+- what does [poverty](meaning) mean
+- what does [education](meaning) mean
+- what is the precise meaning of [gay](meaning)
+- what is the precise meaning of [lesbian](meaning)
+- what is the precise meaning of [homosexual](meaning)
+- what is the precise meaning of [cannabalism](meaning)
+- what is the precise meaning of [fight](meaning)
+- define [lesbian](meaning)
+- define [fire](meaning)
+- define [fuck](meaning)
+- define [fiction](meaning)
+- define [friction](meaning)
+- define [physics](meaning)
+- what do you mean by [by](meaning)
+- tell me the meaning of [life](meaning)
+- tell me the meaning of [installation](meaning)
+- tell me the meaning of [laptop](meaning)
+- tell me the meaning of [phone](meaning)
+- tell me the meaning of [system](meaning)
+- define [car](meaning)
+- define [baby](meaning)
+- define [features](meaning)
+- define [version](meaning)
+- define [battery](meaning)
+- what is [animal](meaning)
+- what is [file](meaning)
+- what is [document](meaning)
+- what is [player](meaning)
+- what is [media](meaning)
+
+
+## intent:weather
+- what is the weather now
+- what is the weather
+- how is the climate
+- climate
+- weather
+- is it hot
+- what does it feels like
+- what is the weather like today
+- hows the weather
+- is it going to rain today
+- how is the weather today
+- what is the temperature
+- humidity
+- will it snow
+- will it snow today
+- do i have to carry an umbrella today
+- what is the weather now in [Pakistan](location)
+- what is the weather now in [India](location)
+- what is the weather now in [China](location)
+- what is the weather now in [Bangladesh](location)
+- what is the weather now in [Dubai](location)
+- what is the weather in [singapore](location)
+- what is the weather in [mayanmar](location)
+- what is the weather in [sri lanka](location)
+- what is the weather in [banglaore](location)
+- what is the weather in [hyderabad](location)
+- how is the climate in [agra](location)
+- how is the climate in [delhi](location)
+- how is the climate in [ahmedabad](location)
+- how is the climate in [mumbai](location)
+- how is the climate in [chennai](location)
+- how is the climate in [assam](location)
+- climate of [Pakistan](location)
+- climate of [madhya prades](location)
+- climate of [rajasthan](location)
+- climate of [maharashta](location)
+- climate of [katraj](location)
+- weather of [lahore](location)
+- weather of [kazakistan](location)
+- weather of [australia](location)
+- weather of [laos](location)
+- weather of [combodia](location)
+- is it hot in [karachi](location)
+- is it hot in [islamabad](location)
+- is it hot in [turkey](location)
+- is it hot in [goa](location)
+- is it hot in [panji](location)
+- what does it feels like in [panjim](location)
+- what does it feels like in [laddakh](location)
+- what does it feels like in [srinagar](location)
+- what does it feels like in [shimla](location)
+- what does it feels like in [manali](location)
+- what is the weather like today in [pawna](location)
+- what is the weather like today in [lonavala](location)
+- what is the weather like today in [khandala](location)
+- what is the weather like today in [satara](location)
+- what is the weather like today in [kolhapur](location)
+- hows the weather in [tazakistan](location)
+- hows the weather in [tommorowland](location)
+- hows the weather in [khalistan](location)
+- hows the weather in [afghanistan](location)
+- hows the weather in [malaysia](location)
+- is it going to rain today in [luknow](location)
+- is it going to rain today in [jaipur](location)
+- is it going to rain today in [jodhpur](location)
+- is it going to rain today in [kutch](location)
+- is it going to rain today in [surat](location)
+- how is the weather today in [vadodra](location)
+- how is the weather today in [nagpur](location)
+- how is the weather today in [wardha](location)
+- how is the weather today in [yavatmal](location)
+- how is the weather today in [aarni](location)
+- what is the temperature in [nashik](location)
+- what is the temperature in [hissar](location)
+- what is the temperature in [faridabad](location)
+- what is the temperature in [gurgaon](location)
+- what is the temperature in [noida](location)
+- humidity [los angles](location)
+- humidity [shillong](location)
+- humidity [karnatka](location)
+- humidity [kerla](location)
+- humidity [kolkata](location)
+- will it snow in [kharagpur](location)
+- will it snow in [indore](location)
+- will it snow in [ratlam](location)
+- will it snow in [tikamgarh](location)
+- will it snow in [sholapur](location)
+- will it snow today in [jalna](location)
+- will it snow today in [mahabaleshwar](location)
+- will it snow today in [tokyo](location)
+- will it snow today in [colombo](location)
+- will it snow today in [kathmandu](location)
+- do i have to carry an umbrella today in [nepal](location)
+- do i have to carry an umbrella today in [jabalpur](location)
+- do i have to carry an umbrella today in [bhopal](location)
+- do i have to carry an umbrella today in [gwalior](location)
+- do i have to carry an umbrella today in [amravati](location)
+
+## intent:rm
+- remove [fgdgdrgd](directory)
+- remove [sefsef](directory)
+- remove [fgdgdawfaefrgd](directory)
+- remove [fgdgeaedawddrgd](directory)
+- remove [asefsef](directory)
+- remove [aee](directory)
+- remove [asefseffef](directory)
+- remove [asefsewedqwef](directory)
+- remove [madarsvsdcschod](directory)
+- remove [sjhfbjd](directory) folder
+- remove [dsjef](directory) folder
+- remove [sjhfdgdrgbjd](directory) folder
+- remove [sjsefehfbjd](directory) folder
+- remove [sjhbfj](directory) directory
+- remove [se](directory) directory
+- remove [sjfrhbfj](directory) directory
+- remove [sjeddhbfj](directory) directory
+- delete [srgzg](directory)
+- delete [rjbfd](directory)
+- delete [srnbfdrg](directory)
+- delete [senbf s](directory)
+- delete [sjdbfjv](directory) folder
+- delete [rfr](directory) folder
+- delete [fsdrf](directory) folder
+- delete [fse](directory) folder
+- delete [jhsefr](directory) directory
+- delete [sefjhbsef](directory) directory
+- delete [hsbdc](directory) directory
+- delete [smgr](directory) directory
+- please remove [sjhvfj](directory)
+- please remove [drgdrtg](directory)
+- please remove [ghtujyj](directory)
+- please remove [mkmui](directory)
+- please remove [djgjdg](directory) directory
+- please remove [sefse](directory) directory
+- please remove [djgjawewddg](directory) directory
+- please remove [djsgffhgjdg](directory) directory
+- please remove [jhsdfjsdrv](directory) folder
+- please remove [te](directory) folder
+- please remove [drgr](directory) folder
+- please remove [thryht](directory) folder
+- please delete [jshvfe](directory)
+- please delete [fermr](directory)
+- please delete [jshvsndbfvsffe](directory)
+- please delete [jshvsnehfhsefe](directory)
+- please delete [sjhbfjdbr](directory) directory
+- please delete [sjhbfjsefmbsefdbr](directory) directory
+- please delete [sjhbahjsafjdbr](directory) directory
+- please delete [sjhbsnehfbfjdbr](directory) directory
+- please delete [sjhfbjr](directory) folder
+- please delete [sdfnbs](directory) folder
+- please delete [snrbf](directory) folder
+- please delete [dhbrf](directory) folder 
+
+
 
 ## regex:new_folder
 - [a-zA-Z]+

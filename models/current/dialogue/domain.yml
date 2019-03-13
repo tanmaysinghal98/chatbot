@@ -1,24 +1,29 @@
 %YAML 1.1
 ---
 actions:
-- action_speedtest
-- action_cd
 - utter_default
-- action_news
-- utter_greet
-- utter_news
-- action_pwd
-- action_back
-- action_ls
 - utter_goodbye
-- utter_speedtest
+- action_pwd
+- action_ls
+- utter_news
+- action_back
+- utter_greet
+- action_cd
+- action_news
+- action_speedtest
 - utter_thanks
+- utter_speedtest
+- action_mean
+- action_weather
+- action_rm
 config:
   store_entities_as_slots: true
 entities:
-- current_path
 - new_folder
+- current_path
 - directory
+- meaning
+- location
 forms:
 - mkdir_form
 intents:
@@ -27,6 +32,8 @@ intents:
 - mkdir:
     use_entities: true
 - greet:
+    use_entities: true
+- new_folder_mkdir:
     use_entities: true
 - news:
     use_entities: true
@@ -40,11 +47,15 @@ intents:
     use_entities: true
 - pwd:
     use_entities: true
-- new_folder_mkdir:
-    use_entities: true
 - thanks:
     use_entities: true
 - deny:
+    use_entities: true
+- mean:
+    use_entities: true
+- weather:
+    use_entities: true
+- rm:
     use_entities: true
 slots:
   current_path:
@@ -52,6 +63,14 @@ slots:
     initial_value: /Users/tanmaysinghal/
     type: rasa_core.slots.TextSlot
   directory:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  location:
+    auto_fill: true
+    initial_value: Pune
+    type: rasa_core.slots.TextSlot
+  meaning:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot

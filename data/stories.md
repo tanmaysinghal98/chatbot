@@ -44,18 +44,16 @@
  - form{"name": "mkdir_form"}
  - form{"name": "null"}
 
+## story_mean
+* mean{"meaning": "car"}
+ - action_mean
+
+## story_weather
+* weather{"location":"nagpur"}
+ - action_weather
+
 
 ## Generated Story 6917795793949540468
-* greet
-    - utter_greet
-* ls
-    - action_ls
-* cd{"directory": "downloads"}
-    - slot{"directory": "downloads"}
-    - action_cd
-    - slot{"current_path": "/Users/tanmaysinghal/Downloads/"}
-    - slot{"directory": null}
-    - action_ls
 * mkdir
     - mkdir_form
     - form{"name": "mkdir_form"}
@@ -87,27 +85,7 @@
     - slot{"new_folder": "madarchod"}
     - form{"name": null}
     - slot{"requested_slot": null}
-    
-## Generated Story 6090548465607773557
-* mkdir
-    - mkdir_form
-    - form{"name": "mkdir_form"}
-    - slot{"requested_slot": "new_folder"}
-* form: new_folder_mkdir{"new_folder": "madarchod"}
-    - form: mkdir_form
-    - slot{"new_folder": "madarchod"}
-    - form{"name": null}
-    - slot{"requested_slot": null}
-## Generated Story 3650118840336526519
-* mkdir
-    - mkdir_form
-    - form{"name": "mkdir_form"}
-    - slot{"requested_slot": "new_folder"}
-* form: new_folder_mkdir{"new_folder": "madarchod"}
-    - form: mkdir_form
-    - slot{"new_folder": "madarchod"}
-    - form{"name": null}
-    - slot{"requested_slot": null}
+
 
 ## Generated Story -7158987982550963462
 * mkdir{"new_folder": "madarchod"}
@@ -117,96 +95,41 @@
     - form{"name": null}
     - slot{"requested_slot": null}
 
-## Generated Story -4426602071370404037
-* greet
-    - utter_greet
-* pwd
-    - action_pwd
-* goodbye
-    - utter_goodbye
 
-## Generated Story 8614332857277738178
+## Generated Story 9178763216486222699
 * greet
     - utter_greet
 * ls
     - action_ls
-* cd{"directory": "hi"}
-    - slot{"directory": "hi"}
-    - action_cd
-    - slot{"current_path": "/Users/tanmaysinghal/hi/"}
-* mkdir{"new_folder": "tanmay"}
+* mkdir
     - mkdir_form
     - form{"name": "mkdir_form"}
-    - slot{"new_folder": "tanmay"}
-    - form{"name": null}
-    - slot{"requested_slot": null}
-* goodbye
-    - utter_goodbye
-
-## Generated Story -4273105917470362637
-* greet
-    - utter_greet
-* speedtest
-    - action_speedtest
-* news
-    - utter_news
-    - action_news
-* ls
-    - action_ls
-* cd{"directory": "desktop"}
-    - slot{"directory": "desktop"}
-    - action_cd
-    - slot{"current_path": "/Users/tanmaysinghal/Desktop/"}
-    - slot{"directory": null}
-    - action_ls
-* mkdir{"new_folder": "lauda"}
-    - mkdir_form
-    - form{"name": "mkdir_form"}
-    - slot{"new_folder": "lauda"}
+    - slot{"requested_slot": "new_folder"}
+* form: new_folder_mkdir{"new_folder": "lundd"}
+    - form: mkdir_form
+    - slot{"new_folder": "lundd"}
+    - slot{"new_folder": null}
     - form{"name": null}
     - slot{"requested_slot": null}
 
-## Generated Story 585072469833944631
-* greet
-    - utter_greet
-* news
-    - utter_news
-    - action_news
-* speedtest
-    - utter_speedtest
-    - action_speedtest
-* ls
-    - action_ls
-* cd{"directory": "applications"}
-    - slot{"directory": "applications"}
-    - action_cd
-    - slot{"current_path": "/Users/tanmaysinghal/Applications/"}
-    - slot{"directory": null}
-    - action_ls
-* back
-    - action_back
-    - slot{"current_path": "/Users/tanmaysinghal/"}
-    - action_ls
-* mkdir{"new_folder": "sex"}
-    - mkdir_form
-    - form{"name": "mkdir_form"}
-    - slot{"new_folder": "sex"}
-    - form{"name": null}
-    - slot{"requested_slot": null}
-* ls
-    - action_ls
-* goodbye
-    - utter_goodbye
 
-## Generated Story 6180054716992161080
+## Generated Story 7107326189628707028
 * greet
     - utter_greet
 * ls
     - action_ls
-* mkdir{"new_folder": "rushabh"}
+* mkdir
     - mkdir_form
     - form{"name": "mkdir_form"}
-    - slot{"new_folder": "rushabh"}
+    - slot{"requested_slot": "new_folder"}
+* form: new_folder_mkdir{"new_folder": "rty"}
+    - form: mkdir_form
+    - slot{"new_folder": "rty"}
+    - slot{"new_folder": null}
     - form{"name": null}
     - slot{"requested_slot": null}
 
+## story_rm
+* rm
+ - action_rm
+ - action_ls

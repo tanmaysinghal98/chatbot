@@ -317,6 +317,126 @@
         "intent": "cd",
         "entities": [
           {
+            "start": 6,
+            "end": 10,
+            "value": "sgra",
+            "entity": "directory"
+          }
+        ],
+        "text": "enter sgra folder"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "eiryf",
+            "entity": "directory"
+          }
+        ],
+        "text": "enter eiryf folder"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 6,
+            "end": 15,
+            "value": "hefjahbef",
+            "entity": "directory"
+          }
+        ],
+        "text": "enter hefjahbef folder"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "wui4thih",
+            "entity": "directory"
+          }
+        ],
+        "text": "enter wui4thih"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "jweugi",
+            "entity": "directory"
+          }
+        ],
+        "text": "enter jweugi"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "ersdrfwa",
+            "entity": "directory"
+          }
+        ],
+        "text": "enter ersdrfwa"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "quweh",
+            "entity": "directory"
+          }
+        ],
+        "text": "enter quweh"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 6,
+            "end": 16,
+            "value": "qwjrgwdrgd",
+            "entity": "directory"
+          }
+        ],
+        "text": "enter qwjrgwdrgd directory"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "ndvcnsn",
+            "entity": "directory"
+          }
+        ],
+        "text": "enter ndvcnsn directory"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "wrresefs",
+            "entity": "directory"
+          }
+        ],
+        "text": "enter wrresefs directory"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
             "start": 28,
             "end": 31,
             "value": "bin",
@@ -329,6 +449,54 @@
         "intent": "cd",
         "entities": [
           {
+            "start": 28,
+            "end": 34,
+            "value": "apaiej",
+            "entity": "directory"
+          }
+        ],
+        "text": "change current directory to apaiej"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "basdfgin",
+            "entity": "directory"
+          }
+        ],
+        "text": "change current directory to basdfgin"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "value": "binjhgf",
+            "entity": "directory"
+          }
+        ],
+        "text": "change current directory to binjhgf"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "ser",
+            "entity": "directory"
+          }
+        ],
+        "text": "change current directory to ser"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
             "start": 20,
             "end": 23,
             "value": "etc",
@@ -336,6 +504,42 @@
           }
         ],
         "text": "change workspace to etc"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "etadasc",
+            "entity": "directory"
+          }
+        ],
+        "text": "change workspace to etadasc"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 20,
+            "end": 29,
+            "value": "etsdascdc",
+            "entity": "directory"
+          }
+        ],
+        "text": "change workspace to etsdascdc"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 20,
+            "end": 30,
+            "value": "etfdfghyjc",
+            "entity": "directory"
+          }
+        ],
+        "text": "change workspace to etfdfghyjc"
       },
       {
         "intent": "cd",
@@ -389,6 +593,42 @@
         "intent": "cd",
         "entities": [
           {
+            "start": 11,
+            "end": 22,
+            "value": "tmwqerwedap",
+            "entity": "directory"
+          }
+        ],
+        "text": "enter into tmwqerwedap folder"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "tmdsefsdp",
+            "entity": "directory"
+          }
+        ],
+        "text": "enter into tmdsefsdp folder"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "tmsdfap",
+            "entity": "directory"
+          }
+        ],
+        "text": "enter into tmsdfap folder"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
             "start": 5,
             "end": 12,
             "value": "library",
@@ -437,6 +677,54 @@
         "intent": "cd",
         "entities": [
           {
+            "start": 9,
+            "end": 14,
+            "value": "fgsdf",
+            "entity": "directory"
+          }
+        ],
+        "text": "Enter to fgsdf"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "Musiaedefc",
+            "entity": "directory"
+          }
+        ],
+        "text": "Enter to Musiaedefc"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "Musrtegic",
+            "entity": "directory"
+          }
+        ],
+        "text": "Enter to Musrtegic"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "Musdfascic",
+            "entity": "directory"
+          }
+        ],
+        "text": "Enter to Musdfascic"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
             "start": 5,
             "end": 11,
             "value": "Movies",
@@ -473,6 +761,42 @@
         "intent": "cd",
         "entities": [
           {
+            "start": 47,
+            "end": 54,
+            "value": "sefsdfs",
+            "entity": "directory"
+          }
+        ],
+        "text": "please change the current working directory to sefsdfs"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 47,
+            "end": 57,
+            "value": "desdcxdzsv",
+            "entity": "directory"
+          }
+        ],
+        "text": "please change the current working directory to desdcxdzsv"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 47,
+            "end": 58,
+            "value": "deawreryrhv",
+            "entity": "directory"
+          }
+        ],
+        "text": "please change the current working directory to deawreryrhv"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
             "start": 39,
             "end": 46,
             "value": "Volumes",
@@ -485,6 +809,42 @@
         "intent": "cd",
         "entities": [
           {
+            "start": 39,
+            "end": 47,
+            "value": "sefasdas",
+            "entity": "directory"
+          }
+        ],
+        "text": "can you please change the directory to sefasdas"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 39,
+            "end": 53,
+            "value": "Volcdvdfgfumes",
+            "entity": "directory"
+          }
+        ],
+        "text": "can you please change the directory to Volcdvdfgfumes"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 39,
+            "end": 54,
+            "value": "Volhyjyukiuumes",
+            "entity": "directory"
+          }
+        ],
+        "text": "can you please change the directory to Volhyjyukiuumes"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
             "start": 5,
             "end": 8,
             "value": "goa",
@@ -492,6 +852,42 @@
           }
         ],
         "text": "open goa folder"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "erdaeda",
+            "entity": "directory"
+          }
+        ],
+        "text": "open erdaeda folder"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "value": "gofyjukya",
+            "entity": "directory"
+          }
+        ],
+        "text": "open gofyjukya folder"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 5,
+            "end": 15,
+            "value": "gonfdvsdca",
+            "entity": "directory"
+          }
+        ],
+        "text": "open gonfdvsdca folder"
       },
       {
         "intent": "cd",
@@ -516,6 +912,54 @@
           }
         ],
         "text": "expand tanmay"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "wefsfesdsdf",
+            "entity": "directory"
+          }
+        ],
+        "text": "expand wefsfesdsdf"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 7,
+            "end": 20,
+            "value": "tsfdrgddanmay",
+            "entity": "directory"
+          }
+        ],
+        "text": "expand tsfdrgddanmay"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 7,
+            "end": 20,
+            "value": "tabfhrfvsnmay",
+            "entity": "directory"
+          }
+        ],
+        "text": "expand tabfhrfvsnmay"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 7,
+            "end": 20,
+            "value": "tanmdasdawday",
+            "entity": "directory"
+          }
+        ],
+        "text": "expand tanmdasdawday"
       },
       {
         "intent": "cd",
@@ -664,6 +1108,10 @@
       {
         "intent": "pwd",
         "text": "show me my current working directory"
+      },
+      {
+        "intent": "pwd",
+        "text": "can you please tell me the path"
       },
       {
         "intent": "speedtest",
@@ -839,6 +1287,10 @@
       },
       {
         "intent": "mkdir",
+        "text": "create a new folder"
+      },
+      {
+        "intent": "mkdir",
         "entities": [
           {
             "start": 22,
@@ -865,6 +1317,54 @@
         "intent": "mkdir",
         "entities": [
           {
+            "start": 11,
+            "end": 17,
+            "value": "sfesds",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "new folder sfesds"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 11,
+            "end": 23,
+            "value": "Tasdascanmay",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "new folder Tasdascanmay"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 11,
+            "end": 31,
+            "value": "Tasfscsdfvdddzscnmay",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "new folder Tasfscsdfvdddzscnmay"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 11,
+            "end": 27,
+            "value": "Taenmdfgdtgdrsay",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "new folder Taenmdfgdtgdrsay"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
             "start": 25,
             "end": 37,
             "value": "Applications",
@@ -872,6 +1372,54 @@
           }
         ],
         "text": "make directory with name Applications"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 25,
+            "end": 36,
+            "value": "qdhebdefwer",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "make directory with name qdhebdefwer"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 25,
+            "end": 35,
+            "value": "gftgbdgdrf",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "make directory with name gftgbdgdrf"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "edawdawde",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "make directory with name edawdawde"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "rdtgtg",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "make directory with name rdtgtg"
       },
       {
         "intent": "mkdir",
@@ -889,6 +1437,54 @@
         "intent": "mkdir",
         "entities": [
           {
+            "start": 53,
+            "end": 60,
+            "value": "rwrerfs",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "please make a new folder and keep the name of folder rwrerfs"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 53,
+            "end": 63,
+            "value": "Grw4erw3oa",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "please make a new folder and keep the name of folder Grw4erw3oa"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 53,
+            "end": 64,
+            "value": "Goaxvxfvdvs",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "please make a new folder and keep the name of folder Goaxvxfvdvs"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 53,
+            "end": 66,
+            "value": "Godawdeqwewea",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "please make a new folder and keep the name of folder Godawdeqwewea"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
             "start": 33,
             "end": 38,
             "value": "India",
@@ -896,6 +1492,54 @@
           }
         ],
         "text": "create a new directory with name India"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 33,
+            "end": 41,
+            "value": "aefgajds",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "create a new directory with name aefgajds"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 33,
+            "end": 47,
+            "value": "Indefsrfsdawia",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "create a new directory with name Indefsrfsdawia"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 33,
+            "end": 52,
+            "value": "Inqwsfdswqswdsfedia",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "create a new directory with name Inqwsfdswqswdsfedia"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 33,
+            "end": 44,
+            "value": "Indwewefdia",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "create a new directory with name Indwewefdia"
       },
       {
         "intent": "mkdir",
@@ -914,12 +1558,12 @@
         "entities": [
           {
             "start": 22,
-            "end": 27,
-            "value": "lauda",
+            "end": 29,
+            "value": "laudjba",
             "entity": "new_folder"
           }
         ],
-        "text": "create a folder named lauda"
+        "text": "create a folder named laudjba"
       },
       {
         "intent": "mkdir",
@@ -932,6 +1576,54 @@
           }
         ],
         "text": "create a new folder rushabh"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "sejfh",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "create a new folder sejfh"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 20,
+            "end": 29,
+            "value": "woisdfsut",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "create a new folder woisdfsut"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 20,
+            "end": 34,
+            "value": "rushsrggrafabh",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "create a new folder rushsrggrafabh"
+      },
+      {
+        "intent": "mkdir",
+        "entities": [
+          {
+            "start": 20,
+            "end": 35,
+            "value": "ruswewfwehabrgh",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "create a new folder ruswewfwehabrgh"
       },
       {
         "intent": "mkdir",
@@ -997,6 +1689,54 @@
         "intent": "new_folder_mkdir",
         "entities": [
           {
+            "start": 25,
+            "end": 30,
+            "value": "sefss",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "name of new directory is sefss"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 25,
+            "end": 40,
+            "value": "Pakisfsfaadstan",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "name of new directory is Pakisfsfaadstan"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 25,
+            "end": 45,
+            "value": "awsefsPaawaawakistan",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "name of new directory is awsefsPaawaawakistan"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 25,
+            "end": 43,
+            "value": "Pafesfsejsajkistan",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "name of new directory is Pafesfsejsajkistan"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
             "start": 0,
             "end": 8,
             "value": "Pictures",
@@ -1046,12 +1786,84 @@
         "entities": [
           {
             "start": 0,
-            "end": 9,
-            "value": "madarchod",
+            "end": 16,
+            "value": "madarjknnkjnchod",
             "entity": "new_folder"
           }
         ],
-        "text": "madarchod"
+        "text": "madarjknnkjnchod"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "efsefs",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "efsefs"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "madarsvsdcschod",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "madarsvsdcschod"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "madadsxasdawsrchod",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "madadsxasdawsrchod"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "awdsefsf",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "awdsefsf"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "dcddcdcsd",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "dcddcdcsd"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "sdsdfsfse",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "sdsdfsfse"
       },
       {
         "intent": "new_folder_mkdir",
@@ -1069,6 +1881,66 @@
         "intent": "new_folder_mkdir",
         "entities": [
           {
+            "start": 5,
+            "end": 14,
+            "value": "shgdfnsdf",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "keep shgdfnsdf as the name"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "ssfsefse",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "keep ssfsefse as the name"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 5,
+            "end": 16,
+            "value": "sdfsdczsdsd",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "keep sdfsdczsdsd as the name"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 5,
+            "end": 15,
+            "value": "jyuijyyujt",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "keep jyuijyyujt as the name"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "UdfgdthS",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "keep UdfgdthS as the name"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
             "start": 15,
             "end": 24,
             "value": "Australia",
@@ -1076,6 +1948,66 @@
           }
         ],
         "text": "name should be Australia"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 15,
+            "end": 25,
+            "value": "jfgjse dse",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "name should be jfgjse dse"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 15,
+            "end": 39,
+            "value": "Aussgdhgachmxaedaetralia",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "name should be Aussgdhgachmxaedaetralia"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 15,
+            "end": 35,
+            "value": "Austdgdfvsdvsefralia",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "name should be Austdgdfvsdvsefralia"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 15,
+            "end": 26,
+            "value": "efawaefefse",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "name should be efawaefefse"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "efsrgrtr",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "name should be efsrgrtr"
       },
       {
         "intent": "new_folder_mkdir",
@@ -1093,6 +2025,114 @@
         "intent": "new_folder_mkdir",
         "entities": [
           {
+            "start": 8,
+            "end": 19,
+            "value": "adsghfksjef",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "keep it adsghfksjef"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 8,
+            "end": 26,
+            "value": "sefjjeopoedpawjdka",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "keep it sefjjeopoedpawjdka"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "zdnasbda",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "keep it zdnasbda"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "sfjksfefse",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "keep it sfjksfefse"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "sfjksfefse",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "keep it as sfjksfefse"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "dfbsmesr",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "keep it as dfbsmesr"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 11,
+            "end": 28,
+            "value": "sfjkswadasxsfefse",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "keep it as sfjkswadasxsfefse"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 11,
+            "end": 32,
+            "value": "sfjdgthgyjukuiksfefse",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "keep it as sfjdgthgyjukuiksfefse"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 11,
+            "end": 29,
+            "value": "sfuikyujtyjksfefse",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "keep it as sfuikyujtyjksfefse"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
             "start": 19,
             "end": 28,
             "value": "Priyanshi",
@@ -1100,6 +2140,2422 @@
           }
         ],
         "text": "it should be named Priyanshi"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "fgjdgfdd",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "it should be named fgjdgfdd"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "sdvxdvf",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "it should be named sdvxdvf"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 19,
+            "end": 33,
+            "value": "Priydgbfdanshi",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "it should be named Priydgbfdanshi"
+      },
+      {
+        "intent": "new_folder_mkdir",
+        "entities": [
+          {
+            "start": 19,
+            "end": 34,
+            "value": "Priyfvsdsdanshi",
+            "entity": "new_folder"
+          }
+        ],
+        "text": "it should be named Priyfvsdsdanshi"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "english",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what is the meaning of english"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "affirm",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what is the meaning of affirm"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "greet",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what is the meaning of greet"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 23,
+            "end": 25,
+            "value": "hi",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what is the meaning of hi"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "bye",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what is the meaning of bye"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 20,
+            "end": 23,
+            "value": "guy",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what do you mean by guy"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "pillow",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what do you mean by pillow"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 20,
+            "end": 23,
+            "value": "bed",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what do you mean by bed"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "scooter",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what do you mean by scooter"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 20,
+            "end": 23,
+            "value": "boy",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what do you mean by boy"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "tan",
+            "entity": "meaning"
+          }
+        ],
+        "text": "meaning of tan"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "girl",
+            "entity": "meaning"
+          }
+        ],
+        "text": "meaning of girl"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "mother",
+            "entity": "meaning"
+          }
+        ],
+        "text": "meaning of mother"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "father",
+            "entity": "meaning"
+          }
+        ],
+        "text": "meaning of father"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "sister",
+            "entity": "meaning"
+          }
+        ],
+        "text": "meaning of sister"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "cow",
+            "entity": "meaning"
+          }
+        ],
+        "text": "meaning of cow in english"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "dog",
+            "entity": "meaning"
+          }
+        ],
+        "text": "meaning of dog in english"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "man",
+            "entity": "meaning"
+          }
+        ],
+        "text": "meaning of man in english"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "women",
+            "entity": "meaning"
+          }
+        ],
+        "text": "meaning of women in english"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "brother",
+            "entity": "meaning"
+          }
+        ],
+        "text": "meaning of brother in english"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "toy",
+            "entity": "meaning"
+          }
+        ],
+        "text": "meaning of toy in english"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "you",
+            "entity": "meaning"
+          }
+        ],
+        "text": "give me the meaning of you"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "lonely",
+            "entity": "meaning"
+          }
+        ],
+        "text": "give me the meaning of lonely"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "bike",
+            "entity": "meaning"
+          }
+        ],
+        "text": "give me the meaning of bike"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "son",
+            "entity": "meaning"
+          }
+        ],
+        "text": "give me the meaning of son"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "daughter",
+            "entity": "meaning"
+          }
+        ],
+        "text": "give me the meaning of daughter"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "sex",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what does sex mean"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "qwerty",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what does qwerty mean"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "holy",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what does holy mean"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "poverty",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what does poverty mean"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "education",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what does education mean"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 31,
+            "end": 34,
+            "value": "gay",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what is the precise meaning of gay"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "lesbian",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what is the precise meaning of lesbian"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 31,
+            "end": 41,
+            "value": "homosexual",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what is the precise meaning of homosexual"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 31,
+            "end": 42,
+            "value": "cannabalism",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what is the precise meaning of cannabalism"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "fight",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what is the precise meaning of fight"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "lesbian",
+            "entity": "meaning"
+          }
+        ],
+        "text": "define lesbian"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "fire",
+            "entity": "meaning"
+          }
+        ],
+        "text": "define fire"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "fuck",
+            "entity": "meaning"
+          }
+        ],
+        "text": "define fuck"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "fiction",
+            "entity": "meaning"
+          }
+        ],
+        "text": "define fiction"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "friction",
+            "entity": "meaning"
+          }
+        ],
+        "text": "define friction"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "physics",
+            "entity": "meaning"
+          }
+        ],
+        "text": "define physics"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 20,
+            "end": 22,
+            "value": "by",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what do you mean by by"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "life",
+            "entity": "meaning"
+          }
+        ],
+        "text": "tell me the meaning of life"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "installation",
+            "entity": "meaning"
+          }
+        ],
+        "text": "tell me the meaning of installation"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "laptop",
+            "entity": "meaning"
+          }
+        ],
+        "text": "tell me the meaning of laptop"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "phone",
+            "entity": "meaning"
+          }
+        ],
+        "text": "tell me the meaning of phone"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "system",
+            "entity": "meaning"
+          }
+        ],
+        "text": "tell me the meaning of system"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "car",
+            "entity": "meaning"
+          }
+        ],
+        "text": "define car"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "baby",
+            "entity": "meaning"
+          }
+        ],
+        "text": "define baby"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "features",
+            "entity": "meaning"
+          }
+        ],
+        "text": "define features"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "version",
+            "entity": "meaning"
+          }
+        ],
+        "text": "define version"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "battery",
+            "entity": "meaning"
+          }
+        ],
+        "text": "define battery"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "animal",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what is animal"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "file",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what is file"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "document",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what is document"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "player",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what is player"
+      },
+      {
+        "intent": "mean",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "media",
+            "entity": "meaning"
+          }
+        ],
+        "text": "what is media"
+      },
+      {
+        "intent": "weather",
+        "text": "what is the weather now"
+      },
+      {
+        "intent": "weather",
+        "text": "what is the weather"
+      },
+      {
+        "intent": "weather",
+        "text": "how is the climate"
+      },
+      {
+        "intent": "weather",
+        "text": "climate"
+      },
+      {
+        "intent": "weather",
+        "text": "weather"
+      },
+      {
+        "intent": "weather",
+        "text": "is it hot"
+      },
+      {
+        "intent": "weather",
+        "text": "what does it feels like"
+      },
+      {
+        "intent": "weather",
+        "text": "what is the weather like today"
+      },
+      {
+        "intent": "weather",
+        "text": "hows the weather"
+      },
+      {
+        "intent": "weather",
+        "text": "is it going to rain today"
+      },
+      {
+        "intent": "weather",
+        "text": "how is the weather today"
+      },
+      {
+        "intent": "weather",
+        "text": "what is the temperature"
+      },
+      {
+        "intent": "weather",
+        "text": "humidity"
+      },
+      {
+        "intent": "weather",
+        "text": "will it snow"
+      },
+      {
+        "intent": "weather",
+        "text": "will it snow today"
+      },
+      {
+        "intent": "weather",
+        "text": "do i have to carry an umbrella today"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "Pakistan",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the weather now in Pakistan"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "India",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the weather now in India"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "China",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the weather now in China"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 27,
+            "end": 37,
+            "value": "Bangladesh",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the weather now in Bangladesh"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "Dubai",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the weather now in Dubai"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "singapore",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the weather in singapore"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "mayanmar",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the weather in mayanmar"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "sri lanka",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the weather in sri lanka"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "banglaore",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the weather in banglaore"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "hyderabad",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the weather in hyderabad"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "agra",
+            "entity": "location"
+          }
+        ],
+        "text": "how is the climate in agra"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "how is the climate in delhi"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "ahmedabad",
+            "entity": "location"
+          }
+        ],
+        "text": "how is the climate in ahmedabad"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "mumbai",
+            "entity": "location"
+          }
+        ],
+        "text": "how is the climate in mumbai"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "how is the climate in chennai"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "assam",
+            "entity": "location"
+          }
+        ],
+        "text": "how is the climate in assam"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "Pakistan",
+            "entity": "location"
+          }
+        ],
+        "text": "climate of Pakistan"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 24,
+            "value": "madhya prades",
+            "entity": "location"
+          }
+        ],
+        "text": "climate of madhya prades"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "rajasthan",
+            "entity": "location"
+          }
+        ],
+        "text": "climate of rajasthan"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "maharashta",
+            "entity": "location"
+          }
+        ],
+        "text": "climate of maharashta"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "katraj",
+            "entity": "location"
+          }
+        ],
+        "text": "climate of katraj"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "lahore",
+            "entity": "location"
+          }
+        ],
+        "text": "weather of lahore"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "kazakistan",
+            "entity": "location"
+          }
+        ],
+        "text": "weather of kazakistan"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "australia",
+            "entity": "location"
+          }
+        ],
+        "text": "weather of australia"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "laos",
+            "entity": "location"
+          }
+        ],
+        "text": "weather of laos"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "combodia",
+            "entity": "location"
+          }
+        ],
+        "text": "weather of combodia"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "karachi",
+            "entity": "location"
+          }
+        ],
+        "text": "is it hot in karachi"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "islamabad",
+            "entity": "location"
+          }
+        ],
+        "text": "is it hot in islamabad"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "turkey",
+            "entity": "location"
+          }
+        ],
+        "text": "is it hot in turkey"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "goa",
+            "entity": "location"
+          }
+        ],
+        "text": "is it hot in goa"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "panji",
+            "entity": "location"
+          }
+        ],
+        "text": "is it hot in panji"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "panjim",
+            "entity": "location"
+          }
+        ],
+        "text": "what does it feels like in panjim"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "laddakh",
+            "entity": "location"
+          }
+        ],
+        "text": "what does it feels like in laddakh"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "srinagar",
+            "entity": "location"
+          }
+        ],
+        "text": "what does it feels like in srinagar"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "shimla",
+            "entity": "location"
+          }
+        ],
+        "text": "what does it feels like in shimla"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "manali",
+            "entity": "location"
+          }
+        ],
+        "text": "what does it feels like in manali"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 34,
+            "end": 39,
+            "value": "pawna",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the weather like today in pawna"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 34,
+            "end": 42,
+            "value": "lonavala",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the weather like today in lonavala"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 34,
+            "end": 42,
+            "value": "khandala",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the weather like today in khandala"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 34,
+            "end": 40,
+            "value": "satara",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the weather like today in satara"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 34,
+            "end": 42,
+            "value": "kolhapur",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the weather like today in kolhapur"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 30,
+            "value": "tazakistan",
+            "entity": "location"
+          }
+        ],
+        "text": "hows the weather in tazakistan"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 32,
+            "value": "tommorowland",
+            "entity": "location"
+          }
+        ],
+        "text": "hows the weather in tommorowland"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 29,
+            "value": "khalistan",
+            "entity": "location"
+          }
+        ],
+        "text": "hows the weather in khalistan"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 31,
+            "value": "afghanistan",
+            "entity": "location"
+          }
+        ],
+        "text": "hows the weather in afghanistan"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "malaysia",
+            "entity": "location"
+          }
+        ],
+        "text": "hows the weather in malaysia"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "value": "luknow",
+            "entity": "location"
+          }
+        ],
+        "text": "is it going to rain today in luknow"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "value": "jaipur",
+            "entity": "location"
+          }
+        ],
+        "text": "is it going to rain today in jaipur"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "jodhpur",
+            "entity": "location"
+          }
+        ],
+        "text": "is it going to rain today in jodhpur"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "kutch",
+            "entity": "location"
+          }
+        ],
+        "text": "is it going to rain today in kutch"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "surat",
+            "entity": "location"
+          }
+        ],
+        "text": "is it going to rain today in surat"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "value": "vadodra",
+            "entity": "location"
+          }
+        ],
+        "text": "how is the weather today in vadodra"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "nagpur",
+            "entity": "location"
+          }
+        ],
+        "text": "how is the weather today in nagpur"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "wardha",
+            "entity": "location"
+          }
+        ],
+        "text": "how is the weather today in wardha"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "yavatmal",
+            "entity": "location"
+          }
+        ],
+        "text": "how is the weather today in yavatmal"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "aarni",
+            "entity": "location"
+          }
+        ],
+        "text": "how is the weather today in aarni"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "nashik",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the temperature in nashik"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "hissar",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the temperature in hissar"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 27,
+            "end": 36,
+            "value": "faridabad",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the temperature in faridabad"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "gurgaon",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the temperature in gurgaon"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "noida",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the temperature in noida"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "los angles",
+            "entity": "location"
+          }
+        ],
+        "text": "humidity los angles"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "shillong",
+            "entity": "location"
+          }
+        ],
+        "text": "humidity shillong"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "karnatka",
+            "entity": "location"
+          }
+        ],
+        "text": "humidity karnatka"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "kerla",
+            "entity": "location"
+          }
+        ],
+        "text": "humidity kerla"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "kolkata",
+            "entity": "location"
+          }
+        ],
+        "text": "humidity kolkata"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "kharagpur",
+            "entity": "location"
+          }
+        ],
+        "text": "will it snow in kharagpur"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "indore",
+            "entity": "location"
+          }
+        ],
+        "text": "will it snow in indore"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "ratlam",
+            "entity": "location"
+          }
+        ],
+        "text": "will it snow in ratlam"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "tikamgarh",
+            "entity": "location"
+          }
+        ],
+        "text": "will it snow in tikamgarh"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "sholapur",
+            "entity": "location"
+          }
+        ],
+        "text": "will it snow in sholapur"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "jalna",
+            "entity": "location"
+          }
+        ],
+        "text": "will it snow today in jalna"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 35,
+            "value": "mahabaleshwar",
+            "entity": "location"
+          }
+        ],
+        "text": "will it snow today in mahabaleshwar"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "tokyo",
+            "entity": "location"
+          }
+        ],
+        "text": "will it snow today in tokyo"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "colombo",
+            "entity": "location"
+          }
+        ],
+        "text": "will it snow today in colombo"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "kathmandu",
+            "entity": "location"
+          }
+        ],
+        "text": "will it snow today in kathmandu"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 40,
+            "end": 45,
+            "value": "nepal",
+            "entity": "location"
+          }
+        ],
+        "text": "do i have to carry an umbrella today in nepal"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 40,
+            "end": 48,
+            "value": "jabalpur",
+            "entity": "location"
+          }
+        ],
+        "text": "do i have to carry an umbrella today in jabalpur"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 40,
+            "end": 46,
+            "value": "bhopal",
+            "entity": "location"
+          }
+        ],
+        "text": "do i have to carry an umbrella today in bhopal"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 40,
+            "end": 47,
+            "value": "gwalior",
+            "entity": "location"
+          }
+        ],
+        "text": "do i have to carry an umbrella today in gwalior"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 40,
+            "end": 48,
+            "value": "amravati",
+            "entity": "location"
+          }
+        ],
+        "text": "do i have to carry an umbrella today in amravati"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "fgdgdrgd",
+            "entity": "directory"
+          }
+        ],
+        "text": "remove fgdgdrgd"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "sefsef",
+            "entity": "directory"
+          }
+        ],
+        "text": "remove sefsef"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "value": "fgdgdawfaefrgd",
+            "entity": "directory"
+          }
+        ],
+        "text": "remove fgdgdawfaefrgd"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 22,
+            "value": "fgdgeaedawddrgd",
+            "entity": "directory"
+          }
+        ],
+        "text": "remove fgdgeaedawddrgd"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "asefsef",
+            "entity": "directory"
+          }
+        ],
+        "text": "remove asefsef"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "aee",
+            "entity": "directory"
+          }
+        ],
+        "text": "remove aee"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "asefseffef",
+            "entity": "directory"
+          }
+        ],
+        "text": "remove asefseffef"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 20,
+            "value": "asefsewedqwef",
+            "entity": "directory"
+          }
+        ],
+        "text": "remove asefsewedqwef"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 22,
+            "value": "madarsvsdcschod",
+            "entity": "directory"
+          }
+        ],
+        "text": "remove madarsvsdcschod"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "sjhfbjd",
+            "entity": "directory"
+          }
+        ],
+        "text": "remove sjhfbjd folder"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "dsjef",
+            "entity": "directory"
+          }
+        ],
+        "text": "remove dsjef folder"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "sjhfdgdrgbjd",
+            "entity": "directory"
+          }
+        ],
+        "text": "remove sjhfdgdrgbjd folder"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "sjsefehfbjd",
+            "entity": "directory"
+          }
+        ],
+        "text": "remove sjsefehfbjd folder"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "sjhbfj",
+            "entity": "directory"
+          }
+        ],
+        "text": "remove sjhbfj directory"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "se",
+            "entity": "directory"
+          }
+        ],
+        "text": "remove se directory"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "sjfrhbfj",
+            "entity": "directory"
+          }
+        ],
+        "text": "remove sjfrhbfj directory"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "sjeddhbfj",
+            "entity": "directory"
+          }
+        ],
+        "text": "remove sjeddhbfj directory"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "srgzg",
+            "entity": "directory"
+          }
+        ],
+        "text": "delete srgzg"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "rjbfd",
+            "entity": "directory"
+          }
+        ],
+        "text": "delete rjbfd"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "srnbfdrg",
+            "entity": "directory"
+          }
+        ],
+        "text": "delete srnbfdrg"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "senbf s",
+            "entity": "directory"
+          }
+        ],
+        "text": "delete senbf s"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "sjdbfjv",
+            "entity": "directory"
+          }
+        ],
+        "text": "delete sjdbfjv folder"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "rfr",
+            "entity": "directory"
+          }
+        ],
+        "text": "delete rfr folder"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "fsdrf",
+            "entity": "directory"
+          }
+        ],
+        "text": "delete fsdrf folder"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "fse",
+            "entity": "directory"
+          }
+        ],
+        "text": "delete fse folder"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "jhsefr",
+            "entity": "directory"
+          }
+        ],
+        "text": "delete jhsefr directory"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "sefjhbsef",
+            "entity": "directory"
+          }
+        ],
+        "text": "delete sefjhbsef directory"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "hsbdc",
+            "entity": "directory"
+          }
+        ],
+        "text": "delete hsbdc directory"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "smgr",
+            "entity": "directory"
+          }
+        ],
+        "text": "delete smgr directory"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "sjhvfj",
+            "entity": "directory"
+          }
+        ],
+        "text": "please remove sjhvfj"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "drgdrtg",
+            "entity": "directory"
+          }
+        ],
+        "text": "please remove drgdrtg"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "ghtujyj",
+            "entity": "directory"
+          }
+        ],
+        "text": "please remove ghtujyj"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "mkmui",
+            "entity": "directory"
+          }
+        ],
+        "text": "please remove mkmui"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "djgjdg",
+            "entity": "directory"
+          }
+        ],
+        "text": "please remove djgjdg directory"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "sefse",
+            "entity": "directory"
+          }
+        ],
+        "text": "please remove sefse directory"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "djgjawewddg",
+            "entity": "directory"
+          }
+        ],
+        "text": "please remove djgjawewddg directory"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "djsgffhgjdg",
+            "entity": "directory"
+          }
+        ],
+        "text": "please remove djsgffhgjdg directory"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "jhsdfjsdrv",
+            "entity": "directory"
+          }
+        ],
+        "text": "please remove jhsdfjsdrv folder"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 16,
+            "value": "te",
+            "entity": "directory"
+          }
+        ],
+        "text": "please remove te folder"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "drgr",
+            "entity": "directory"
+          }
+        ],
+        "text": "please remove drgr folder"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "thryht",
+            "entity": "directory"
+          }
+        ],
+        "text": "please remove thryht folder"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "jshvfe",
+            "entity": "directory"
+          }
+        ],
+        "text": "please delete jshvfe"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "fermr",
+            "entity": "directory"
+          }
+        ],
+        "text": "please delete fermr"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 28,
+            "value": "jshvsndbfvsffe",
+            "entity": "directory"
+          }
+        ],
+        "text": "please delete jshvsndbfvsffe"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 28,
+            "value": "jshvsnehfhsefe",
+            "entity": "directory"
+          }
+        ],
+        "text": "please delete jshvsnehfhsefe"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "sjhbfjdbr",
+            "entity": "directory"
+          }
+        ],
+        "text": "please delete sjhbfjdbr directory"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 31,
+            "value": "sjhbfjsefmbsefdbr",
+            "entity": "directory"
+          }
+        ],
+        "text": "please delete sjhbfjsefmbsefdbr directory"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 28,
+            "value": "sjhbahjsafjdbr",
+            "entity": "directory"
+          }
+        ],
+        "text": "please delete sjhbahjsafjdbr directory"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 29,
+            "value": "sjhbsnehfbfjdbr",
+            "entity": "directory"
+          }
+        ],
+        "text": "please delete sjhbsnehfbfjdbr directory"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "sjhfbjr",
+            "entity": "directory"
+          }
+        ],
+        "text": "please delete sjhfbjr folder"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "sdfnbs",
+            "entity": "directory"
+          }
+        ],
+        "text": "please delete sdfnbs folder"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "snrbf",
+            "entity": "directory"
+          }
+        ],
+        "text": "please delete snrbf folder"
+      },
+      {
+        "intent": "rm",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "dhbrf",
+            "entity": "directory"
+          }
+        ],
+        "text": "please delete dhbrf folder"
       }
     ],
     "regex_features": [

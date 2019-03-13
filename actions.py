@@ -10,6 +10,8 @@ import json
 import os
 import subprocess
 from newsapi import NewsApiClient
+from PyDictionary import PyDictionary
+import urllib.request
 
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
@@ -129,4 +131,70 @@ class MkdirForm(FormAction):
        dispatcher.utter_message(message)
        os.system(message)
        dispatcher.utter_message('Folder Created')
-       return []
+       return [SlotSet("new_folder", None)]
+
+class ActionMean(Action):
+    def name(self):
+        return "action_mean"
+
+    def run(self, dispatcher, tracker, domain):
+        dictionary = PyDictionary()
+        word = tracker.get_slot('meaning')
+        for key, value in dictionary.meaning(word).items():
+            dispatcher.utter_message(key + ':')
+            for x in dictionary.meaning(word)[key]:
+                dispatcher.utter_message(x)
+        return [SlotSet("meaning", None)]
+
+class ActionWeather(Action):
+    def name(self):
+        return "action_weather"
+
+    def run(self, dispatcher, tracker, domain):
+        url = 'http://wttr.in/' + tracker.get_slot('location') + '?0pq_T_A'
+        r = urllib.request.urlopen(url)
+        resp = r.read().decode(r.info().get_param('charset') or 'utf-8')
+        resp = resp.split('\n')
+        for i in range(0, len(resp)):
+            dispatcher.utter_message(resp[i])
+        return []
+
+class ActionRm(Action):
+    def name(self):
+        return "action_rm"
+
+    def run(self, dispatcher, tracker, domain):
+        current_path = tracker.get_slot('current_path')
+        directory = tracker.get_slot('directory')
+        dispatcher.utter_message(directory)
+        dirs = os.listdir(current_path)
+        flag = 0
+
+        for file in dirs:
+            if not file.startswith('.') and directory is not None:
+                if os.path.isdir(os.path.join(current_path, file)):
+                    if file == directory:
+                        flag = 1
+                        dispatcher.utter_message("Removed")
+                        os.system("rm -rf " + current_path + directory)
+
+                    if file == directory.capitalize():
+                        flag = 1
+                        dispatcher.utter_message("Removed")
+                        os.system("rm -rf " + current_path + directory.capitalize())
+
+                else:
+                    if file == directory:
+                        flag = 1
+                        dispatcher.utter_message("Removed")
+                        os.system("rm " + current_path + directory)
+
+                    if file == directory.capitalize():
+                        flag = 1
+                        dispatcher.utter_message("Removed")
+                        os.system("rm " + current_path + directory.capitalize())
+
+        if flag == 0:
+            dispatcher.utter_message("Directory or File not found")
+
+        return [SlotSet("directory", None)]

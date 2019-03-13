@@ -1,43 +1,56 @@
 %YAML 1.1
 ---
 actions:
-- action_speedtest
-- action_cd
 - utter_default
-- action_news
-- utter_greet
-- utter_news
-- action_pwd
-- action_back
-- action_ls
 - utter_goodbye
-- utter_speedtest
+- action_pwd
+- action_ls
+- utter_news
+- action_back
+- utter_greet
+- action_cd
+- action_news
+- action_speedtest
 - utter_thanks
+- utter_speedtest
+- action_mean
+- action_weather
+- action_rm
 entities:
-- current_path
 - new_folder
+- current_path
 - directory
+- meaning
+- location
 forms:
 - mkdir_form
 intents:
 - ls
 - mkdir
 - greet
+- new_folder_mkdir
 - news
 - back
 - speedtest
 - goodbye
 - cd
 - pwd
-- new_folder_mkdir
 - thanks
 - deny
+- mean
+- weather
+- rm
 slots:
   current_path:
     initial_value: /Users/tanmaysinghal/
     type: text
   directory:
     type: text
+  meaning:
+    type: text
+  location:
+    type: text
+    initial_value: Pune
   new_folder:
     auto_fill: false
     type: unfeaturized

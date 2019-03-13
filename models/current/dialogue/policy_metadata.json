@@ -2,21 +2,9 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
+        "meaning",
+        "location",
         "directory"
-      ]
-    },
-    "utter_thanks": {
-      "slots": []
-    },
-    "action_cd": {
-      "slots": [
-        "current_path",
-        "directory"
-      ]
-    },
-    "action_back": {
-      "slots": [
-        "current_path"
       ]
     },
     "mkdir_form": {
@@ -25,22 +13,31 @@
         "new_folder"
       ]
     },
-    "utter_goodbye": {
-      "slots": []
-    },
-    "action_speedtest": {
-      "slots": []
-    },
     "action_ls": {
       "slots": []
     },
-    "action_news": {
+    "action_weather": {
       "slots": []
     },
     "utter_greet": {
       "slots": []
     },
+    "action_news": {
+      "slots": []
+    },
+    "utter_thanks": {
+      "slots": []
+    },
+    "action_speedtest": {
+      "slots": []
+    },
     "action_pwd": {
+      "slots": []
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "action_mean": {
       "slots": []
     }
   },
@@ -57,5 +54,5 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190306-012731"
+  "trained_at": "20190308-125818"
 }
