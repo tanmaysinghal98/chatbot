@@ -1,11 +1,6 @@
-## intent:greet
-- hi
+## intent:mv
+- move
+- move [jdsbjs](fromm)
 
-## intent:ls
-- show files
-
-## intent:mkdir
-- create a new folder
-
-## intent:new_folder_mkdir
-- [rty](new_folder)
+## intent:mv_to
+- move it to [jshdf](tom)

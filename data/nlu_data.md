@@ -80,10 +80,10 @@
 
 
 ## intent:cd
-- Go to [Applications](directory)
-- Go to [Public](directory)
-- change directory to [Image](directory)
-- enter [var](directory) folder
+- Go to [djhfbg](directory)
+- Go to [skjbdf](directory)
+- change directory to [mxfb](directory)
+- enter [mndfg](directory) folder
 - enter [sgra](directory) folder
 - enter [eiryf](directory) folder
 - enter [hefjahbef](directory) folder
@@ -94,54 +94,54 @@
 - enter [qwjrgwdrgd](directory) directory
 - enter [ndvcnsn](directory) directory
 - enter [wrresefs](directory) directory
-- change current directory to [bin](directory)
+- change current directory to [snbrf](directory)
 - change current directory to [apaiej](directory)
 - change current directory to [basdfgin](directory)
 - change current directory to [binjhgf](directory)
 - change current directory to [ser](directory)
-- change workspace to [etc](directory)
+- change workspace to [snddg](directory)
 - change workspace to [etadasc](directory)
 - change workspace to [etsdascdc](directory)
 - change workspace to [etfdfghyjc](directory)
-- goto [User](directory)
-- goto [Downloads](directory)
-- goto [music](directory)
-- enter into [tmp](directory) folder
+- goto [dbvf](directory)
+- goto [jdhfg](directory)
+- goto [nsdbhv](directory)
+- enter into [ndbf](directory) folder
 - enter into [tmwqerwedap](directory) folder
 - enter into [tmdsefsdp](directory) folder
 - enter into [tmsdfap](directory) folder
-- goto [library](directory)
-- change directory to [Downloads](directory)
-- change the current directory to [Desktop](directory)
-- Enter to [Music](directory)
+- goto [snvf](directory)
+- change directory to [jhbsf](directory)
+- change the current directory to [sjhfb](directory)
+- Enter to [sbdfjv](directory)
 - Enter to [fgsdf](directory)
 - Enter to [Musiaedefc](directory)
 - Enter to [Musrtegic](directory)
 - Enter to [Musdfascic](directory)
 - Goto [Movies](directory) folder
-- change the workspace to [private](directory) folder
-- please change the current working directory to [dev](directory)
+- change the workspace to [sjrgf](directory) folder
+- please change the current working directory to [jerhvg](directory)
 - please change the current working directory to [sefsdfs](directory)
 - please change the current working directory to [desdcxdzsv](directory)
 - please change the current working directory to [deawreryrhv](directory)
-- can you please change the directory to [Volumes](directory)
+- can you please change the directory to [jehgs](directory)
 - can you please change the directory to [sefasdas](directory)
 - can you please change the directory to [Volcdvdfgfumes](directory)
 - can you please change the directory to [Volhyjyukiuumes](directory)
-- open [goa](directory) folder
+- open [kshfde](directory) folder
 - open [erdaeda](directory) folder
 - open [gofyjukya](directory) folder
 - open [gonfdvsdca](directory) folder
-- open [rasa](directory)
-- expand [tanmay](directory)
+- open [ajhefb](directory)
+- expand [navgsd](directory)
 - expand [wefsfesdsdf](directory)
 - expand [tsfdrgddanmay](directory)
 - expand [tabfhrfvsnmay](directory)
 - expand [tanmdasdawday](directory)
-- goto folder [hi](directory)
-- goto [desktop](directory)
-- enter [applications](directory)
-- open [ghanta](directory)
+- goto folder [mseb](directory)
+- goto [jerhg](directory)
+- enter [jshdbf](directory)
+- open [msbf](directory)
 - open [bhaja](directory)
 - open [wjegfl](directory)
 
@@ -203,7 +203,6 @@
 - get me latest headlines
 - top headlines
 - headlines
-- updates
 - current affairs
 - current news
 - daily feeds
@@ -221,30 +220,30 @@
 - make a new folder
 - make Directory
 - create a new folder
-- create a folder named [Downloads](new_folder)
-- new folder [Tanmay](new_folder)
+- create a folder named [sdmnbsef](new_folder)
+- new folder [smfb](new_folder)
 - new folder [sfesds](new_folder)
 - new folder [Tasdascanmay](new_folder)
 - new folder [Tasfscsdfvdddzscnmay](new_folder)
 - new folder [Taenmdfgdtgdrsay](new_folder)
-- make directory with name [Applications](new_folder)
+- make directory with name [smndbf](new_folder)
 - make directory with name [qdhebdefwer](new_folder)
 - make directory with name [gftgbdgdrf](new_folder)
 - make directory with name [edawdawde](new_folder)
 - make directory with name [rdtgtg](new_folder)
-- please make a new folder and keep the name of folder [Goa](new_folder)
+- please make a new folder and keep the name of folder [dnrg](new_folder)
 - please make a new folder and keep the name of folder [rwrerfs](new_folder)
 - please make a new folder and keep the name of folder [Grw4erw3oa](new_folder)
 - please make a new folder and keep the name of folder [Goaxvxfvdvs](new_folder)
 - please make a new folder and keep the name of folder [Godawdeqwewea](new_folder)
-- create a new directory with name [India](new_folder)
+- create a new directory with name [dmbf](new_folder)
 - create a new directory with name [aefgajds](new_folder)
 - create a new directory with name [Indefsrfsdawia](new_folder)
 - create a new directory with name [Inqwsfdswqswdsfedia](new_folder)
 - create a new directory with name [Indwewefdia](new_folder)
-- create a new folder [tanmay](new_folder)
+- create a new folder [dfdr](new_folder)
 - create a folder named [laudjba](new_folder)
-- create a new folder [rushabh](new_folder)
+- create a new folder [sef](new_folder)
 - create a new folder [sejfh](new_folder)
 - create a new folder [woisdfsut](new_folder)
 - create a new folder [rushsrggrafabh](new_folder)
@@ -263,17 +262,6 @@
 - name of new directory is [Pakisfsfaadstan](new_folder)
 - name of new directory is [awsefsPaawaawakistan](new_folder)
 - name of new directory is [Pafesfsejsajkistan](new_folder)
-- [Pictures](new_folder)
-- [Music](new_folder)
-- [Downloads](new_folder)
-- [Movies](new_folder)
-- [madarjknnkjnchod](new_folder)
-- [efsefs](new_folder)
-- [madarsvsdcschod](new_folder)
-- [madadsxasdawsrchod](new_folder)
-- [awdsefsf](new_folder)
-- [dcddcdcsd](new_folder)
-- [sdsdfsfse](new_folder)
 - keep [US](new_folder) as the name
 - keep [shgdfnsdf](new_folder) as the name
 - keep [ssfsefse](new_folder) as the name
@@ -301,6 +289,52 @@
 - it should be named [sdvxdvf](new_folder)
 - it should be named [Priydgbfdanshi](new_folder)
 - it should be named [Priyfvsdsdanshi](new_folder)
+
+## intent:inform
+- Pictures
+- Music
+- Downloads
+- Movies
+- madarjknnkjnchod
+- efsefs
+- madarsvsdcschod
+- madadsxasdawsrchod
+- awdsefsf
+- dcddcdcsd
+- sdsdfsfse
+- Picregwertures
+- Muswefwefic
+- Dowdwewnloads
+- Mqeedefovies
+- madrfwdarjknnkjnchod
+- efswefrewefs
+- madawed3rfrsvsdcschod
+- madafefdsxasdawsrchod
+- awdseegtgefsf
+- dcdfetgrtgrtddcdcsd
+- sdsgrtgdfsfse
+- PictAdAdures
+- Musefwefefic
+- Downlwefwefoads
+- Movwqedqies
+- madarjknnkjnchod
+- efswdawdaefs
+- madarsvsdcschod
+- madaefwefdsxasdawsrchod
+- awdswewefsf
+- dcdddwewecdcsd
+- sdsdfsfse
+- Picfweweregwertures
+- Muswefwefic
+- Dowawdawddwewnloads
+- Mqeeewddefovies
+- madeedwewrfwdarjknnkjnchod
+- efswwewefrewefs
+- madawewed3rfrsvsdcschod
+- madawdwefefdsxasdawsrchod
+- awddrgrtjyseegtgefsf
+- dcdawdeffetgrtgrtddcdcsd
+- sdsedwegrtgdfsfse
 
 
 ## intent:mean
@@ -516,8 +550,134 @@
 - please delete [sjhfbjr](directory) folder
 - please delete [sdfnbs](directory) folder
 - please delete [snrbf](directory) folder
-- please delete [dhbrf](directory) folder 
+- please delete [dhbrf](directory) folder
 
+## intent:cp
+- copy folder
+- copy directory
+- copy from [zhfjsbef](from) to [ahwvfjhef](to)
+- copy from [fbjshe](from) to [shbdf](to)
+- copy from [snddf](from) to [hdjv](to)
+- copy from [shgf](from) to [djfbg](to)
+- copy folder from [hsvef](from) to [sgvf](to)
+- copy folder from [dnbfs](from) to [ndhbvr](to)
+- copy folder from [nxdvh](from) to [snbdvc](to)
+- copy folder from [sbvf](from) to [sehgfv](to)
+- copy directory from [hsvef](from) to [sgvf](to)
+- copy directory from [sdfd](from) to [sdrg](to)
+- copy directory from [dgrdg](from) to [sdgrgergvf](to)
+- copy directory from [hsvewerwerwf](from) to [weweet](to)
+- copy
+- copy [jxbj](from) directory
+- copy [sdf](from) directory
+- copy [sjrbg](from) directory
+- copy [sjbf](from) directory
+- copy [jxbj](from) folder
+- copy [dgdgrd](from) folder
+- copy [tgsfese](from) folder
+- copy [dgtg](from) folder
+- copy [rthff](from)
+- copy [sdvsd](from)
+- copy [erger](from)
+- copy [fhfh](from)
+- copy [rthff](from) to [vhv](to)
+- copy [sdvsd](from) to [xmbf](to)
+- copy [erger](from) to [mbfd](to)
+- copy [fhfh](from) to [vhshfhjbsv](to)
+
+
+## intent:cp_to
+- copy to [jxbj](to) directory
+- copy to [sdfg](to) directory
+- copy to [sefse](to) directory
+- copy to [srff](to) directory
+- copy to [drff](to) folder
+- copy to [drgdrg](to) folder
+- copy to [awd](to) folder
+- copy to [tghrtg](to) folder
+- to [jhsbd](to)
+- to [err](to)
+- to [drgdr](to)
+- to [tgdg](to)
+- to [bjxhd](to) folder
+- to [errf](to) folder
+- to [drgdr](to) folder
+- to [tggrt](to) folder
+- to [bjxhd](to) directory
+- to [sefse](to) directory
+- to [sefse](to) directory
+- to [sexfj](to) directory
+- copy to [chgf](to)
+- copy to [drfdr](to)
+- copy to [drgd](to)
+- copy to [drgg](to)
+- copy it to [jshb](to)
+- copy it to [dresefdr](to)
+- copy it to [drkahegd](to)
+- copy it to [jshf](to)
+
+## intent:mv
+- move folder
+- move directory
+- move from [fghf](fromm) to [hgv](tom)
+- move from [agdx](fromm) to [hjgh](tom)
+- move from [sgx](fromm) to [liji](tom)
+- move from [gft](fromm) to [djdyctyfbg](tom)
+- move folder from [faef](fromm) to [werer](tom)
+- move folder from [dsd](fromm) to [fwf](tom)
+- move folder from [dwewef](fromm) to [wewe](tom)
+- move directory from [rf](fromm) to [erferf](tom)
+- move directory from [erfer](fromm) to [erferf](tom)
+- move directory from [erfer](fromm) to [referf](tom)
+- move directory from [erfr](fromm) to [erfer](tom)
+- move
+- move [sdfs](fromm) directory
+- move [jhbi](fromm) directory
+- move [pojo](fromm) directory
+- move [hjbk](fromm) directory
+- move [kjbkbj](fromm) folder
+- move [jhb](fromm) folder
+- move [ib](fromm) folder
+- move [kjbo](fromm) folder
+- move [kbj](fromm)
+- move [bif](fromm)
+- move [iojpi](fromm)
+- move [bijb](fromm)
+- move [oho](fromm) to [kjbdfv](tom)
+- move [sdbf](fromm) to [kwjbdf](tom)
+- move [wjhbd](fromm) to [jwhbef](tom)
+- move [jhbde](fromm) to [mnwejhe](tom)
+
+
+## intent:mv_to
+- move to [jwbehf](tom) directory
+- move to [nebwf](tom) directory
+- move to [sjdhbf](tom) directory
+- move to [hfb](tom) directory
+- move to [iwbf](tom) folder
+- move to [wibf](tom) folder
+- move to [jwbf](tom) folder
+- move to [sdfb](tom) folder
+- to [jhbf](tom)
+- to [kshdb](tom)
+- to [jhsbf](tom)
+- to [jhbf](tom)
+- to [ehrbf](tom) folder
+- to [ihgb](tom) folder
+- to [ifd](tom) folder
+- to [ohdfn](tom) folder
+- to [jf](tom) directory
+- to [sbhd](tom) directory
+- to [hbd](tom) directory
+- to [suvdf](tom) directory
+- move to [jwvef](tom)
+- move to [ksbdf](tom)
+- move to [dfbv](tom)
+- move to [sf](tom)
+- move it to [df](tom)
+- move it to [rge](tom)
+- move it to [dfwerwbv](tom)
+- move it to [ssfgdgf](tom)
 
 
 ## regex:new_folder

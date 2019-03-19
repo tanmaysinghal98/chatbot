@@ -53,28 +53,6 @@
  - action_weather
 
 
-## Generated Story 6917795793949540468
-* mkdir
-    - mkdir_form
-    - form{"name": "mkdir_form"}
-    - slot{"requested_slot": "new_folder"}
-* form: new_folder_mkdir{"new_folder": "pakistan"}
-    - form: mkdir_form
-    - slot{"new_folder": "pakistan"}
-    - form{"name": null}
-    - slot{"requested_slot": null}
-
-## Generated Story -4699630783042895808
-* mkdir
-    - mkdir_form
-    - form{"name": "mkdir_form"}
-    - slot{"requested_slot": "new_folder"}
-* form: new_folder_mkdir{"new_folder": "movies"}
-    - form: mkdir_form
-    - slot{"new_folder": "movies"}
-    - form{"name": null}
-    - slot{"requested_slot": null}
-
 ## Generated Story 5764131290060210138
 * mkdir
     - mkdir_form
@@ -87,6 +65,17 @@
     - slot{"requested_slot": null}
 
 
+## Generated Story 576413129006021089
+* mkdir
+    - mkdir_form
+    - form{"name": "mkdir_form"}
+    - slot{"requested_slot": "new_folder"}
+* form: inform{"new_folder": "madarchod"}
+    - form: mkdir_form
+    - slot{"new_folder": "madarchod"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+
 ## Generated Story -7158987982550963462
 * mkdir{"new_folder": "madarchod"}
     - mkdir_form
@@ -95,41 +84,116 @@
     - form{"name": null}
     - slot{"requested_slot": null}
 
+##story_directnew_folder_mkdir
+* new_folder_mkdir
+ - utter_default
 
-## Generated Story 9178763216486222699
-* greet
-    - utter_greet
-* ls
-    - action_ls
-* mkdir
-    - mkdir_form
-    - form{"name": "mkdir_form"}
-    - slot{"requested_slot": "new_folder"}
-* form: new_folder_mkdir{"new_folder": "lundd"}
-    - form: mkdir_form
-    - slot{"new_folder": "lundd"}
-    - slot{"new_folder": null}
-    - form{"name": null}
-    - slot{"requested_slot": null}
+##story_direct_inform
+* inform
+  - utter_default
+
+##story_cp
+  * cp
+    - cp_form
+    - form{"name": "cp_form"}
+    - form{"name": "null"}
 
 
-## Generated Story 7107326189628707028
-* greet
-    - utter_greet
-* ls
-    - action_ls
-* mkdir
-    - mkdir_form
-    - form{"name": "mkdir_form"}
-    - slot{"requested_slot": "new_folder"}
-* form: new_folder_mkdir{"new_folder": "rty"}
-    - form: mkdir_form
-    - slot{"new_folder": "rty"}
-    - slot{"new_folder": null}
-    - form{"name": null}
-    - slot{"requested_slot": null}
+##story_mv
+ * mv
+  - mv_form
+  - form{"name": "mv_form"}
+  - form{"name": "null"}
+
+
+##story_direct_cp_to
+* cp_to
+  - utter_default
+
+##story_direct_mv_to
+  * mv_to
+    - utter_default
 
 ## story_rm
 * rm
  - action_rm
  - action_ls
+
+
+## Generated Story -8210409641556309922
+* cp{"from": "pagal", "to": "music"}
+    - slot{"from": "pagal"}
+    - slot{"to": "music"}
+    - cp_form
+    - form{"name": "cp_form"}
+    - slot{"from": "pagal"}
+    - slot{"to": "music"}
+    - slot{"from": null}
+    - slot{"to": null}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+
+
+## Generated Story 7296060556714048204
+* cp{"from": "music", "to": "downloads"}
+    - slot{"from": "music"}
+    - slot{"to": "downloads"}
+    - cp_form
+    - form{"name": "cp_form"}
+    - slot{"from": "music"}
+    - slot{"to": "downloads"}
+    - slot{"from": null}
+    - slot{"to": null}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+
+## Generated Story 7690714786894624662
+* mv{"fromm": "pagal", "tom": "music"}
+    - slot{"fromm": "pagal"}
+    - slot{"tom": "music"}
+    - mv_form
+    - form{"name": "mv_form"}
+    - slot{"fromm": "pagal"}
+    - slot{"tom": "music"}
+    - slot{"from": null}
+    - slot{"to": null}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+
+## Generated Story -7088158622873961935
+* cp
+    - cp_form
+    - form{"name": "cp_form"}
+    - slot{"requested_slot": "from"}
+* form: cp{"from": "sjhbd"}
+    - slot{"from": "sjhbd"}
+    - form: cp_form
+    - slot{"from": "sjhbd"}
+    - slot{"requested_slot": "to"}
+* form: cp_to{"to": "fsddfb"}
+    - slot{"to": "fsddfb"}
+    - form: cp_form
+    - slot{"to": "fsddfb"}
+    - slot{"from": null}
+    - slot{"to": null}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+
+## Generated Story -2118088312163187205
+* mv
+    - mv_form
+    - form{"name": "mv_form"}
+    - slot{"requested_slot": "fromm"}
+* form: mv{"fromm": "jdsbjs"}
+    - slot{"fromm": "jdsbjs"}
+    - form: mv_form
+    - slot{"fromm": "jdsbjs"}
+    - slot{"requested_slot": "tom"}
+* form: mv_to{"tom": "jshdf"}
+    - slot{"tom": "jshdf"}
+    - form: mv_form
+    - slot{"tom": "jshdf"}
+    - slot{"from": null}
+    - slot{"to": null}
+    - form{"name": null}
+    - slot{"requested_slot": null}

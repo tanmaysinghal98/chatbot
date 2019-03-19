@@ -1,30 +1,38 @@
 %YAML 1.1
 ---
 actions:
-- utter_default
-- utter_goodbye
-- action_pwd
-- action_ls
+- action_weather
 - utter_news
-- action_back
-- utter_greet
-- action_cd
+- utter_thanks
 - action_news
 - action_speedtest
-- utter_thanks
-- utter_speedtest
-- action_mean
-- action_weather
 - action_rm
+- action_cd
+- utter_greet
+- action_pwd
+- utter_default
+- utter_speedtest
+- action_back
+- utter_goodbye
+- action_mean
+- action_ls
 entities:
-- new_folder
-- current_path
-- directory
-- meaning
+- fromm
 - location
+- current_path
+- from
+- new_folder
+- meaning
+- directory
+- tom
+- to
 forms:
 - mkdir_form
+- mv_form
+- cp_form
 intents:
+- mv
+- mv_to
 - ls
 - mkdir
 - greet
@@ -40,25 +48,45 @@ intents:
 - mean
 - weather
 - rm
+- inform
+- cp
+- cp_to
 slots:
   current_path:
     initial_value: /Users/tanmaysinghal/
     type: text
   directory:
     type: text
+  from:
+    type: unfeaturized
+  fromm:
+    type: unfeaturized
+  location:
+    initial_value: Pune
+    type: text
   meaning:
     type: text
-  location:
-    type: text
-    initial_value: Pune
   new_folder:
-    auto_fill: false
     type: unfeaturized
   requested_slot:
     type: unfeaturized
+  to:
+    type: unfeaturized
+  tom:
+    type: unfeaturized
 templates:
+  utter_ask_from:
+  - text: What do you want to copy?
+  utter_ask_fromm:
+  - text: What do you want to move?
   utter_ask_new_folder:
   - text: What name do you want to give to the new directory?
+  utter_ask_to:
+  - text: In which directory do you want to copy the folder?
+  utter_ask_tom:
+  - text: In which directory do you want to move the folder?
+  utter_default:
+  - text: Sorry. I did not understand what you said!
   utter_goodbye:
   - text: Talk to you later!
   utter_greet:

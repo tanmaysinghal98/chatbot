@@ -2,10 +2,21 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
+        "tom",
         "meaning",
+        "fromm",
+        "new_folder",
+        "from",
+        "directory",
         "location",
-        "directory"
+        "to"
       ]
+    },
+    "utter_default": {
+      "slots": []
+    },
+    "action_ls": {
+      "slots": []
     },
     "mkdir_form": {
       "slots": [
@@ -13,31 +24,44 @@
         "new_folder"
       ]
     },
-    "action_ls": {
-      "slots": []
-    },
-    "action_weather": {
-      "slots": []
-    },
-    "utter_greet": {
-      "slots": []
-    },
-    "action_news": {
-      "slots": []
-    },
-    "utter_thanks": {
-      "slots": []
-    },
-    "action_speedtest": {
-      "slots": []
-    },
     "action_pwd": {
       "slots": []
     },
     "utter_goodbye": {
       "slots": []
     },
+    "action_news": {
+      "slots": []
+    },
+    "cp_form": {
+      "slots": [
+        "from",
+        "requested_slot",
+        "to"
+      ]
+    },
+    "mv_form": {
+      "slots": [
+        "tom",
+        "requested_slot",
+        "fromm",
+        "from",
+        "to"
+      ]
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "action_weather": {
+      "slots": []
+    },
     "action_mean": {
+      "slots": []
+    },
+    "action_speedtest": {
+      "slots": []
+    },
+    "utter_thanks": {
       "slots": []
     }
   },
@@ -54,5 +78,5 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190308-125818"
+  "trained_at": "20190319-201133"
 }

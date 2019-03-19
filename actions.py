@@ -124,7 +124,7 @@ class MkdirForm(FormAction):
        return ["new_folder"]
 
    def slot_mappings(self):
-       return {"new_folder": [self.from_entity(entity="new_folder", intent=["mkdir", "new_folder_mkdir"])]}
+       return {"new_folder": [self.from_entity(entity="new_folder", intent=["mkdir", "new_folder_mkdir"]), self.from_text(intent="inform")]}
 
    def submit(self, dispatcher, tracker, domain):
        message = 'mkdir ' + tracker.get_slot('current_path') + tracker.get_slot('new_folder')
@@ -132,6 +132,94 @@ class MkdirForm(FormAction):
        os.system(message)
        dispatcher.utter_message('Folder Created')
        return [SlotSet("new_folder", None)]
+
+
+class CpForm(FormAction):
+   def name(self):
+       return "cp_form"
+
+   @staticmethod
+   def required_slots(tracker):
+       return ["from", "to"]
+
+   def slot_mappings(self):
+       return {"from": [self.from_entity(entity="from", intent=["cp"]), self.from_text(intent="inform")],
+                "to": [self.from_entity(entity="to", intent=["cp", "cp_to"]), self.from_text(intent="inform")]}
+
+   def submit(self, dispatcher, tracker, domain):
+       file = tracker.get_slot('from')
+       to = tracker.get_slot('to')
+
+       cmd = 'find /Users/tanmaysinghal -name "*' + file + '*" -not -path "/Users/tanmaysinghal/Library/*"'
+       out = subprocess.check_output(cmd , shell=True).decode('utf-8').split('\n')
+       out = out[0]
+       if(out == ''):
+           cmd = 'find /Users/tanmaysinghal -name "*' + file.capitalize() + '*" -not -path "/Users/tanmaysinghal/Library/*"'
+           out = subprocess.check_output(cmd , shell=True).decode('utf-8').split('\n')
+           out = out[0]
+           if(out == ''):
+               dispatcher.utter_message("Directory or file not found")
+               return [SlotSet("from", None), SlotSet("to", None)]
+
+       cmd = 'find /Users/tanmaysinghal -type d -name "*' + to + '*" -not -path "/Users/tanmaysinghal/Library/*"'
+       fpath = subprocess.check_output(cmd , shell=True).decode('utf-8').split('\n')
+       fpath = fpath[0]
+       if(fpath == ''):
+           cmd = 'find /Users/tanmaysinghal -name "*' + to.capitalize() + '*" -not -path "/Users/tanmaysinghal/Library/*"'
+           fpath = subprocess.check_output(cmd , shell=True).decode('utf-8').split('\n')
+           fpath = fpath[0]
+           if(fpath == ''):
+               dispatcher.utter_message("Directory or file not found")
+               return [SlotSet("from", None), SlotSet("to", None)]
+
+       os.system("cp -r " + out + " " + fpath)
+       dispatcher.utter_message("Copied")
+       return [SlotSet("from", None), SlotSet("to", None)]
+
+
+class MvForm(FormAction):
+   def name(self):
+       return "mv_form"
+
+   @staticmethod
+   def required_slots(tracker):
+       return ["fromm", "tom"]
+
+   def slot_mappings(self):
+       return {"fromm": [self.from_entity(entity="fromm", intent=["mv"]), self.from_text(intent="inform")],
+                "tom": [self.from_entity(entity="tom", intent=["mv", "mv_to"]), self.from_text(intent="inform")]}
+
+   def submit(self, dispatcher, tracker, domain):
+
+       file = tracker.get_slot('fromm')
+       to = tracker.get_slot('tom')
+
+       cmd = 'find /Users/tanmaysinghal -name "*' + file + '*" -not -path "/Users/tanmaysinghal/Library/*"'
+       out = subprocess.check_output(cmd , shell=True).decode('utf-8').split('\n')
+       out = out[0]
+       if(out == ''):
+           cmd = 'find /Users/tanmaysinghal -name "*' + file.capitalize() + '*" -not -path "/Users/tanmaysinghal/Library/*"'
+           out = subprocess.check_output(cmd , shell=True).decode('utf-8').split('\n')
+           out = out[0]
+           if(out == ''):
+               dispatcher.utter_message("Directory or file not found")
+               return [SlotSet("from", None), SlotSet("to", None)]
+
+       cmd = 'find /Users/tanmaysinghal -type d -name "*' + to + '*" -not -path "/Users/tanmaysinghal/Library/*"'
+       fpath = subprocess.check_output(cmd , shell=True).decode('utf-8').split('\n')
+       fpath = fpath[0]
+       if(fpath == ''):
+           cmd = 'find /Users/tanmaysinghal -name "*' + to.capitalize() + '*" -not -path "/Users/tanmaysinghal/Library/*"'
+           fpath = subprocess.check_output(cmd , shell=True).decode('utf-8').split('\n')
+           fpath = fpath[0]
+           if(fpath == ''):
+               dispatcher.utter_message("Directory or file not found")
+               return [SlotSet("from", None), SlotSet("to", None)]
+
+       os.system("mv " + out + " " + fpath)
+       dispatcher.utter_message("Moved")
+       return [SlotSet("fromm", None), SlotSet("tom", None)]
+
 
 class ActionMean(Action):
     def name(self):

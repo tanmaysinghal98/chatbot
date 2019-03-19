@@ -270,12 +270,12 @@
         "entities": [
           {
             "start": 6,
-            "end": 18,
-            "value": "Applications",
+            "end": 12,
+            "value": "djhfbg",
             "entity": "directory"
           }
         ],
-        "text": "Go to Applications"
+        "text": "Go to djhfbg"
       },
       {
         "intent": "cd",
@@ -283,35 +283,35 @@
           {
             "start": 6,
             "end": 12,
-            "value": "Public",
+            "value": "skjbdf",
             "entity": "directory"
           }
         ],
-        "text": "Go to Public"
+        "text": "Go to skjbdf"
       },
       {
         "intent": "cd",
         "entities": [
           {
             "start": 20,
-            "end": 25,
-            "value": "Image",
+            "end": 24,
+            "value": "mxfb",
             "entity": "directory"
           }
         ],
-        "text": "change directory to Image"
+        "text": "change directory to mxfb"
       },
       {
         "intent": "cd",
         "entities": [
           {
             "start": 6,
-            "end": 9,
-            "value": "var",
+            "end": 11,
+            "value": "mndfg",
             "entity": "directory"
           }
         ],
-        "text": "enter var folder"
+        "text": "enter mndfg folder"
       },
       {
         "intent": "cd",
@@ -438,12 +438,12 @@
         "entities": [
           {
             "start": 28,
-            "end": 31,
-            "value": "bin",
+            "end": 33,
+            "value": "snbrf",
             "entity": "directory"
           }
         ],
-        "text": "change current directory to bin"
+        "text": "change current directory to snbrf"
       },
       {
         "intent": "cd",
@@ -498,12 +498,12 @@
         "entities": [
           {
             "start": 20,
-            "end": 23,
-            "value": "etc",
+            "end": 25,
+            "value": "snddg",
             "entity": "directory"
           }
         ],
-        "text": "change workspace to etc"
+        "text": "change workspace to snddg"
       },
       {
         "intent": "cd",
@@ -547,23 +547,11 @@
           {
             "start": 5,
             "end": 9,
-            "value": "User",
+            "value": "dbvf",
             "entity": "directory"
           }
         ],
-        "text": "goto User"
-      },
-      {
-        "intent": "cd",
-        "entities": [
-          {
-            "start": 5,
-            "end": 14,
-            "value": "Downloads",
-            "entity": "directory"
-          }
-        ],
-        "text": "goto Downloads"
+        "text": "goto dbvf"
       },
       {
         "intent": "cd",
@@ -571,23 +559,35 @@
           {
             "start": 5,
             "end": 10,
-            "value": "music",
+            "value": "jdhfg",
             "entity": "directory"
           }
         ],
-        "text": "goto music"
+        "text": "goto jdhfg"
+      },
+      {
+        "intent": "cd",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "nsdbhv",
+            "entity": "directory"
+          }
+        ],
+        "text": "goto nsdbhv"
       },
       {
         "intent": "cd",
         "entities": [
           {
             "start": 11,
-            "end": 14,
-            "value": "tmp",
+            "end": 15,
+            "value": "ndbf",
             "entity": "directory"
           }
         ],
-        "text": "enter into tmp folder"
+        "text": "enter into ndbf folder"
       },
       {
         "intent": "cd",
@@ -630,48 +630,48 @@
         "entities": [
           {
             "start": 5,
-            "end": 12,
-            "value": "library",
+            "end": 9,
+            "value": "snvf",
             "entity": "directory"
           }
         ],
-        "text": "goto library"
+        "text": "goto snvf"
       },
       {
         "intent": "cd",
         "entities": [
           {
             "start": 20,
-            "end": 29,
-            "value": "Downloads",
+            "end": 25,
+            "value": "jhbsf",
             "entity": "directory"
           }
         ],
-        "text": "change directory to Downloads"
+        "text": "change directory to jhbsf"
       },
       {
         "intent": "cd",
         "entities": [
           {
             "start": 32,
-            "end": 39,
-            "value": "Desktop",
+            "end": 37,
+            "value": "sjhfb",
             "entity": "directory"
           }
         ],
-        "text": "change the current directory to Desktop"
+        "text": "change the current directory to sjhfb"
       },
       {
         "intent": "cd",
         "entities": [
           {
             "start": 9,
-            "end": 14,
-            "value": "Music",
+            "end": 15,
+            "value": "sbdfjv",
             "entity": "directory"
           }
         ],
-        "text": "Enter to Music"
+        "text": "Enter to sbdfjv"
       },
       {
         "intent": "cd",
@@ -738,24 +738,24 @@
         "entities": [
           {
             "start": 24,
-            "end": 31,
-            "value": "private",
+            "end": 29,
+            "value": "sjrgf",
             "entity": "directory"
           }
         ],
-        "text": "change the workspace to private folder"
+        "text": "change the workspace to sjrgf folder"
       },
       {
         "intent": "cd",
         "entities": [
           {
             "start": 47,
-            "end": 50,
-            "value": "dev",
+            "end": 53,
+            "value": "jerhvg",
             "entity": "directory"
           }
         ],
-        "text": "please change the current working directory to dev"
+        "text": "please change the current working directory to jerhvg"
       },
       {
         "intent": "cd",
@@ -798,12 +798,12 @@
         "entities": [
           {
             "start": 39,
-            "end": 46,
-            "value": "Volumes",
+            "end": 44,
+            "value": "jehgs",
             "entity": "directory"
           }
         ],
-        "text": "can you please change the directory to Volumes"
+        "text": "can you please change the directory to jehgs"
       },
       {
         "intent": "cd",
@@ -846,12 +846,12 @@
         "entities": [
           {
             "start": 5,
-            "end": 8,
-            "value": "goa",
+            "end": 11,
+            "value": "kshfde",
             "entity": "directory"
           }
         ],
-        "text": "open goa folder"
+        "text": "open kshfde folder"
       },
       {
         "intent": "cd",
@@ -894,12 +894,12 @@
         "entities": [
           {
             "start": 5,
-            "end": 9,
-            "value": "rasa",
+            "end": 11,
+            "value": "ajhefb",
             "entity": "directory"
           }
         ],
-        "text": "open rasa"
+        "text": "open ajhefb"
       },
       {
         "intent": "cd",
@@ -907,11 +907,11 @@
           {
             "start": 7,
             "end": 13,
-            "value": "tanmay",
+            "value": "navgsd",
             "entity": "directory"
           }
         ],
-        "text": "expand tanmay"
+        "text": "expand navgsd"
       },
       {
         "intent": "cd",
@@ -966,48 +966,48 @@
         "entities": [
           {
             "start": 12,
-            "end": 14,
-            "value": "hi",
+            "end": 16,
+            "value": "mseb",
             "entity": "directory"
           }
         ],
-        "text": "goto folder hi"
+        "text": "goto folder mseb"
       },
       {
         "intent": "cd",
         "entities": [
           {
             "start": 5,
-            "end": 12,
-            "value": "desktop",
+            "end": 10,
+            "value": "jerhg",
             "entity": "directory"
           }
         ],
-        "text": "goto desktop"
+        "text": "goto jerhg"
       },
       {
         "intent": "cd",
         "entities": [
           {
             "start": 6,
-            "end": 18,
-            "value": "applications",
+            "end": 12,
+            "value": "jshdbf",
             "entity": "directory"
           }
         ],
-        "text": "enter applications"
+        "text": "enter jshdbf"
       },
       {
         "intent": "cd",
         "entities": [
           {
             "start": 5,
-            "end": 11,
-            "value": "ghanta",
+            "end": 9,
+            "value": "msbf",
             "entity": "directory"
           }
         ],
-        "text": "open ghanta"
+        "text": "open msbf"
       },
       {
         "intent": "cd",
@@ -1231,10 +1231,6 @@
       },
       {
         "intent": "news",
-        "text": "updates"
-      },
-      {
-        "intent": "news",
         "text": "current affairs"
       },
       {
@@ -1294,24 +1290,24 @@
         "entities": [
           {
             "start": 22,
-            "end": 31,
-            "value": "Downloads",
+            "end": 30,
+            "value": "sdmnbsef",
             "entity": "new_folder"
           }
         ],
-        "text": "create a folder named Downloads"
+        "text": "create a folder named sdmnbsef"
       },
       {
         "intent": "mkdir",
         "entities": [
           {
             "start": 11,
-            "end": 17,
-            "value": "Tanmay",
+            "end": 15,
+            "value": "smfb",
             "entity": "new_folder"
           }
         ],
-        "text": "new folder Tanmay"
+        "text": "new folder smfb"
       },
       {
         "intent": "mkdir",
@@ -1366,12 +1362,12 @@
         "entities": [
           {
             "start": 25,
-            "end": 37,
-            "value": "Applications",
+            "end": 31,
+            "value": "smndbf",
             "entity": "new_folder"
           }
         ],
-        "text": "make directory with name Applications"
+        "text": "make directory with name smndbf"
       },
       {
         "intent": "mkdir",
@@ -1426,12 +1422,12 @@
         "entities": [
           {
             "start": 53,
-            "end": 56,
-            "value": "Goa",
+            "end": 57,
+            "value": "dnrg",
             "entity": "new_folder"
           }
         ],
-        "text": "please make a new folder and keep the name of folder Goa"
+        "text": "please make a new folder and keep the name of folder dnrg"
       },
       {
         "intent": "mkdir",
@@ -1486,12 +1482,12 @@
         "entities": [
           {
             "start": 33,
-            "end": 38,
-            "value": "India",
+            "end": 37,
+            "value": "dmbf",
             "entity": "new_folder"
           }
         ],
-        "text": "create a new directory with name India"
+        "text": "create a new directory with name dmbf"
       },
       {
         "intent": "mkdir",
@@ -1546,12 +1542,12 @@
         "entities": [
           {
             "start": 20,
-            "end": 26,
-            "value": "tanmay",
+            "end": 24,
+            "value": "dfdr",
             "entity": "new_folder"
           }
         ],
-        "text": "create a new folder tanmay"
+        "text": "create a new folder dfdr"
       },
       {
         "intent": "mkdir",
@@ -1570,12 +1566,12 @@
         "entities": [
           {
             "start": 20,
-            "end": 27,
-            "value": "rushabh",
+            "end": 23,
+            "value": "sef",
             "entity": "new_folder"
           }
         ],
-        "text": "create a new folder rushabh"
+        "text": "create a new folder sef"
       },
       {
         "intent": "mkdir",
@@ -1732,138 +1728,6 @@
           }
         ],
         "text": "name of new directory is Pafesfsejsajkistan"
-      },
-      {
-        "intent": "new_folder_mkdir",
-        "entities": [
-          {
-            "start": 0,
-            "end": 8,
-            "value": "Pictures",
-            "entity": "new_folder"
-          }
-        ],
-        "text": "Pictures"
-      },
-      {
-        "intent": "new_folder_mkdir",
-        "entities": [
-          {
-            "start": 0,
-            "end": 5,
-            "value": "Music",
-            "entity": "new_folder"
-          }
-        ],
-        "text": "Music"
-      },
-      {
-        "intent": "new_folder_mkdir",
-        "entities": [
-          {
-            "start": 0,
-            "end": 9,
-            "value": "Downloads",
-            "entity": "new_folder"
-          }
-        ],
-        "text": "Downloads"
-      },
-      {
-        "intent": "new_folder_mkdir",
-        "entities": [
-          {
-            "start": 0,
-            "end": 6,
-            "value": "Movies",
-            "entity": "new_folder"
-          }
-        ],
-        "text": "Movies"
-      },
-      {
-        "intent": "new_folder_mkdir",
-        "entities": [
-          {
-            "start": 0,
-            "end": 16,
-            "value": "madarjknnkjnchod",
-            "entity": "new_folder"
-          }
-        ],
-        "text": "madarjknnkjnchod"
-      },
-      {
-        "intent": "new_folder_mkdir",
-        "entities": [
-          {
-            "start": 0,
-            "end": 6,
-            "value": "efsefs",
-            "entity": "new_folder"
-          }
-        ],
-        "text": "efsefs"
-      },
-      {
-        "intent": "new_folder_mkdir",
-        "entities": [
-          {
-            "start": 0,
-            "end": 15,
-            "value": "madarsvsdcschod",
-            "entity": "new_folder"
-          }
-        ],
-        "text": "madarsvsdcschod"
-      },
-      {
-        "intent": "new_folder_mkdir",
-        "entities": [
-          {
-            "start": 0,
-            "end": 18,
-            "value": "madadsxasdawsrchod",
-            "entity": "new_folder"
-          }
-        ],
-        "text": "madadsxasdawsrchod"
-      },
-      {
-        "intent": "new_folder_mkdir",
-        "entities": [
-          {
-            "start": 0,
-            "end": 8,
-            "value": "awdsefsf",
-            "entity": "new_folder"
-          }
-        ],
-        "text": "awdsefsf"
-      },
-      {
-        "intent": "new_folder_mkdir",
-        "entities": [
-          {
-            "start": 0,
-            "end": 9,
-            "value": "dcddcdcsd",
-            "entity": "new_folder"
-          }
-        ],
-        "text": "dcddcdcsd"
-      },
-      {
-        "intent": "new_folder_mkdir",
-        "entities": [
-          {
-            "start": 0,
-            "end": 9,
-            "value": "sdsdfsfse",
-            "entity": "new_folder"
-          }
-        ],
-        "text": "sdsdfsfse"
       },
       {
         "intent": "new_folder_mkdir",
@@ -2188,6 +2052,182 @@
           }
         ],
         "text": "it should be named Priyfvsdsdanshi"
+      },
+      {
+        "intent": "inform",
+        "text": "Pictures"
+      },
+      {
+        "intent": "inform",
+        "text": "Music"
+      },
+      {
+        "intent": "inform",
+        "text": "Downloads"
+      },
+      {
+        "intent": "inform",
+        "text": "Movies"
+      },
+      {
+        "intent": "inform",
+        "text": "madarjknnkjnchod"
+      },
+      {
+        "intent": "inform",
+        "text": "efsefs"
+      },
+      {
+        "intent": "inform",
+        "text": "madarsvsdcschod"
+      },
+      {
+        "intent": "inform",
+        "text": "madadsxasdawsrchod"
+      },
+      {
+        "intent": "inform",
+        "text": "awdsefsf"
+      },
+      {
+        "intent": "inform",
+        "text": "dcddcdcsd"
+      },
+      {
+        "intent": "inform",
+        "text": "sdsdfsfse"
+      },
+      {
+        "intent": "inform",
+        "text": "Picregwertures"
+      },
+      {
+        "intent": "inform",
+        "text": "Muswefwefic"
+      },
+      {
+        "intent": "inform",
+        "text": "Dowdwewnloads"
+      },
+      {
+        "intent": "inform",
+        "text": "Mqeedefovies"
+      },
+      {
+        "intent": "inform",
+        "text": "madrfwdarjknnkjnchod"
+      },
+      {
+        "intent": "inform",
+        "text": "efswefrewefs"
+      },
+      {
+        "intent": "inform",
+        "text": "madawed3rfrsvsdcschod"
+      },
+      {
+        "intent": "inform",
+        "text": "madafefdsxasdawsrchod"
+      },
+      {
+        "intent": "inform",
+        "text": "awdseegtgefsf"
+      },
+      {
+        "intent": "inform",
+        "text": "dcdfetgrtgrtddcdcsd"
+      },
+      {
+        "intent": "inform",
+        "text": "sdsgrtgdfsfse"
+      },
+      {
+        "intent": "inform",
+        "text": "PictAdAdures"
+      },
+      {
+        "intent": "inform",
+        "text": "Musefwefefic"
+      },
+      {
+        "intent": "inform",
+        "text": "Downlwefwefoads"
+      },
+      {
+        "intent": "inform",
+        "text": "Movwqedqies"
+      },
+      {
+        "intent": "inform",
+        "text": "madarjknnkjnchod"
+      },
+      {
+        "intent": "inform",
+        "text": "efswdawdaefs"
+      },
+      {
+        "intent": "inform",
+        "text": "madarsvsdcschod"
+      },
+      {
+        "intent": "inform",
+        "text": "madaefwefdsxasdawsrchod"
+      },
+      {
+        "intent": "inform",
+        "text": "awdswewefsf"
+      },
+      {
+        "intent": "inform",
+        "text": "dcdddwewecdcsd"
+      },
+      {
+        "intent": "inform",
+        "text": "sdsdfsfse"
+      },
+      {
+        "intent": "inform",
+        "text": "Picfweweregwertures"
+      },
+      {
+        "intent": "inform",
+        "text": "Muswefwefic"
+      },
+      {
+        "intent": "inform",
+        "text": "Dowawdawddwewnloads"
+      },
+      {
+        "intent": "inform",
+        "text": "Mqeeewddefovies"
+      },
+      {
+        "intent": "inform",
+        "text": "madeedwewrfwdarjknnkjnchod"
+      },
+      {
+        "intent": "inform",
+        "text": "efswwewefrewefs"
+      },
+      {
+        "intent": "inform",
+        "text": "madawewed3rfrsvsdcschod"
+      },
+      {
+        "intent": "inform",
+        "text": "madawdwefefdsxasdawsrchod"
+      },
+      {
+        "intent": "inform",
+        "text": "awddrgrtjyseegtgefsf"
+      },
+      {
+        "intent": "inform",
+        "text": "dcdawdeffetgrtgrtddcdcsd"
+      },
+      {
+        "intent": "inform",
+        "text": "sdsedwegrtgdfsfse"
       },
       {
         "intent": "mean",
@@ -4556,6 +4596,1548 @@
           }
         ],
         "text": "please delete dhbrf folder"
+      },
+      {
+        "intent": "cp",
+        "text": "copy folder"
+      },
+      {
+        "intent": "cp",
+        "text": "copy directory"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "zhfjsbef",
+            "entity": "from"
+          },
+          {
+            "start": 22,
+            "end": 31,
+            "value": "ahwvfjhef",
+            "entity": "to"
+          }
+        ],
+        "text": "copy from zhfjsbef to ahwvfjhef"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "fbjshe",
+            "entity": "from"
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": "shbdf",
+            "entity": "to"
+          }
+        ],
+        "text": "copy from fbjshe to shbdf"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "snddf",
+            "entity": "from"
+          },
+          {
+            "start": 19,
+            "end": 23,
+            "value": "hdjv",
+            "entity": "to"
+          }
+        ],
+        "text": "copy from snddf to hdjv"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "shgf",
+            "entity": "from"
+          },
+          {
+            "start": 18,
+            "end": 23,
+            "value": "djfbg",
+            "entity": "to"
+          }
+        ],
+        "text": "copy from shgf to djfbg"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "hsvef",
+            "entity": "from"
+          },
+          {
+            "start": 26,
+            "end": 30,
+            "value": "sgvf",
+            "entity": "to"
+          }
+        ],
+        "text": "copy folder from hsvef to sgvf"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "dnbfs",
+            "entity": "from"
+          },
+          {
+            "start": 26,
+            "end": 32,
+            "value": "ndhbvr",
+            "entity": "to"
+          }
+        ],
+        "text": "copy folder from dnbfs to ndhbvr"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "nxdvh",
+            "entity": "from"
+          },
+          {
+            "start": 26,
+            "end": 32,
+            "value": "snbdvc",
+            "entity": "to"
+          }
+        ],
+        "text": "copy folder from nxdvh to snbdvc"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "sbvf",
+            "entity": "from"
+          },
+          {
+            "start": 25,
+            "end": 31,
+            "value": "sehgfv",
+            "entity": "to"
+          }
+        ],
+        "text": "copy folder from sbvf to sehgfv"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "hsvef",
+            "entity": "from"
+          },
+          {
+            "start": 29,
+            "end": 33,
+            "value": "sgvf",
+            "entity": "to"
+          }
+        ],
+        "text": "copy directory from hsvef to sgvf"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "sdfd",
+            "entity": "from"
+          },
+          {
+            "start": 28,
+            "end": 32,
+            "value": "sdrg",
+            "entity": "to"
+          }
+        ],
+        "text": "copy directory from sdfd to sdrg"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "dgrdg",
+            "entity": "from"
+          },
+          {
+            "start": 29,
+            "end": 39,
+            "value": "sdgrgergvf",
+            "entity": "to"
+          }
+        ],
+        "text": "copy directory from dgrdg to sdgrgergvf"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 20,
+            "end": 32,
+            "value": "hsvewerwerwf",
+            "entity": "from"
+          },
+          {
+            "start": 36,
+            "end": 42,
+            "value": "weweet",
+            "entity": "to"
+          }
+        ],
+        "text": "copy directory from hsvewerwerwf to weweet"
+      },
+      {
+        "intent": "cp",
+        "text": "copy"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "jxbj",
+            "entity": "from"
+          }
+        ],
+        "text": "copy jxbj directory"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "sdf",
+            "entity": "from"
+          }
+        ],
+        "text": "copy sdf directory"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "sjrbg",
+            "entity": "from"
+          }
+        ],
+        "text": "copy sjrbg directory"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "sjbf",
+            "entity": "from"
+          }
+        ],
+        "text": "copy sjbf directory"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "jxbj",
+            "entity": "from"
+          }
+        ],
+        "text": "copy jxbj folder"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "dgdgrd",
+            "entity": "from"
+          }
+        ],
+        "text": "copy dgdgrd folder"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "tgsfese",
+            "entity": "from"
+          }
+        ],
+        "text": "copy tgsfese folder"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "dgtg",
+            "entity": "from"
+          }
+        ],
+        "text": "copy dgtg folder"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "rthff",
+            "entity": "from"
+          }
+        ],
+        "text": "copy rthff"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "sdvsd",
+            "entity": "from"
+          }
+        ],
+        "text": "copy sdvsd"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "erger",
+            "entity": "from"
+          }
+        ],
+        "text": "copy erger"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "fhfh",
+            "entity": "from"
+          }
+        ],
+        "text": "copy fhfh"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "rthff",
+            "entity": "from"
+          },
+          {
+            "start": 14,
+            "end": 17,
+            "value": "vhv",
+            "entity": "to"
+          }
+        ],
+        "text": "copy rthff to vhv"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "sdvsd",
+            "entity": "from"
+          },
+          {
+            "start": 14,
+            "end": 18,
+            "value": "xmbf",
+            "entity": "to"
+          }
+        ],
+        "text": "copy sdvsd to xmbf"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "erger",
+            "entity": "from"
+          },
+          {
+            "start": 14,
+            "end": 18,
+            "value": "mbfd",
+            "entity": "to"
+          }
+        ],
+        "text": "copy erger to mbfd"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "fhfh",
+            "entity": "from"
+          },
+          {
+            "start": 13,
+            "end": 23,
+            "value": "vhshfhjbsv",
+            "entity": "to"
+          }
+        ],
+        "text": "copy fhfh to vhshfhjbsv"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "jxbj",
+            "entity": "to"
+          }
+        ],
+        "text": "copy to jxbj directory"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "sdfg",
+            "entity": "to"
+          }
+        ],
+        "text": "copy to sdfg directory"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "sefse",
+            "entity": "to"
+          }
+        ],
+        "text": "copy to sefse directory"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "srff",
+            "entity": "to"
+          }
+        ],
+        "text": "copy to srff directory"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "drff",
+            "entity": "to"
+          }
+        ],
+        "text": "copy to drff folder"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "drgdrg",
+            "entity": "to"
+          }
+        ],
+        "text": "copy to drgdrg folder"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "awd",
+            "entity": "to"
+          }
+        ],
+        "text": "copy to awd folder"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "tghrtg",
+            "entity": "to"
+          }
+        ],
+        "text": "copy to tghrtg folder"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "jhsbd",
+            "entity": "to"
+          }
+        ],
+        "text": "to jhsbd"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "err",
+            "entity": "to"
+          }
+        ],
+        "text": "to err"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "drgdr",
+            "entity": "to"
+          }
+        ],
+        "text": "to drgdr"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "tgdg",
+            "entity": "to"
+          }
+        ],
+        "text": "to tgdg"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "bjxhd",
+            "entity": "to"
+          }
+        ],
+        "text": "to bjxhd folder"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "errf",
+            "entity": "to"
+          }
+        ],
+        "text": "to errf folder"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "drgdr",
+            "entity": "to"
+          }
+        ],
+        "text": "to drgdr folder"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "tggrt",
+            "entity": "to"
+          }
+        ],
+        "text": "to tggrt folder"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "bjxhd",
+            "entity": "to"
+          }
+        ],
+        "text": "to bjxhd directory"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "sefse",
+            "entity": "to"
+          }
+        ],
+        "text": "to sefse directory"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "sefse",
+            "entity": "to"
+          }
+        ],
+        "text": "to sefse directory"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "sexfj",
+            "entity": "to"
+          }
+        ],
+        "text": "to sexfj directory"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "chgf",
+            "entity": "to"
+          }
+        ],
+        "text": "copy to chgf"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "drfdr",
+            "entity": "to"
+          }
+        ],
+        "text": "copy to drfdr"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "drgd",
+            "entity": "to"
+          }
+        ],
+        "text": "copy to drgd"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "drgg",
+            "entity": "to"
+          }
+        ],
+        "text": "copy to drgg"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "jshb",
+            "entity": "to"
+          }
+        ],
+        "text": "copy it to jshb"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "dresefdr",
+            "entity": "to"
+          }
+        ],
+        "text": "copy it to dresefdr"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "drkahegd",
+            "entity": "to"
+          }
+        ],
+        "text": "copy it to drkahegd"
+      },
+      {
+        "intent": "cp_to",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "jshf",
+            "entity": "to"
+          }
+        ],
+        "text": "copy it to jshf"
+      },
+      {
+        "intent": "mv",
+        "text": "move folder"
+      },
+      {
+        "intent": "mv",
+        "text": "move directory"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "fghf",
+            "entity": "fromm"
+          },
+          {
+            "start": 18,
+            "end": 21,
+            "value": "hgv",
+            "entity": "tom"
+          }
+        ],
+        "text": "move from fghf to hgv"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "agdx",
+            "entity": "fromm"
+          },
+          {
+            "start": 18,
+            "end": 22,
+            "value": "hjgh",
+            "entity": "tom"
+          }
+        ],
+        "text": "move from agdx to hjgh"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "sgx",
+            "entity": "fromm"
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "value": "liji",
+            "entity": "tom"
+          }
+        ],
+        "text": "move from sgx to liji"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "gft",
+            "entity": "fromm"
+          },
+          {
+            "start": 17,
+            "end": 27,
+            "value": "djdyctyfbg",
+            "entity": "tom"
+          }
+        ],
+        "text": "move from gft to djdyctyfbg"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "faef",
+            "entity": "fromm"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "werer",
+            "entity": "tom"
+          }
+        ],
+        "text": "move folder from faef to werer"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "dsd",
+            "entity": "fromm"
+          },
+          {
+            "start": 24,
+            "end": 27,
+            "value": "fwf",
+            "entity": "tom"
+          }
+        ],
+        "text": "move folder from dsd to fwf"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "dwewef",
+            "entity": "fromm"
+          },
+          {
+            "start": 27,
+            "end": 31,
+            "value": "wewe",
+            "entity": "tom"
+          }
+        ],
+        "text": "move folder from dwewef to wewe"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 20,
+            "end": 22,
+            "value": "rf",
+            "entity": "fromm"
+          },
+          {
+            "start": 26,
+            "end": 32,
+            "value": "erferf",
+            "entity": "tom"
+          }
+        ],
+        "text": "move directory from rf to erferf"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "erfer",
+            "entity": "fromm"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "erferf",
+            "entity": "tom"
+          }
+        ],
+        "text": "move directory from erfer to erferf"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "erfer",
+            "entity": "fromm"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "referf",
+            "entity": "tom"
+          }
+        ],
+        "text": "move directory from erfer to referf"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "erfr",
+            "entity": "fromm"
+          },
+          {
+            "start": 28,
+            "end": 33,
+            "value": "erfer",
+            "entity": "tom"
+          }
+        ],
+        "text": "move directory from erfr to erfer"
+      },
+      {
+        "intent": "mv",
+        "text": "move"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "sdfs",
+            "entity": "fromm"
+          }
+        ],
+        "text": "move sdfs directory"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "jhbi",
+            "entity": "fromm"
+          }
+        ],
+        "text": "move jhbi directory"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "pojo",
+            "entity": "fromm"
+          }
+        ],
+        "text": "move pojo directory"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "hjbk",
+            "entity": "fromm"
+          }
+        ],
+        "text": "move hjbk directory"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "kjbkbj",
+            "entity": "fromm"
+          }
+        ],
+        "text": "move kjbkbj folder"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "jhb",
+            "entity": "fromm"
+          }
+        ],
+        "text": "move jhb folder"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "ib",
+            "entity": "fromm"
+          }
+        ],
+        "text": "move ib folder"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "kjbo",
+            "entity": "fromm"
+          }
+        ],
+        "text": "move kjbo folder"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "kbj",
+            "entity": "fromm"
+          }
+        ],
+        "text": "move kbj"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "bif",
+            "entity": "fromm"
+          }
+        ],
+        "text": "move bif"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "iojpi",
+            "entity": "fromm"
+          }
+        ],
+        "text": "move iojpi"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "bijb",
+            "entity": "fromm"
+          }
+        ],
+        "text": "move bijb"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "oho",
+            "entity": "fromm"
+          },
+          {
+            "start": 12,
+            "end": 18,
+            "value": "kjbdfv",
+            "entity": "tom"
+          }
+        ],
+        "text": "move oho to kjbdfv"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "sdbf",
+            "entity": "fromm"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "kwjbdf",
+            "entity": "tom"
+          }
+        ],
+        "text": "move sdbf to kwjbdf"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "wjhbd",
+            "entity": "fromm"
+          },
+          {
+            "start": 14,
+            "end": 20,
+            "value": "jwhbef",
+            "entity": "tom"
+          }
+        ],
+        "text": "move wjhbd to jwhbef"
+      },
+      {
+        "intent": "mv",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "jhbde",
+            "entity": "fromm"
+          },
+          {
+            "start": 14,
+            "end": 21,
+            "value": "mnwejhe",
+            "entity": "tom"
+          }
+        ],
+        "text": "move jhbde to mnwejhe"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "jwbehf",
+            "entity": "tom"
+          }
+        ],
+        "text": "move to jwbehf directory"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "nebwf",
+            "entity": "tom"
+          }
+        ],
+        "text": "move to nebwf directory"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "sjdhbf",
+            "entity": "tom"
+          }
+        ],
+        "text": "move to sjdhbf directory"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "hfb",
+            "entity": "tom"
+          }
+        ],
+        "text": "move to hfb directory"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "iwbf",
+            "entity": "tom"
+          }
+        ],
+        "text": "move to iwbf folder"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "wibf",
+            "entity": "tom"
+          }
+        ],
+        "text": "move to wibf folder"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "jwbf",
+            "entity": "tom"
+          }
+        ],
+        "text": "move to jwbf folder"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "sdfb",
+            "entity": "tom"
+          }
+        ],
+        "text": "move to sdfb folder"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "jhbf",
+            "entity": "tom"
+          }
+        ],
+        "text": "to jhbf"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "kshdb",
+            "entity": "tom"
+          }
+        ],
+        "text": "to kshdb"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "jhsbf",
+            "entity": "tom"
+          }
+        ],
+        "text": "to jhsbf"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "jhbf",
+            "entity": "tom"
+          }
+        ],
+        "text": "to jhbf"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "ehrbf",
+            "entity": "tom"
+          }
+        ],
+        "text": "to ehrbf folder"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "ihgb",
+            "entity": "tom"
+          }
+        ],
+        "text": "to ihgb folder"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "ifd",
+            "entity": "tom"
+          }
+        ],
+        "text": "to ifd folder"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "ohdfn",
+            "entity": "tom"
+          }
+        ],
+        "text": "to ohdfn folder"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "jf",
+            "entity": "tom"
+          }
+        ],
+        "text": "to jf directory"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "sbhd",
+            "entity": "tom"
+          }
+        ],
+        "text": "to sbhd directory"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "hbd",
+            "entity": "tom"
+          }
+        ],
+        "text": "to hbd directory"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "suvdf",
+            "entity": "tom"
+          }
+        ],
+        "text": "to suvdf directory"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "jwvef",
+            "entity": "tom"
+          }
+        ],
+        "text": "move to jwvef"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "ksbdf",
+            "entity": "tom"
+          }
+        ],
+        "text": "move to ksbdf"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "dfbv",
+            "entity": "tom"
+          }
+        ],
+        "text": "move to dfbv"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "sf",
+            "entity": "tom"
+          }
+        ],
+        "text": "move to sf"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "df",
+            "entity": "tom"
+          }
+        ],
+        "text": "move it to df"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "rge",
+            "entity": "tom"
+          }
+        ],
+        "text": "move it to rge"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "dfwerwbv",
+            "entity": "tom"
+          }
+        ],
+        "text": "move it to dfwerwbv"
+      },
+      {
+        "intent": "mv_to",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "ssfgdgf",
+            "entity": "tom"
+          }
+        ],
+        "text": "move it to ssfgdgf"
       }
     ],
     "regex_features": [
