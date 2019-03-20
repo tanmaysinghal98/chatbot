@@ -3,56 +3,32 @@
     "action_listen": {
       "slots": [
         "directory",
-        "fromm",
-        "from",
-        "tom",
         "new_folder",
-        "location",
         "to",
-        "meaning"
+        "from",
+        "meaning",
+        "location",
+        "tom",
+        "fromm"
       ]
     },
-    "utter_thanks": {
+    "utter_default": {
       "slots": []
     },
     "action_ls": {
       "slots": []
     },
-    "utter_default": {
+    "utter_goodbye": {
       "slots": []
-    },
-    "action_speedtest": {
-      "slots": []
-    },
-    "action_pwd": {
-      "slots": []
-    },
-    "mkdir_form": {
-      "slots": [
-        "requested_slot",
-        "new_folder"
-      ]
     },
     "mv_form": {
       "slots": [
         "requested_slot",
-        "fromm",
+        "to",
         "from",
         "tom",
-        "to"
+        "fromm"
       ]
-    },
-    "action_weather": {
-      "slots": []
-    },
-    "action_news": {
-      "slots": []
-    },
-    "utter_goodbye": {
-      "slots": []
-    },
-    "utter_greet": {
-      "slots": []
     },
     "cp_form": {
       "slots": [
@@ -61,7 +37,40 @@
         "from"
       ]
     },
+    "gitclone_form": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "action_speedtest": {
+      "slots": []
+    },
+    "action_weather": {
+      "slots": []
+    },
+    "mkdir_form": {
+      "slots": [
+        "requested_slot",
+        "new_folder"
+      ]
+    },
+    "gitpull_form": {
+      "slots": []
+    },
+    "action_news": {
+      "slots": []
+    },
+    "action_pwd": {
+      "slots": []
+    },
     "action_mean": {
+      "slots": []
+    },
+    "gitpush_form": {
+      "slots": []
+    },
+    "utter_thanks": {
       "slots": []
     }
   },
@@ -78,5 +87,5 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190320-120609"
+  "trained_at": "20190320-144017"
 }

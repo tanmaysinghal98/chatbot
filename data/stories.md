@@ -98,6 +98,23 @@
     - form{"name": "cp_form"}
     - form{"name": "null"}
 
+##story_gitpush
+ * git_push
+  - gitpush_form
+  - form{"name": "gitpush_form"}
+  - form{"name": "null"}
+
+##story_gitpull
+   * git_pull
+    - gitpull_form
+    - form{"name": "gitpull_form"}
+    - form{"name": "null"}
+
+##story_gitclone
+  * git_clone
+    - gitclone_form
+    - form{"name": "gitclone_form"}
+    - form{"name": "null"}
 
 ##story_mv
  * mv
@@ -109,6 +126,10 @@
 ##story_direct_cp_to
 * cp_to
   - utter_default
+
+##story_direct_get_url
+  * get_url
+    - utter_default
 
 ##story_direct_mv_to
   * mv_to
@@ -254,4 +275,3 @@
     - slot{"tom": null}
     - form{"name": null}
     - slot{"requested_slot": null}
-

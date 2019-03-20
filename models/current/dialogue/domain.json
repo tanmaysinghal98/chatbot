@@ -5,6 +5,10 @@
     "intent_cp",
     "intent_cp_to",
     "intent_deny",
+    "intent_get_url",
+    "intent_git_clone",
+    "intent_git_pull",
+    "intent_git_push",
     "intent_goodbye",
     "intent_greet",
     "intent_inform",
@@ -29,6 +33,7 @@
     "entity_from",
     "entity_directory",
     "entity_fromm",
+    "entity_url",
     "slot_current_path_0",
     "slot_directory_0",
     "slot_location_0",
@@ -55,8 +60,14 @@
     "prev_mv_form",
     "prev_mkdir_form",
     "prev_cp_form",
+    "prev_gitpush_form",
+    "prev_gitclone_form",
+    "prev_gitpull_form",
     "active_form_mv_form",
     "active_form_mkdir_form",
-    "active_form_cp_form"
+    "active_form_cp_form",
+    "active_form_gitpush_form",
+    "active_form_gitclone_form",
+    "active_form_gitpull_form"
   ]
 }

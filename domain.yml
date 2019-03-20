@@ -16,7 +16,6 @@ actions:
 - utter_greet
 - action_rm
 - action_news
-- action_gitpush
 entities:
 - location
 - new_folder
@@ -32,6 +31,9 @@ forms:
 - mv_form
 - mkdir_form
 - cp_form
+- gitpush_form
+- gitclone_form
+- gitpull_form
 intents:
 - mv_to
 - mv
@@ -55,6 +57,8 @@ intents:
 - cp_to
 - get_url
 - git_push
+- git_clone
+- git_pull
 slots:
   current_path:
     initial_value: /Users/tanmaysinghal/

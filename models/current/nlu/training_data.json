@@ -6234,6 +6234,718 @@
       {
         "intent": "git_push",
         "text": "push"
+      },
+      {
+        "intent": "git_push",
+        "text": "upload code"
+      },
+      {
+        "intent": "git_push",
+        "text": "push the code"
+      },
+      {
+        "intent": "git_push",
+        "text": "upload"
+      },
+      {
+        "intent": "git_push",
+        "text": "send the code to remote repository"
+      },
+      {
+        "intent": "git_push",
+        "text": "send code"
+      },
+      {
+        "intent": "git_push",
+        "text": "upload code to online repository"
+      },
+      {
+        "intent": "git_push",
+        "text": "push it to github"
+      },
+      {
+        "intent": "git_push",
+        "text": "push"
+      },
+      {
+        "intent": "git_push",
+        "text": "push this code online"
+      },
+      {
+        "intent": "git_push",
+        "text": "push code to remote repository"
+      },
+      {
+        "intent": "git_push",
+        "text": "push this directory"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 0,
+            "end": 33,
+            "value": "https://github.com/ansv/jwhef.git",
+            "entity": "url"
+          }
+        ],
+        "text": "https://github.com/ansv/jwhef.git"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 0,
+            "end": 33,
+            "value": "https://github.com/zjcd/bye.sehvf",
+            "entity": "url"
+          }
+        ],
+        "text": "https://github.com/zjcd/bye.sehvf"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 0,
+            "end": 34,
+            "value": "https://github.com/hvsc/bye.ajhvef",
+            "entity": "url"
+          }
+        ],
+        "text": "https://github.com/hvsc/bye.ajhvef"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 0,
+            "end": 39,
+            "value": "https://github.com/ansvhe/bshgfdvye.git",
+            "entity": "url"
+          }
+        ],
+        "text": "https://github.com/ansvhe/bshgfdvye.git"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 0,
+            "end": 35,
+            "value": "https://github.com/gdvhs/senhgf.git",
+            "entity": "url"
+          }
+        ],
+        "text": "https://github.com/gdvhs/senhgf.git"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "https://github.com/ndhv/bye.git",
+            "entity": "url"
+          }
+        ],
+        "text": "https://github.com/ndhv/bye.git"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "https://github.com/ekrhg/bye.git",
+            "entity": "url"
+          }
+        ],
+        "text": "https://github.com/ekrhg/bye.git"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 0,
+            "end": 38,
+            "value": "https://github.com/shkfjjrg/ajhefg.git",
+            "entity": "url"
+          }
+        ],
+        "text": "https://github.com/shkfjjrg/ajhefg.git"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "value": "https://github.com/sbzcv/ndv.git",
+            "entity": "url"
+          }
+        ],
+        "text": "https://github.com/sbzcv/ndv.git"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 0,
+            "end": 34,
+            "value": "https://github.com/sdhvf/ewjfh.git",
+            "entity": "url"
+          }
+        ],
+        "text": "https://github.com/sdhvf/ewjfh.git"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "https://github.com/SVGC/ijr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "https://github.com/SVGC/ijr.git"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 11,
+            "end": 42,
+            "value": "https://google.com/SVGC/ijr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "git url is https://google.com/SVGC/ijr.git"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 11,
+            "end": 41,
+            "value": "http://google.com/SVGC/ijr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "git url is http://google.com/SVGC/ijr.git"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 11,
+            "end": 48,
+            "value": "http://stackoverflow.com/SVGC/ijr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "git url is http://stackoverflow.com/SVGC/ijr.git"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 11,
+            "end": 43,
+            "value": "https://outlook.com/SVGC/ijr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "git url is https://outlook.com/SVGC/ijr.git"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 11,
+            "end": 41,
+            "value": "https://zdjhf.com/SVGC/ijr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "git url is https://zdjhf.com/SVGC/ijr.git"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 28,
+            "end": 58,
+            "value": "https://zdjhf.com/SVGC/ijr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "url of remote repository is https://zdjhf.com/SVGC/ijr.git"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 28,
+            "end": 58,
+            "value": "http://zdjhf.com/SVGC/nsdf.git",
+            "entity": "url"
+          }
+        ],
+        "text": "url of remote repository is http://zdjhf.com/SVGC/nsdf.git"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 28,
+            "end": 59,
+            "value": "http://zdjhf.com/SVGC/sjdfh.git",
+            "entity": "url"
+          }
+        ],
+        "text": "url of remote repository is http://zdjhf.com/SVGC/sjdfh.git"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 28,
+            "end": 58,
+            "value": "http://zdjhf.com/angv/nsdf.git",
+            "entity": "url"
+          }
+        ],
+        "text": "url of remote repository is http://zdjhf.com/angv/nsdf.git"
+      },
+      {
+        "intent": "get_url",
+        "entities": [
+          {
+            "start": 28,
+            "end": 60,
+            "value": "http://zdjhf.com/hwqfe/jshvf.git",
+            "entity": "url"
+          }
+        ],
+        "text": "url of remote repository is http://zdjhf.com/hwqfe/jshvf.git"
+      },
+      {
+        "intent": "git_clone",
+        "text": "download this repository"
+      },
+      {
+        "intent": "git_clone",
+        "text": "clone repository"
+      },
+      {
+        "intent": "git_clone",
+        "text": "save repository"
+      },
+      {
+        "intent": "git_clone",
+        "text": "download code"
+      },
+      {
+        "intent": "git_clone",
+        "text": "save code"
+      },
+      {
+        "intent": "git_clone",
+        "text": "clone code"
+      },
+      {
+        "intent": "git_clone",
+        "text": "download repository"
+      },
+      {
+        "intent": "git_clone",
+        "text": "create a local copy"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 16,
+            "end": 51,
+            "value": "http://sefsf.com/SVsgGC/isfsejr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "clone code from http://sefsf.com/SVsgGC/isfsejr.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 16,
+            "end": 51,
+            "value": "http://jhgsdf.kh/xbnmfv/isfsejr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "clone code from http://jhgsdf.kh/xbnmfv/isfsejr.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 16,
+            "end": 49,
+            "value": "http://sjhdv.fn/xdmnb/isfsejr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "clone code from http://sjhdv.fn/xdmnb/isfsejr.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 16,
+            "end": 48,
+            "value": "http://jdbsf.fn/mxbv/isfsejr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "clone code from http://jdbsf.fn/mxbv/isfsejr.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 29,
+            "end": 61,
+            "value": "https://mdbv.com/sfsf/isfsjr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "download repository from url https://mdbv.com/sfsf/isfsjr.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 29,
+            "end": 62,
+            "value": "https://xhbfv.mdn/sfsf/isfsjr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "download repository from url https://xhbfv.mdn/sfsf/isfsjr.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 29,
+            "end": 63,
+            "value": "https://xmnbfv.com/nmdb/isfsjr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "download repository from url https://xmnbfv.com/nmdb/isfsjr.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 29,
+            "end": 62,
+            "value": "https://zdhgf.mbn/xjbv/isfsjr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "download repository from url https://zdhgf.mbn/xjbv/isfsjr.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 15,
+            "end": 44,
+            "value": "https://mdb.com/sef/sdfsf.git",
+            "entity": "url"
+          }
+        ],
+        "text": "clone from url https://mdb.com/sef/sdfsf.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 15,
+            "end": 44,
+            "value": "https://mcv.com/sef/sdfsf.git",
+            "entity": "url"
+          }
+        ],
+        "text": "clone from url https://mcv.com/sef/sdfsf.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 15,
+            "end": 43,
+            "value": "https://mfd.com/sef/xmdn.git",
+            "entity": "url"
+          }
+        ],
+        "text": "clone from url https://mfd.com/sef/xmdn.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 15,
+            "end": 49,
+            "value": "https://mnddmnbf.com/sef/,dnjv.git",
+            "entity": "url"
+          }
+        ],
+        "text": "clone from url https://mnddmnbf.com/sef/,dnjv.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 11,
+            "end": 45,
+            "value": "https://xvjhbf.com/sefsef/sefs.git",
+            "entity": "url"
+          }
+        ],
+        "text": "clone from https://xvjhbf.com/sefsef/sefs.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 11,
+            "end": 42,
+            "value": "https://dnm.com/sefsef/sefs.git",
+            "entity": "url"
+          }
+        ],
+        "text": "clone from https://dnm.com/sefsef/sefs.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 11,
+            "end": 44,
+            "value": "https://smbdf.com/sefsef/sefs.git",
+            "entity": "url"
+          }
+        ],
+        "text": "clone from https://smbdf.com/sefsef/sefs.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 11,
+            "end": 45,
+            "value": "https://mxnbfg.com/sefsef/sefs.git",
+            "entity": "url"
+          }
+        ],
+        "text": "clone from https://mxnbfg.com/sefsef/sefs.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 19,
+            "end": 50,
+            "value": "https://zndfb.com/SVGC/fses.git",
+            "entity": "url"
+          }
+        ],
+        "text": "download code from https://zndfb.com/SVGC/fses.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 19,
+            "end": 51,
+            "value": "https://dmnbfn.com/SVGC/fses.git",
+            "entity": "url"
+          }
+        ],
+        "text": "download code from https://dmnbfn.com/SVGC/fses.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 19,
+            "end": 49,
+            "value": "https://mhfe.com/SVGC/fses.git",
+            "entity": "url"
+          }
+        ],
+        "text": "download code from https://mhfe.com/SVGC/fses.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 19,
+            "end": 49,
+            "value": "https://mnvf.com/SVGC/fses.git",
+            "entity": "url"
+          }
+        ],
+        "text": "download code from https://mnvf.com/SVGC/fses.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 15,
+            "end": 46,
+            "value": "https://smnbe.com/sfese/ijr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "save code from https://smnbe.com/sfese/ijr.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 15,
+            "end": 45,
+            "value": "https://iher.com/sfese/ijr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "save code from https://iher.com/sfese/ijr.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 15,
+            "end": 46,
+            "value": "https://ldkjg.com/sfese/ijr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "save code from https://ldkjg.com/sfese/ijr.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 15,
+            "end": 45,
+            "value": "https://ixjf.com/sfese/ijr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "save code from https://ixjf.com/sfese/ijr.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 25,
+            "end": 54,
+            "value": "https://msbd.com/SVGC/ijr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "download repository from https://msbd.com/SVGC/ijr.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 25,
+            "end": 55,
+            "value": "https://znbvd.com/SVGC/ijr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "download repository from https://znbvd.com/SVGC/ijr.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 25,
+            "end": 54,
+            "value": "https://jxbg.com/SVGC/ijr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "download repository from https://jxbg.com/SVGC/ijr.git"
+      },
+      {
+        "intent": "git_clone",
+        "entities": [
+          {
+            "start": 25,
+            "end": 57,
+            "value": "https://smdjhfb.com/SVGC/ijr.git",
+            "entity": "url"
+          }
+        ],
+        "text": "download repository from https://smdjhfb.com/SVGC/ijr.git"
+      },
+      {
+        "intent": "git_pull",
+        "text": "pull the latest code"
+      },
+      {
+        "intent": "git_pull",
+        "text": "pull code"
+      },
+      {
+        "intent": "git_pull",
+        "text": "pull code from online repository"
+      },
+      {
+        "intent": "git_pull",
+        "text": "pull code from remote repository"
+      },
+      {
+        "intent": "git_pull",
+        "text": "update my repository"
+      },
+      {
+        "intent": "git_pull",
+        "text": "update code"
+      },
+      {
+        "intent": "git_pull",
+        "text": "is my code latest"
+      },
+      {
+        "intent": "git_pull",
+        "text": "is my code updated"
+      },
+      {
+        "intent": "git_pull",
+        "text": "update code from latest repository"
+      },
+      {
+        "intent": "git_pull",
+        "text": "download the latest code"
+      },
+      {
+        "intent": "git_pull",
+        "text": "download updates"
+      },
+      {
+        "intent": "git_pull",
+        "text": "update my code"
       }
     ],
     "regex_features": [
@@ -6244,6 +6956,10 @@
       {
         "name": "new_folder",
         "pattern": "[a-zA-Z]+"
+      },
+      {
+        "name": "url",
+        "pattern": "^(http:\\/\\/www\\.|https:\\/\\/www\\.|http:\\/\\/|https:\\/\\/)?[a-z0-9]+([\\-\\.]{1}[a-z0-9]+)*\\.[a-z]{2,5}(:[0-9]{1,5})?(\\/.*)?$"
       }
     ],
     "lookup_tables": [],

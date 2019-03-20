@@ -36,21 +36,120 @@ class ActionLs(Action):
 
         return []
 
-class ActionGitPush(Action):
-    def name(self):
-        return "action_gitpush"
+class GitPushForm(FormAction):
+   def name(self):
+       return "gitpush_form"
 
-    def run(self, dispatcher, tracker, domain):
-        # git --git-dir=starter-pack-rasa-stack-master/.git --work-tree=starter-pack-rasa-stack-master/ status
-        current_path = tracker.slots['current_path']
-        dirs = os.listdir(current_path)
-        for file in dirs:
-            if file == '.git':
-                os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path ' add -A')
-                os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path ' commit -m "Hi"')
-                os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path ' git push origin master')
+   @staticmethod
+   def required_slots(tracker):
+       current_path = tracker.slots['current_path']
+       dirs = os.listdir(current_path)
+       flag = 0
+       for file in dirs:
+           if file == '.git':
+               flag = 1
+               break
 
-        return []
+       if flag == 0:
+           return ["url"]
+       else:
+           return []
+
+       return []
+
+   def slot_mappings(self):
+       return {"url": [self.from_entity(entity="url", intent=["get_url"])]}
+
+   def submit(self, dispatcher, tracker, domain):
+       # dispatcher.utter_message("# HI")
+       current_path = tracker.slots['current_path']
+       dirs = os.listdir(current_path)
+       flag = 0
+       for file in dirs:
+           if file == '.git':
+               flag = 1
+               break
+
+       if flag == 0:
+           dispatcher.utter_message(tracker.get_slot('url'))
+           os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path + ' init')
+           os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path + ' remote add origin ' + tracker.get_slot('url'))
+
+       os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path + ' add -A')
+       os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path + ' commit -m "Commit from CODA"')
+       os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path + ' push origin ' + out)
+       dispatcher.utter_message("Done!")
+
+
+       return [SlotSet("url", None)]
+
+class GitPullForm(FormAction):
+   def name(self):
+       return "gitpull_form"
+
+   @staticmethod
+   def required_slots(tracker):
+       current_path = tracker.slots['current_path']
+       dirs = os.listdir(current_path)
+       flag = 0
+       for file in dirs:
+           if file == '.git':
+               flag = 1
+               break
+
+       if flag == 0:
+           return ["url"]
+       else:
+           return []
+
+       return []
+
+   def slot_mappings(self):
+       return {"url": [self.from_entity(entity="url", intent=["get_url"])]}
+
+   def submit(self, dispatcher, tracker, domain):
+       # dispatcher.utter_message("# HI")
+       current_path = tracker.slots['current_path']
+       dirs = os.listdir(current_path)
+       flag = 0
+       for file in dirs:
+           if file == '.git':
+               flag = 1
+               break
+
+       if flag == 0:
+           dispatcher.utter_message(tracker.get_slot('url'))
+           os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path + ' init')
+           os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path + ' remote add origin ' + tracker.get_slot('url'))
+
+       os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path + ' pull')
+       # os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path + ' commit -m "Commit from CODA"')
+       # os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path + ' push origin master')
+       dispatcher.utter_message("Done!")
+
+
+       return [SlotSet("url", None)]
+
+class GitCloneForm(FormAction):
+   def name(self):
+       return "gitclone_form"
+
+   @staticmethod
+   def required_slots(tracker):
+       return ['url']
+
+   def slot_mappings(self):
+       return {"url": [self.from_entity(entity="url", intent=["get_url", "git_clone"])]}
+
+   def submit(self, dispatcher, tracker, domain):
+       current_path = tracker.slots['current_path']
+       url = tracker.get_slot('url')
+       current_path += url[url.rfind('/') : url.rfind('.')] + "/"
+       msg = 'git clone ' + tracker.get_slot('url') + " " + current_path
+       dispatcher.utter_message(msg)
+       os.system(msg)
+       dispatcher.utter_message("Done!")
+       return [SlotSet("url", None)]
 
 class ActionCd(Action):
     def name(self):

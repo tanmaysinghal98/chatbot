@@ -28,10 +28,14 @@ entities:
 - from
 - directory
 - fromm
+- url
 forms:
 - mv_form
 - mkdir_form
 - cp_form
+- gitpush_form
+- gitclone_form
+- gitpull_form
 intents:
 - mv_to:
     use_entities: true
@@ -72,6 +76,14 @@ intents:
 - inform:
     use_entities: true
 - cp_to:
+    use_entities: true
+- get_url:
+    use_entities: true
+- git_push:
+    use_entities: true
+- git_clone:
+    use_entities: true
+- git_pull:
     use_entities: true
 slots:
   current_path:
@@ -114,6 +126,10 @@ slots:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.UnfeaturizedSlot
+  url:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
 templates:
   utter_ask_from:
   - text: What do you want to copy?
@@ -125,6 +141,8 @@ templates:
   - text: In which directory do you want to copy the folder?
   utter_ask_tom:
   - text: In which directory do you want to move the folder?
+  utter_ask_url:
+  - text: What is the URL?
   utter_default:
   - text: Sorry. I did not understand what you said!
   utter_goodbye:

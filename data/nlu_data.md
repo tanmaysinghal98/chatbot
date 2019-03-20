@@ -701,6 +701,7 @@
 - push
 - push this code online
 - push code to remote repository
+- push this directory
 
 
 ## intent:get_url
@@ -726,7 +727,58 @@
 - url of remote repository is [http://zdjhf.com/angv/nsdf.git](url)
 - url of remote repository is [http://zdjhf.com/hwqfe/jshvf.git](url)
 
+## intent:git_clone
+- download this repository
+- clone repository
+- save repository
+- download code
+- save code
+- clone code
+- download repository
+- create a local copy
+- clone code from [http://sefsf.com/SVsgGC/isfsejr.git](url)
+- clone code from [http://jhgsdf.kh/xbnmfv/isfsejr.git](url)
+- clone code from [http://sjhdv.fn/xdmnb/isfsejr.git](url)
+- clone code from [http://jdbsf.fn/mxbv/isfsejr.git](url)
+- download repository from url [https://mdbv.com/sfsf/isfsjr.git](url)
+- download repository from url [https://xhbfv.mdn/sfsf/isfsjr.git](url)
+- download repository from url [https://xmnbfv.com/nmdb/isfsjr.git](url)
+- download repository from url [https://zdhgf.mbn/xjbv/isfsjr.git](url)
+- clone from url [https://mdb.com/sef/sdfsf.git](url)
+- clone from url [https://mcv.com/sef/sdfsf.git](url)
+- clone from url [https://mfd.com/sef/xmdn.git](url)
+- clone from url [https://mnddmnbf.com/sef/,dnjv.git](url)
+- clone from [https://xvjhbf.com/sefsef/sefs.git](url)
+- clone from [https://dnm.com/sefsef/sefs.git](url)
+- clone from [https://smbdf.com/sefsef/sefs.git](url)
+- clone from [https://mxnbfg.com/sefsef/sefs.git](url)
+- download code from [https://zndfb.com/SVGC/fses.git](url)
+- download code from [https://dmnbfn.com/SVGC/fses.git](url)
+- download code from [https://mhfe.com/SVGC/fses.git](url)
+- download code from [https://mnvf.com/SVGC/fses.git](url)
+- save code from [https://smnbe.com/sfese/ijr.git](url)
+- save code from [https://iher.com/sfese/ijr.git](url)
+- save code from [https://ldkjg.com/sfese/ijr.git](url)
+- save code from [https://ixjf.com/sfese/ijr.git](url)
+- download repository from [https://msbd.com/SVGC/ijr.git](url)
+- download repository from [https://znbvd.com/SVGC/ijr.git](url)
+- download repository from [https://jxbg.com/SVGC/ijr.git](url)
+- download repository from [https://smdjhfb.com/SVGC/ijr.git](url)
 
+
+## intent:git_pull
+- pull the latest code
+- pull code
+- pull code from online repository
+- pull code from remote repository
+- update my repository
+- update code
+- is my code latest
+- is my code updated
+- update code from latest repository
+- download the latest code
+- download updates
+- update my code
 
 ## regex:url
 - ^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$
