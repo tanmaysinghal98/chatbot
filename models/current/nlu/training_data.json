@@ -5028,18 +5028,90 @@
         "entities": [
           {
             "start": 5,
+            "end": 8,
+            "value": "err",
+            "entity": "from"
+          },
+          {
+            "start": 12,
+            "end": 17,
+            "value": "ergte",
+            "entity": "to"
+          }
+        ],
+        "text": "copy err to ergte"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 5,
             "end": 9,
-            "value": "fhfh",
+            "value": "erte",
             "entity": "from"
           },
           {
             "start": 13,
-            "end": 23,
-            "value": "vhshfhjbsv",
+            "end": 18,
+            "value": "ertet",
             "entity": "to"
           }
         ],
-        "text": "copy fhfh to vhshfhjbsv"
+        "text": "copy erte to ertet"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "erter",
+            "entity": "from"
+          },
+          {
+            "start": 14,
+            "end": 20,
+            "value": "ertert",
+            "entity": "to"
+          }
+        ],
+        "text": "copy erter to ertert"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "dgdg",
+            "entity": "from"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "fhfh",
+            "entity": "to"
+          }
+        ],
+        "text": "copy dgdg to fhfh"
+      },
+      {
+        "intent": "cp",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "dhfth",
+            "entity": "from"
+          },
+          {
+            "start": 14,
+            "end": 20,
+            "value": "rthrth",
+            "entity": "to"
+          }
+        ],
+        "text": "copy dhfth to rthrth"
       },
       {
         "intent": "cp_to",
@@ -6138,6 +6210,30 @@
           }
         ],
         "text": "move it to ssfgdgf"
+      },
+      {
+        "intent": "git_push",
+        "text": "push current folder to github"
+      },
+      {
+        "intent": "git_push",
+        "text": "push this repository online"
+      },
+      {
+        "intent": "git_push",
+        "text": "push this repository"
+      },
+      {
+        "intent": "git_push",
+        "text": "push repository"
+      },
+      {
+        "intent": "git_push",
+        "text": "push current repository"
+      },
+      {
+        "intent": "git_push",
+        "text": "push"
       }
     ],
     "regex_features": [

@@ -583,7 +583,11 @@
 - copy [rthff](from) to [vhv](to)
 - copy [sdvsd](from) to [xmbf](to)
 - copy [erger](from) to [mbfd](to)
-- copy [fhfh](from) to [vhshfhjbsv](to)
+- copy [err](from) to [ergte](to)
+- copy [erte](from) to [ertet](to)
+- copy [erter](from) to [ertert](to)
+- copy [dgdg](from) to [fhfh](to)
+- copy [dhfth](from) to [rthrth](to)
 
 
 ## intent:cp_to
@@ -679,6 +683,53 @@
 - move it to [dfwerwbv](tom)
 - move it to [ssfgdgf](tom)
 
+
+## intent:git_push
+- push current folder to github
+- push this repository online
+- push this repository
+- push repository
+- push current repository
+- push
+- upload code
+- push the code
+- upload
+- send the code to remote repository
+- send code
+- upload code to online repository
+- push it to github
+- push
+- push this code online
+- push code to remote repository
+
+
+## intent:get_url
+- [https://github.com/ansv/jwhef.git](url)
+- [https://github.com/zjcd/bye.sehvf](url)
+- [https://github.com/hvsc/bye.ajhvef](url)
+- [https://github.com/ansvhe/bshgfdvye.git](url)
+- [https://github.com/gdvhs/senhgf.git](url)
+- [https://github.com/ndhv/bye.git](url)
+- [https://github.com/ekrhg/bye.git](url)
+- [https://github.com/shkfjjrg/ajhefg.git](url)
+- [https://github.com/sbzcv/ndv.git](url)
+- [https://github.com/sdhvf/ewjfh.git](url)
+- [https://github.com/SVGC/ijr.git](url)
+- git url is [https://google.com/SVGC/ijr.git](url)
+- git url is [http://google.com/SVGC/ijr.git](url)
+- git url is [http://stackoverflow.com/SVGC/ijr.git](url)
+- git url is [https://outlook.com/SVGC/ijr.git](url)
+- git url is [https://zdjhf.com/SVGC/ijr.git](url)
+- url of remote repository is [https://zdjhf.com/SVGC/ijr.git](url)
+- url of remote repository is [http://zdjhf.com/SVGC/nsdf.git](url)
+- url of remote repository is [http://zdjhf.com/SVGC/sjdfh.git](url)
+- url of remote repository is [http://zdjhf.com/angv/nsdf.git](url)
+- url of remote repository is [http://zdjhf.com/hwqfe/jshvf.git](url)
+
+
+
+## regex:url
+- ^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$
 
 ## regex:new_folder
 - [a-zA-Z]+

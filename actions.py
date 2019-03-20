@@ -36,6 +36,21 @@ class ActionLs(Action):
 
         return []
 
+class ActionGitPush(Action):
+    def name(self):
+        return "action_gitpush"
+
+    def run(self, dispatcher, tracker, domain):
+        # git --git-dir=starter-pack-rasa-stack-master/.git --work-tree=starter-pack-rasa-stack-master/ status
+        current_path = tracker.slots['current_path']
+        dirs = os.listdir(current_path)
+        for file in dirs:
+            if file == '.git':
+                os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path ' add -A')
+                os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path ' commit -m "Hi"')
+                os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path ' git push origin master')
+
+        return []
 
 class ActionCd(Action):
     def name(self):
@@ -66,8 +81,6 @@ class ActionCd(Action):
 
         return [SlotSet("directory", None)]
 
-
-
 class ActionBack(Action):
     def name(self):
         return "action_back"
@@ -81,8 +94,6 @@ class ActionBack(Action):
 
         return [SlotSet("current_path", current_path)]
 
-
-
 class ActionPwd(Action):
     def name(self):
         return "action_pwd"
@@ -90,7 +101,6 @@ class ActionPwd(Action):
     def run(self, dispatcher, tracker, domain):
         dispatcher.utter_message(tracker.get_slot('current_path'))
         return []
-
 
 class ActionSpeedtest(Action):
     def name(self):
@@ -114,7 +124,6 @@ class ActionNews(Action):
             dispatcher.utter_message(top_headlines['articles'][i]['title'])
         return []
 
-
 class MkdirForm(FormAction):
    def name(self):
        return "mkdir_form"
@@ -132,7 +141,6 @@ class MkdirForm(FormAction):
        os.system(message)
        dispatcher.utter_message('Folder Created')
        return [SlotSet("new_folder", None)]
-
 
 class CpForm(FormAction):
    def name(self):
@@ -176,7 +184,6 @@ class CpForm(FormAction):
        dispatcher.utter_message("Copied")
        return [SlotSet("from", None), SlotSet("to", None)]
 
-
 class MvForm(FormAction):
    def name(self):
        return "mv_form"
@@ -219,7 +226,6 @@ class MvForm(FormAction):
        os.system("mv " + out + " " + fpath)
        dispatcher.utter_message("Moved")
        return [SlotSet("fromm", None), SlotSet("tom", None)]
-
 
 class ActionMean(Action):
     def name(self):

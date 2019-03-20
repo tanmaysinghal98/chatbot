@@ -197,3 +197,61 @@
     - slot{"to": null}
     - form{"name": null}
     - slot{"requested_slot": null}
+## Generated Story 3530304765317168321
+* cp{"from": "shantanu", "to": "tanmay"}
+    - slot{"from": "shantanu"}
+    - slot{"to": "tanmay"}
+    - cp_form
+    - form{"name": "cp_form"}
+    - slot{"from": "shantanu"}
+    - slot{"to": "tanmay"}
+    - slot{"from": null}
+    - slot{"to": null}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+
+## Generated Story 3184962036316840253
+* cp{"from": "shantanu", "to": "madarchod"}
+    - slot{"from": "shantanu"}
+    - slot{"to": "madarchod"}
+    - cp_form
+    - form{"name": "cp_form"}
+    - slot{"from": "shantanu"}
+    - slot{"to": "madarchod"}
+    - slot{"from": null}
+    - slot{"to": null}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+
+## Generated Story -5045554307600360606
+* mv{"fromm": "madarchod", "tom": "shantanu"}
+    - slot{"fromm": "madarchod"}
+    - slot{"tom": "shantanu"}
+    - mv_form
+    - form{"name": "mv_form"}
+    - slot{"fromm": "madarchod"}
+    - slot{"tom": "shantanu"}
+    - slot{"fromm": null}
+    - slot{"tom": null}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+
+## Generated Story -264160495058568725
+* mv
+    - mv_form
+    - form{"name": "mv_form"}
+    - slot{"requested_slot": "fromm"}
+* form: mv{"fromm": "shantanu"}
+    - slot{"fromm": "shantanu"}
+    - form: mv_form
+    - slot{"fromm": "shantanu"}
+    - slot{"requested_slot": "tom"}
+* form: mv_to{"tom": "lund"}
+    - slot{"tom": "lund"}
+    - form: mv_form
+    - slot{"tom": "lund"}
+    - slot{"fromm": null}
+    - slot{"tom": null}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+

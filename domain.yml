@@ -1,38 +1,41 @@
 %YAML 1.1
 ---
 actions:
-- action_weather
-- utter_news
-- utter_thanks
-- action_news
-- action_speedtest
-- action_rm
-- action_cd
-- utter_greet
-- action_pwd
-- utter_default
 - utter_speedtest
+- action_speedtest
+- utter_default
+- action_cd
+- action_weather
+- action_pwd
 - action_back
-- utter_goodbye
-- action_mean
 - action_ls
+- utter_thanks
+- utter_news
+- action_mean
+- utter_goodbye
+- utter_greet
+- action_rm
+- action_news
+- action_gitpush
 entities:
-- fromm
 - location
+- new_folder
+- to
+- tom
+- meaning
 - current_path
 - from
-- new_folder
-- meaning
 - directory
-- tom
-- to
+- fromm
+- url
 forms:
-- mkdir_form
 - mv_form
+- mkdir_form
 - cp_form
 intents:
-- mv
 - mv_to
+- mv
+- cp
 - ls
 - mkdir
 - greet
@@ -49,8 +52,9 @@ intents:
 - weather
 - rm
 - inform
-- cp
 - cp_to
+- get_url
+- git_push
 slots:
   current_path:
     initial_value: /Users/tanmaysinghal/
@@ -74,7 +78,11 @@ slots:
     type: unfeaturized
   tom:
     type: unfeaturized
+  url:
+    type: unfeaturized
 templates:
+  utter_ask_url:
+  - text: What is the URL?
   utter_ask_from:
   - text: What do you want to copy?
   utter_ask_fromm:

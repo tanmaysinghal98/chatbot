@@ -1,6 +1,6 @@
 ## intent:mv
-- move
-- move [jdsbjs](fromm)
+- move fodler
+- move [shantanu](fromm)
 
 ## intent:mv_to
-- move it to [jshdf](tom)
+- move it to [lund](tom)

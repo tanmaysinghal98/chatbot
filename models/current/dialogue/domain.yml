@@ -1,41 +1,43 @@
 %YAML 1.1
 ---
 actions:
-- action_weather
-- utter_news
-- utter_thanks
-- action_news
-- action_speedtest
-- action_rm
-- action_cd
-- utter_greet
-- action_pwd
-- utter_default
 - utter_speedtest
+- action_speedtest
+- utter_default
+- action_cd
+- action_weather
+- action_pwd
 - action_back
-- utter_goodbye
-- action_mean
 - action_ls
+- utter_thanks
+- utter_news
+- action_mean
+- utter_goodbye
+- utter_greet
+- action_rm
+- action_news
 config:
   store_entities_as_slots: true
 entities:
-- fromm
 - location
+- new_folder
+- to
+- tom
+- meaning
 - current_path
 - from
-- new_folder
-- meaning
 - directory
-- tom
-- to
+- fromm
 forms:
-- mkdir_form
 - mv_form
+- mkdir_form
 - cp_form
 intents:
+- mv_to:
+    use_entities: true
 - mv:
     use_entities: true
-- mv_to:
+- cp:
     use_entities: true
 - ls:
     use_entities: true
@@ -68,8 +70,6 @@ intents:
 - rm:
     use_entities: true
 - inform:
-    use_entities: true
-- cp:
     use_entities: true
 - cp_to:
     use_entities: true

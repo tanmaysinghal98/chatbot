@@ -2,20 +2,29 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "tom",
-        "meaning",
-        "fromm",
-        "new_folder",
-        "from",
         "directory",
+        "fromm",
+        "from",
+        "tom",
+        "new_folder",
         "location",
-        "to"
+        "to",
+        "meaning"
       ]
+    },
+    "utter_thanks": {
+      "slots": []
+    },
+    "action_ls": {
+      "slots": []
     },
     "utter_default": {
       "slots": []
     },
-    "action_ls": {
+    "action_speedtest": {
+      "slots": []
+    },
+    "action_pwd": {
       "slots": []
     },
     "mkdir_form": {
@@ -24,44 +33,35 @@
         "new_folder"
       ]
     },
-    "action_pwd": {
-      "slots": []
+    "mv_form": {
+      "slots": [
+        "requested_slot",
+        "fromm",
+        "from",
+        "tom",
+        "to"
+      ]
     },
-    "utter_goodbye": {
+    "action_weather": {
       "slots": []
     },
     "action_news": {
       "slots": []
     },
-    "cp_form": {
-      "slots": [
-        "from",
-        "requested_slot",
-        "to"
-      ]
-    },
-    "mv_form": {
-      "slots": [
-        "tom",
-        "requested_slot",
-        "fromm",
-        "from",
-        "to"
-      ]
+    "utter_goodbye": {
+      "slots": []
     },
     "utter_greet": {
       "slots": []
     },
-    "action_weather": {
-      "slots": []
+    "cp_form": {
+      "slots": [
+        "requested_slot",
+        "to",
+        "from"
+      ]
     },
     "action_mean": {
-      "slots": []
-    },
-    "action_speedtest": {
-      "slots": []
-    },
-    "utter_thanks": {
       "slots": []
     }
   },
@@ -78,5 +78,5 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190319-201133"
+  "trained_at": "20190320-120609"
 }
