@@ -2,72 +2,76 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "directory",
-        "new_folder",
-        "to",
-        "from",
         "meaning",
         "location",
+        "fromm",
+        "from",
+        "directory",
+        "search",
+        "new_folder",
         "tom",
-        "fromm"
+        "to"
+      ]
+    },
+    "cp_form": {
+      "slots": [
+        "from",
+        "to",
+        "requested_slot"
+      ]
+    },
+    "action_speedtest": {
+      "slots": []
+    },
+    "mkdir_form": {
+      "slots": [
+        "new_folder",
+        "requested_slot"
+      ]
+    },
+    "action_ls": {
+      "slots": []
+    },
+    "mv_form": {
+      "slots": [
+        "to",
+        "fromm",
+        "from",
+        "requested_slot",
+        "tom"
       ]
     },
     "utter_default": {
       "slots": []
     },
-    "action_ls": {
-      "slots": []
-    },
-    "utter_goodbye": {
-      "slots": []
-    },
-    "mv_form": {
-      "slots": [
-        "requested_slot",
-        "to",
-        "from",
-        "tom",
-        "fromm"
-      ]
-    },
-    "cp_form": {
-      "slots": [
-        "requested_slot",
-        "to",
-        "from"
-      ]
-    },
-    "gitclone_form": {
-      "slots": []
-    },
     "utter_greet": {
-      "slots": []
-    },
-    "action_speedtest": {
-      "slots": []
-    },
-    "action_weather": {
-      "slots": []
-    },
-    "mkdir_form": {
-      "slots": [
-        "requested_slot",
-        "new_folder"
-      ]
-    },
-    "gitpull_form": {
-      "slots": []
-    },
-    "action_news": {
-      "slots": []
-    },
-    "action_pwd": {
       "slots": []
     },
     "action_mean": {
       "slots": []
     },
+    "action_weather": {
+      "slots": []
+    },
+    "gitpull_form": {
+      "slots": []
+    },
+    "gitclone_form": {
+      "slots": []
+    },
+    "utter_searchsq": {
+      "slots": []
+    },
+    "action_pwd": {
+      "slots": []
+    },
+    "action_news": {
+      "slots": []
+    },
     "gitpush_form": {
+      "slots": []
+    },
+    "utter_goodbye": {
       "slots": []
     },
     "utter_thanks": {
@@ -87,5 +91,5 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190320-144017"
+  "trained_at": "20190320-185743"
 }

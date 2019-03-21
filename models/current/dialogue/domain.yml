@@ -1,42 +1,46 @@
 %YAML 1.1
 ---
 actions:
+- utter_greet
+- action_back
 - utter_speedtest
-- action_speedtest
+- utter_searchsq
+- action_news
 - utter_default
 - action_cd
-- action_weather
-- action_pwd
-- action_back
 - action_ls
-- utter_thanks
-- utter_news
-- action_mean
 - utter_goodbye
-- utter_greet
 - action_rm
-- action_news
+- utter_thanks
+- action_mean
+- action_pwd
+- action_speedtest
+- action_weather
+- utter_news
 config:
   store_entities_as_slots: true
 entities:
 - location
-- new_folder
+- search
 - to
-- tom
-- meaning
 - current_path
-- from
-- directory
 - fromm
+- directory
+- tom
+- from
+- meaning
 - url
+- new_folder
 forms:
+- gitpull_form
+- cp_form
 - mv_form
 - mkdir_form
-- cp_form
-- gitpush_form
 - gitclone_form
-- gitpull_form
+- gitpush_form
 intents:
+- searchsq:
+    use_entities: true
 - mv_to:
     use_entities: true
 - mv:
@@ -118,6 +122,10 @@ slots:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.UnfeaturizedSlot
+  search:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   to:
     auto_fill: true
     initial_value: null
@@ -151,6 +159,9 @@ templates:
   - text: Nice to you meet you. How can I help?
   utter_news:
   - text: Getting the latest News...
+  utter_searchsq:
+  - text:
+      search: null
   utter_speedtest:
   - text: Performing the SpeedTest...
   utter_thanks:

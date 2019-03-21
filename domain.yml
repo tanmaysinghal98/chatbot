@@ -1,40 +1,41 @@
 %YAML 1.1
 ---
 actions:
+- utter_greet
+- action_back
 - utter_speedtest
-- action_speedtest
+- action_news
 - utter_default
 - action_cd
-- action_weather
-- action_pwd
-- action_back
 - action_ls
-- utter_thanks
-- utter_news
-- action_mean
 - utter_goodbye
-- utter_greet
 - action_rm
-- action_news
+- utter_thanks
+- action_mean
+- action_pwd
+- action_speedtest
+- action_weather
+- utter_news
 entities:
 - location
-- new_folder
 - to
-- tom
-- meaning
 - current_path
-- from
-- directory
 - fromm
+- directory
+- tom
+- from
+- meaning
 - url
+- new_folder
 forms:
+- gitpull_form
+- cp_form
 - mv_form
 - mkdir_form
-- cp_form
-- gitpush_form
 - gitclone_form
-- gitpull_form
+- gitpush_form
 intents:
+- searchsq
 - mv_to
 - mv
 - cp
@@ -85,8 +86,6 @@ slots:
   url:
     type: unfeaturized
 templates:
-  utter_ask_url:
-  - text: What is the URL?
   utter_ask_from:
   - text: What do you want to copy?
   utter_ask_fromm:
@@ -97,6 +96,8 @@ templates:
   - text: In which directory do you want to copy the folder?
   utter_ask_tom:
   - text: In which directory do you want to move the folder?
+  utter_ask_url:
+  - text: What is the URL?
   utter_default:
   - text: Sorry. I did not understand what you said!
   utter_goodbye:

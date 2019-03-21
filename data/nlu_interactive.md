@@ -1,6 +1,2 @@
-## intent:mv
-- move fodler
-- move [shantanu](fromm)
-
-## intent:mv_to
-- move it to [lund](tom)
+## intent:searchsq
+- [how to convert int to string](search)

@@ -766,6 +766,7 @@
 - download repository from [https://smdjhfb.com/SVGC/ijr.git](url)
 
 
+
 ## intent:git_pull
 - pull the latest code
 - pull code

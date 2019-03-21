@@ -11,6 +11,7 @@ html, body {
   background: #efefef;
   height:100%;
   font-family: 'Roboto Mono', monospace;
+  font-size: 13px;
 }
 
 
@@ -59,12 +60,12 @@ html, body {
 
 
 .chat-box {
-  display:none;
   background: #efefef;
+  top: 20px;
   position:fixed;
   right:30px;
   bottom:50px;
-  width:350px;
+  width:400px;
   max-width: 85vw;
   max-height:100vh;
   border-radius:5px;
@@ -78,7 +79,7 @@ html, body {
 }
 .chat-box-header {
   background: #5A5EB9;
-  height:70px;
+  height:50px;
   border-top-left-radius:5px;
   border-top-right-radius:5px;
   color:white;
@@ -153,7 +154,7 @@ html, body {
 }
 .chat-logs {
   padding:15px;
-  height:370px;
+  height:525;
   overflow-y:scroll;
 }
 
@@ -176,11 +177,11 @@ html, body {
 
 
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
    .chat-logs {
-        height:40vh;
+        height:auto;
     }
-}
+} */
 
 .chat-msg.user > .msg-avatar img {
   width:45px;
@@ -204,7 +205,7 @@ html, body {
   float:left;
   margin-left:10px;
   position:relative;
-  margin-bottom:20px;
+  margin-bottom:5px;
   border-radius:30px;
 }
 .chat-msg {
@@ -307,9 +308,9 @@ $.ajax(settings).done(function (response) {
     INDEX++;
     var str="";
     str += "<div id='cm-msg-"+INDEX+"' class=\"chat-msg "+type+"\">";
-    str += "          <span class=\"msg-avatar\">";
-    str += "            <img src=\"Tanmay White.jpg\">";
-    str += "          <\/span>";
+    // str += "          <span class=\"msg-avatar\">";
+    // str += "            <img src=\"Tanmay White.jpg\">";
+    // str += "          <\/span>";
     str += "          <div class=\"cm-msg-text\">";
     str += msg;
     str += "          <\/div>";
