@@ -285,10 +285,25 @@
             }
 
 
-            // if (msg.includes("how to") || msg.includes("how do") || msg.includes("what") || msg.includes("convert")) {
-            //     // do something
-            // }
-            // else {
+            if (msg.includes("how to") || msg.includes("how do") || msg.includes("what") || msg.includes("convert")) {
+                // do something
+                generate_message(msg, 'self');
+                var settings = {
+                    "async": true,
+                    "crossDomain": true,
+                    "url": "https://codachavan.pythonanywhere.com/?query=kuch",
+                    "method": "GET"
+                }
+
+                $.ajax(settings).done(function(response) {
+                    console.log(response);
+                    response['link'] = '<a target="_blank" href="' + response['link'] + '">' + response['link'] + '</a>'
+                    generate_message(response['text'], 'user');
+                    generate_message(response['code'], 'user');
+                    generate_message(response['link'], 'user');
+                    generate_message(response['confidence'], 'user');
+                });
+            } else {
 
 
                 var settings = {
@@ -309,16 +324,17 @@
 
                 $.ajax(settings).done(function(response) {
                     console.log(response);
-
+                    // response[0]['text'] = response[0]['text'].replace(/ /g, '&nbsp;');
                     var reply = response[0]['text'];
                     var i;
                     for (i = 1; i < response.length; i++) {
+                        // response[i]['text'] = response[i]['text'].replace(/ /g, '&nbsp;');
                         reply += "<br>" + response[i]['text'];
                     }
                     generate_message(reply, 'user');
                 });
 
-            // }
+            }
 
 
             /*setTimeout(function() {
