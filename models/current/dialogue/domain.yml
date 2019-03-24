@@ -4,7 +4,6 @@ actions:
 - utter_greet
 - action_back
 - utter_speedtest
-- utter_searchsq
 - action_news
 - utter_default
 - action_cd
@@ -21,7 +20,6 @@ config:
   store_entities_as_slots: true
 entities:
 - location
-- search
 - to
 - current_path
 - fromm
@@ -39,8 +37,6 @@ forms:
 - gitclone_form
 - gitpush_form
 intents:
-- searchsq:
-    use_entities: true
 - mv_to:
     use_entities: true
 - mv:
@@ -122,10 +118,6 @@ slots:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.UnfeaturizedSlot
-  search:
-    auto_fill: true
-    initial_value: null
-    type: rasa_core.slots.TextSlot
   to:
     auto_fill: true
     initial_value: null
@@ -159,9 +151,6 @@ templates:
   - text: Nice to you meet you. How can I help?
   utter_news:
   - text: Getting the latest News...
-  utter_searchsq:
-  - text:
-      search: null
   utter_speedtest:
   - text: Performing the SpeedTest...
   utter_thanks:

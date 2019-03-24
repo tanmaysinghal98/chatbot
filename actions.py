@@ -77,7 +77,7 @@ class GitPushForm(FormAction):
 
        os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path + ' add -A')
        os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path + ' commit -m "Commit from CODA"')
-       os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path + ' push origin ' + out)
+       os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path + ' push origin master')
        dispatcher.utter_message("Done!")
 
 
@@ -122,7 +122,7 @@ class GitPullForm(FormAction):
            os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path + ' init')
            os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path + ' remote add origin ' + tracker.get_slot('url'))
 
-       os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path + ' pull')
+       os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path + ' pull origin master')
        # os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path + ' commit -m "Commit from CODA"')
        # os.system('git --git-dir=' + current_path + '.git --work-tree=' + current_path + ' push origin master')
        dispatcher.utter_message("Done!")

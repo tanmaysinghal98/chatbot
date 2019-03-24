@@ -168,6 +168,19 @@
         height: 35px;
     }
 
+    .chat-submit1 {
+            position: absolute;
+            bottom: 3px;
+            right: 50px;
+            background: transparent;
+            box-shadow: none;
+            border: none;
+            border-radius: 50%;
+            color: #5A5EB9;
+            width: 35px;
+            height: 35px;
+        }
+
     .chat-logs {
         padding: 15px;
         height: 525;
@@ -264,8 +277,9 @@
         </div>
         <div class="chat-input">
             <form>
-                <input type="text" id="chat-input" placeholder="Send a message..." />
+                <input type="text" class="output" id="chat-input" placeholder="Send a message..." />
                 <button type="submit" class="chat-submit" id="chat-submit"><i class="material-icons">send</i></button>
+                <button type="submit" class="chat-submit1" id="chat-submit1"><i class="material-icons">mic</i></button>
             </form>
         </div>
     </div>
@@ -284,14 +298,15 @@
                 return false;
             }
 
-
-            if (msg.includes("how to") || msg.includes("how do") || msg.includes("what") || msg.includes("convert")) {
+            msg = msg.toLowerCase();
+            if (msg.includes("how to") || msg.includes("how do") || msg.includes("convert") || msg.includes("stackoverflow") || msg.includes("search")  || msg.includes("what")  || msg.includes("which")) {
                 // do something
                 generate_message(msg, 'self');
+                var urlso = 'http://616bfd6b.ngrok.io?query=' + msg
                 var settings = {
                     "async": true,
                     "crossDomain": true,
-                    "url": "https://codachavan.pythonanywhere.com/?query=kuch",
+                    "url": urlso,
                     "method": "GET"
                 }
 
@@ -301,7 +316,7 @@
                     generate_message(response['text'], 'user');
                     generate_message(response['code'], 'user');
                     generate_message(response['link'], 'user');
-                    generate_message(response['confidence'], 'user');
+                    //generate_message(response['confidence'], 'user');
                 });
             } else {
 
@@ -321,8 +336,21 @@
                 }
 
                 generate_message(msg, 'self');
-
-                $.ajax(settings).done(function(response) {
+                if(msg.includes("weather") || msg.includes("climate")){
+                    $.ajax(settings).done(function(response) {
+                    console.log(response);
+                    response[0]['text'] = response[0]['text'].replace(/ /g, '&nbsp;');
+                    var reply = response[0]['text'];
+                    var i;
+                    for (i = 1; i < response.length; i++) {
+                        response[i]['text'] = response[i]['text'].replace(/ /g, '&nbsp;');
+                        reply += "<br>" + response[i]['text'];
+                    }
+                    generate_message(reply, 'user');
+                });
+                }
+                else{
+                    $.ajax(settings).done(function(response) {
                     console.log(response);
                     // response[0]['text'] = response[0]['text'].replace(/ /g, '&nbsp;');
                     var reply = response[0]['text'];
@@ -333,6 +361,9 @@
                     }
                     generate_message(reply, 'user');
                 });
+                }
+
+
 
             }
 
@@ -370,3 +401,4 @@
 
     })
 </script>
+<script src="script.js"></script>
