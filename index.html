@@ -183,7 +183,7 @@
 
     .chat-logs {
         padding: 15px;
-        height: 525;
+        height: 582;
         overflow-y: scroll;
     }
 
@@ -302,7 +302,7 @@
             if (msg.includes("how to") || msg.includes("how do") || msg.includes("convert") || msg.includes("stackoverflow") || msg.includes("search")  || msg.includes("what")  || msg.includes("which")) {
                 // do something
                 generate_message(msg, 'self');
-                var urlso = 'http://616bfd6b.ngrok.io?query=' + msg
+                var urlso = 'http://0619c1db.ngrok.io?query=' + msg
                 var settings = {
                     "async": true,
                     "crossDomain": true,
@@ -312,7 +312,8 @@
 
                 $.ajax(settings).done(function(response) {
                     console.log(response);
-                    response['link'] = '<a target="_blank" href="' + response['link'] + '">' + response['link'] + '</a>'
+                    response['link'] = '<a target="_blank" href="' + response['link'] + '">' + response['link'] + '</a>';
+                    response['code'] = response['code'].replace(/\\n/g, "<br />");
                     generate_message(response['text'], 'user');
                     generate_message(response['code'], 'user');
                     generate_message(response['link'], 'user');

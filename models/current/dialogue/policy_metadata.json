@@ -2,55 +2,39 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "meaning",
-        "location",
-        "from",
         "to",
-        "tom",
-        "directory",
         "fromm",
-        "new_folder"
+        "meaning",
+        "new_folder",
+        "from",
+        "location",
+        "directory",
+        "tom"
       ]
     },
-    "utter_greet": {
+    "utter_default": {
+      "slots": []
+    },
+    "action_news": {
+      "slots": []
+    },
+    "action_weather": {
       "slots": []
     },
     "action_ls": {
       "slots": []
-    },
-    "mkdir_form": {
-      "slots": [
-        "new_folder",
-        "requested_slot"
-      ]
     },
     "action_speedtest": {
       "slots": []
     },
     "mv_form": {
       "slots": [
+        "to",
+        "fromm",
         "requested_slot",
         "from",
-        "to",
-        "tom",
-        "fromm"
+        "tom"
       ]
-    },
-    "cp_form": {
-      "slots": [
-        "from",
-        "to",
-        "requested_slot"
-      ]
-    },
-    "action_pwd": {
-      "slots": []
-    },
-    "utter_default": {
-      "slots": []
-    },
-    "utter_goodbye": {
-      "slots": []
     },
     "utter_thanks": {
       "slots": []
@@ -58,11 +42,12 @@
     "gitclone_form": {
       "slots": []
     },
-    "action_weather": {
-      "slots": []
-    },
-    "action_news": {
-      "slots": []
+    "cp_form": {
+      "slots": [
+        "requested_slot",
+        "from",
+        "to"
+      ]
     },
     "action_mean": {
       "slots": []
@@ -71,6 +56,21 @@
       "slots": []
     },
     "gitpull_form": {
+      "slots": []
+    },
+    "mkdir_form": {
+      "slots": [
+        "requested_slot",
+        "new_folder"
+      ]
+    },
+    "action_pwd": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "utter_goodbye": {
       "slots": []
     }
   },
@@ -87,5 +87,5 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190322-121252"
+  "trained_at": "20190324-114341"
 }

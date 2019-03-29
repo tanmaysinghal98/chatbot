@@ -26,13 +26,13 @@ function randomPhrase() {
 
 function testSpeech() {
   testBtn.disabled = true;
-  
+
 
   var phrase = phrases[randomPhrase()];
   // To ensure case consistency while checking with the returned output text
   phrase = phrase.toLowerCase();
-  
-  
+
+
 
   var grammar = '#JSGF V1.0; grammar phrase; public <phrase> = ' + phrase +';';
   var recognition = new SpeechRecognition();
@@ -53,7 +53,7 @@ function testSpeech() {
     // Each SpeechRecognitionResult object contains SpeechRecognitionAlternative objects that contain individual results.
     // These also have getters so they can be accessed like arrays.
     // The second [0] returns the SpeechRecognitionAlternative at position 0.
-    // We then return the transcript property of the SpeechRecognitionAlternative object 
+    // We then return the transcript property of the SpeechRecognitionAlternative object
     var speechResult = event.results[0][0].transcript.toLowerCase();
     diagnosticPara.value =  speechResult + '.';
     console.log('Confidence: ' + event.results[0][0].confidence);
@@ -69,37 +69,38 @@ function testSpeech() {
     testBtn.disabled = false;
     diagnosticPara.value = 'Error occurred in recognition: ' + event.error;
   }
-  
+
   recognition.onaudiostart = function(event) {
       //Fired when the user agent has started to capture audio.
       console.log('SpeechRecognition.onaudiostart');
   }
-  
+
   recognition.onaudioend = function(event) {
       //Fired when the user agent has finished capturing audio.
       console.log('SpeechRecognition.onaudioend');
   }
-  
+
   recognition.onend = function(event) {
       //Fired when the speech recognition service has disconnected.
       console.log('SpeechRecognition.onend');
+      sendBtn.click();
   }
-  
+
   recognition.onnomatch = function(event) {
       //Fired when the speech recognition service returns a final result with no significant recognition. This may involve some degree of recognition, which doesn't meet or exceed the confidence threshold.
       console.log('SpeechRecognition.onnomatch');
   }
-  
+
   recognition.onsoundstart = function(event) {
       //Fired when any sound — recognisable speech or not — has been detected.
       console.log('SpeechRecognition.onsoundstart');
   }
-  
+
   recognition.onsoundend = function(event) {
       //Fired when any sound — recognisable speech or not — has stopped being detected.
       console.log('SpeechRecognition.onsoundend');
   }
-  
+
   recognition.onspeechstart = function (event) {
       //Fired when sound that is recognised by the speech recognition service as speech has been detected.
       console.log('SpeechRecognition.onspeechstart');

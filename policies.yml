@@ -1,6 +1,6 @@
 policies:
   - name: KerasPolicy
-    epochs: 70
+    epochs: 200
     max_history: 3
   - name: MemoizationPolicy
     max_history: 3
